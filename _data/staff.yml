@@ -1,16 +1,18 @@
-- name: Xiao Li
+- name: <a href="https://xiaoli0.github.io">Xiao Li</a>
   photo: Milan.jpg
   info: Principle Investigator, Qianjiang Scholar
-  email: xiaoli@{aiit.org.cn, broadinstitute.org, broad.mit.edu}
+  email: xiaoli[at]{aiit.org.cn, broadinstitute.org, broad.mit.edu}
+  github: <a href="https://github.com/xiaoli0">github</a>
   number_educ: 3
+  twitter: <a href="https://twitter.com/xiaolicbs">twitter</a>
   education1: Associate Computational Biologist, Broad Institute of MIT and Harvard
-  education2: M.S in Genetics, Iowa State University
-  education3: B.S. in biochemistry, China Agricultural University
+  education2: M.S. Genetics, Iowa State University
+  education3: B.S. Biochemistry, China Agricultural University
 
 - name: Ting Zhang
   photo: Koen.jpg
   info: Machine Learning Scientist, 2019/12 - now
-  email: blank@blank.com
+  email: lovelysunzt[at]gmail.com
   number_educ: 2
   education1: M.S. Genetics, China Agricultural University
   education2: B.S. Biology, Jilin University
@@ -18,15 +20,15 @@
 - name: Yu Yang
   photo: Damianos.jpg
   info: Associate Computational Biologist, 2019/12 - now
-  email: blank@blank.com
+  email: yuy.bio[at]gmail.com
   number_educ: 2
-  education1: M.S. in Genetics, China Agricultural University
-  education2: B.S. Hainan University
+  education1: M.S. Genetics, China Agricultural University
+  education2: B.S. Agronomy, Hainan University
 
 - name: Zhonghua Li
   photo: website_pic_willem.jpg
   info: Bioinformatic engineer, 2019/12 - now
-  email: WTromp@physics.leidenuniv.nl
-  number_educ: 1
-  education1: M.S. China Agricultural University
-  education2: B.S.
+  email: zhonghuali2013[at]gmail.com
+  number_educ: 2
+  education1: M.S. Genetics, China Agricultural University
+  education2: B.S. Bioengineering, Henan Science and Technology University
