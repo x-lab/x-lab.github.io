@@ -1,0 +1,59 @@
+# - title: "RNA sequence analysis reveals macroscopic somatic clonal expansion across normal tissues"
+#   image: na.png
+#   description: NA
+#   authors: Keren Yizhak, François Aguet, Jaegil Kim, Julian M. Hess, Kirsten Kübler, Jonna Grimsby, Ruslana Frazer, Hailei Zhang, Nicholas J. Haradhvala, Daniel Rosebrock, Dimitri Livitz, <b>Xiao Li</b>, Eila Arich-Landkof, Noam Shoresh, Chip Stewart, Ayellet V. Segrè, Philip A. Branton, Paz Polak, Kristin G. Ardlie, Gad Getz
+#   link:
+#     url: https://doi.org/10.1126/science.aaw0726
+#     display: Science  07 Jun 2019: Vol. 364, Issue 6444, eaaw0726
+#   highlight: 1
+#   news2:
+#
+- title: "Genetic effects on gene expression across human tissues"
+  image: na.png
+  description: NA
+  authors: GTEx Consortium
+  link:
+    url: https://www.nature.com/articles/nature24277
+    display: Nature 550 (7675), 204, 2017
+  highlight: 1
+  news2:
+
+- title: "Substantial contribution of genetic variation in the expression of transcription factors to phenotypic variation revealed by eRD-GWAS"
+  image: na.png
+  description: NA
+  authors: Hung-ying Lin, Qiang Liu, <b>Xiao Li</b>, Jinliang Yang, Sanzhen Liu, Yinlian Huang, Michael J Scanlon, Dan Nettleton, Patrick S Schnable
+  link:
+    url: https://www.nature.com/articles/s41586-019-1408-8
+    display: Genome biology 18 (1), 192, 2017
+  highlight: 1
+  news2:
+
+- title: "Colocalization of GWAS and eQTL signals detects target genes"
+  image: na.png
+  description: NA
+  authors: Farhad Hormozdiari, Martijn van de Bunt, Ayellet V Segrè, <b>Xiao Li</b>, Jong Wha J Joo, Michael Bilow, Jae Hoon Sul, Sriram Sankararaman, Bogdan Pasaniuc, Eleazar Eskin
+  link:
+    url: https://doi.org/10.1016/j.ajhg.2016.10.003
+    display: American Journal of Human Genetics 99 (6) 1245-1260, 2016
+  highlight: 1
+  news2:
+
+- title: "Colocalization of GWAS and eQTL signals detects target genes"
+  image: na.png
+  description: NA
+  authors: Farhad Hormozdiari, Martijn van de Bunt, Ayellet V Segrè, <b>Xiao Li</b>, Jong Wha J Joo, Michael Bilow, Jae Hoon Sul, Sriram Sankararaman, Bogdan Pasaniuc, Eleazar Eskin
+  link:
+    url: https://doi.org/10.1016/j.ajhg.2016.10.003
+    display: American Journal of Human Genetics 99 (6) 1245-1260, 2016
+  highlight: 1
+  news2:
+
+- title: "Genetic control of morphometric diversity in the maize shoot apical meristem"
+  image: na.png
+  description: NA
+  authors: Samuel Leiboff, Xianran Li, Heng-Cheng Hu, Natalie Todt, Jinliang Yang, <b>Xiao Li</b>, Xiaoqing Yu, Gary J Muehlbauer, Marja CP Timmermans, Jianming Yu, Patrick S Schnable, Michael J Scanlon
+  link:
+    url: https://www.nature.com/articles/ncomms9974
+    display: Nature Communication 6 8974, 2015
+  highlight: 1
+  news2:

@@ -1,0 +1,32 @@
+- name: Xiao Li
+  photo: Milan.jpg
+  info: Principle Investigator, Qianjiang Scholar
+  email: xiaoli@{aiit.org.cn, broadinstitute.org, broad.mit.edu}
+  number_educ: 3
+  education1: Associate Computational Biologist, Broad Institute of MIT and Harvard
+  education2: M.S in Genetics, Iowa State University
+  education3: B.S. in biochemistry, China Agricultural University
+
+- name: Ting Zhang
+  photo: Koen.jpg
+  info: Machine Learning Scientist, 2019/12 - now
+  email: blank@blank.com
+  number_educ: 2
+  education1: M.S. Genetics, China Agricultural University
+  education2: B.S. Biology, Jilin University
+
+- name: Yu Yang
+  photo: Damianos.jpg
+  info: Associate Computational Biologist, 2019/12 - now
+  email: blank@blank.com
+  number_educ: 2
+  education1: M.S. in Genetics, China Agricultural University
+  education2: B.S. Hainan University
+
+- name: Zhonghua Li
+  photo: website_pic_willem.jpg
+  info: Bioinformatic engineer, 2019/12 - now
+  email: WTromp@physics.leidenuniv.nl
+  number_educ: 1
+  education1: M.S. China Agricultural University
+  education2: B.S.

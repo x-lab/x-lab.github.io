@@ -1,0 +1,25 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Jiahui (Jossie) Chen
+  photo: Jacky.jpg
+  info: Intern, 2019/12 - now
+  email: jhchen@aiit.org.cn
+  number_educ: 2
+  education1: M.S. Information management, Carnegie Mellon University
+  education2: B.S. Computer Science, Rutgers University- New Brunswick
+
+- name: Gaojie Wang
+  photo: Maarten.png
+  info: intern, 2019/12 - now
+  email: blank@blank.com
+  number_educ: 2
+  education1: Ph.D. candidate, China Academy of Science
+  education2: M.S. in Genetics, China Agricultural University
