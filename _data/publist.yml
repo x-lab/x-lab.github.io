@@ -9,6 +9,7 @@
 #   news2:
 #
 - title: "Genetic effects on gene expression across human tissues"
+  type: human genetics
   image: na.png
   description: NA
   authors: GTEx Consortium
@@ -21,6 +22,7 @@
 - title: "Substantial contribution of genetic variation in the expression of transcription factors to phenotypic variation revealed by eRD-GWAS"
   image: na.png
   description: NA
+  type: maize genomics
   authors: Hung-ying Lin, Qiang Liu, <b>Xiao Li</b>, Jinliang Yang, Sanzhen Liu, Yinlian Huang, Michael J Scanlon, Dan Nettleton, Patrick S Schnable
   link:
     url: https://www.nature.com/articles/s41586-019-1408-8
@@ -30,16 +32,7 @@
 
 - title: "Colocalization of GWAS and eQTL signals detects target genes"
   image: na.png
-  description: NA
-  authors: Farhad Hormozdiari, Martijn van de Bunt, Ayellet V Segrè, <b>Xiao Li</b>, Jong Wha J Joo, Michael Bilow, Jae Hoon Sul, Sriram Sankararaman, Bogdan Pasaniuc, Eleazar Eskin
-  link:
-    url: https://doi.org/10.1016/j.ajhg.2016.10.003
-    display: American Journal of Human Genetics 99 (6) 1245-1260, 2016
-  highlight: 1
-  news2:
-
-- title: "Colocalization of GWAS and eQTL signals detects target genes"
-  image: na.png
+  type: human genetics
   description: NA
   authors: Farhad Hormozdiari, Martijn van de Bunt, Ayellet V Segrè, <b>Xiao Li</b>, Jong Wha J Joo, Michael Bilow, Jae Hoon Sul, Sriram Sankararaman, Bogdan Pasaniuc, Eleazar Eskin
   link:
@@ -50,6 +43,7 @@
 
 - title: "Genetic control of morphometric diversity in the maize shoot apical meristem"
   image: na.png
+  type: maize genomics
   description: NA
   authors: Samuel Leiboff, Xianran Li, Heng-Cheng Hu, Natalie Todt, Jinliang Yang, <b>Xiao Li</b>, Xiaoqing Yu, Gary J Muehlbauer, Marja CP Timmermans, Jianming Yu, Patrick S Schnable, Michael J Scanlon
   link:

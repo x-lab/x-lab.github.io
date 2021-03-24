@@ -8,18 +8,15 @@
 #  education3:
 #  education4:
 
-- name: Jiahui (Jossie) Chen
-  photo: Jacky.jpg
-  info: Intern, 2019/12 - now
-  email: jhchen[at]aiit.org.cn
-  number_educ: 2
-  education1: M.S. Information management, Carnegie Mellon University
-  education2: B.S. Computer Science, Rutgers University- New Brunswick
-
-- name: Gaojie Wang
+- name: Xinru Zheng (郑心如)
   photo: Maarten.png
-  info: Intern, 2019/12 - now
-  email: wanggaojie527[at]gmail.com
+  info: UI/UX Designer, 2020/12 - now
+  number_educ: 1
+  education1: B.A. Industrial Design, Jiangnan University
+
+- name: Xuhui Cao (曹旭辉)
+  photo: Jacky.jpg
+  info: Product Manager, 2021/3 - now
   number_educ: 2
-  education1: Ph.D. candidate, China Academy of Science
-  education2: M.S. in Genetics, China Agricultural University
+  education1: M.S. Industrial Design, Nanjing University of Science and Technology
+  education2: B.S. Industrial Design,

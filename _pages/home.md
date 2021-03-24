@@ -6,11 +6,29 @@ sitemap: false
 permalink: /
 ---
 
-This is the **X**iao **L**i's L**ab** (XLab) at [Advanced Institute of Information Technology of Peking University](http://www.aiit.org.cn) and [Broad Institute of MIT and Harvard](https://www.broadinstitute.org). We aspire to translate state-of-the-art computational technologies to improve human healthcare. Currently we focus on three directions: privacy preserved health information exchange, application of artificial intelligence in medical diagnosis and medical devices, and computational biology. Read more of our research [here](research).
+<center> We aspire to translate state-of-the-art computational technologies to improve human healthcare. Currently we focus on three directions: privacy preserved health information exchange, application of artificial intelligence in medical diagnosis and medical devices, and computational biology. We are based at <a ref='http://www.aiit.org.cn'>Advanced Institute of Information Technology of Peking University</a> and <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a>. </center>
 
-We have close collaborations with [Peking University](http://english.pku.edu.cn/academics.shtml), [Beijing Tongren Hospital of Capital Medical University](http://trhos.com/), [Broad Institute of MIT and Harvard](https://www.broadinstitute.org), and [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/).
+<div class="row">
+  <div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.png" class="img-responsive" width="75%" style="float: right" />
 
-**We are looking for passionate new Postdocs, engineers and scientists to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+  </div>
+  <div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/building/75-ames.jpg" class="img-responsive" width="75%" style="float: left" />
+  </div>
+</div>
+
+
+<div class="col-sm-6">
+</div>
+
+<div class="col-sm-6">
+</div>
+
+<br>
+
+<center> <b>We are looking for passionate new Postdocs, graduate students, engineers and scientists to join the team (<a ref='{{ site.url }}{{ site.baseurl }}/positions'>more info</a></b>) </center>
+<br>
 
 <!-- <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
 

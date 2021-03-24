@@ -3,12 +3,12 @@ title: "News"
 layout: textlay
 excerpt: "XLab at Advanced Institute of Information Technology."
 sitemap: false
-permalink: /allnews.html
+permalink: /news.html
 ---
 
 # News
 
 {% for article in site.data.news %}
-<p>{{ article.date }} <br>
+<p> <b> {{ article.date }} </b> <br>
 <em>{{ article.headline }}</em></p>
 {% endfor %}

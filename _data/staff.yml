@@ -1,40 +1,25 @@
-- name: <a href="https://xiaoli0.github.io">Xiao Li</a>
-  photo: Milan.jpg
-  info: Principle Investigator, Qianjiang Scholar
-  email: xiaoli[at]{aiit.org.cn, broadinstitute.org, broad.mit.edu}
-  github: <a href="https://github.com/xiaoli0">github</a>
-  number_educ: 2
-  twitter: <a href="https://twitter.com/xiaolicbs">twitter</a>
-  education1: M.S. Genetics, Iowa State University
-  education2: B.S. Biochemistry, China Agricultural University
-
-- name: Ting Zhang
+- name: An Li (李安)
   photo: Koen.jpg
-  info: Machine Learning Scientist, 2019/12 - now
-  email: lovelysunzt[at]gmail.com
+  info: Senior Software Architect, 2020/6 - now
+  number_educ: 1
+  education1: B.S. Computer Science, Zhengzhou University
+
+
+- name: Ting Zhang (张婷）
+  photo: ting_zhang.jpg
+  info: Computational Biologist, 2019/12 - now
   number_educ: 2
   education1: M.S. Genetics, China Agricultural University
   education2: B.S. Biology, Jilin University
 
-- name: Yu Yang
-  photo: Damianos.jpg
-  info: Associate Computational Biologist, 2019/12 - now
-  email: yuy.bio[at]gmail.com
-  number_educ: 2
-  education1: M.S. Genetics, China Agricultural University
-  education2: B.S. Agronomy, Hainan University
+- name: Juncheng Xue (薛军城)
+  photo: Koen.jpg
+  info: Software Engineer, 2021/1 - now
+  number_educ: 1
+  education1:  B.S. Vehicle Engineering, Jilin University
 
-- name: Zhonghua Li
-  photo: website_pic_willem.jpg
-  info: Bioinformatic engineer, 2019/12 - now
-  email: zhonghuali2013[at]gmail.com
-  number_educ: 2
-  education1: M.S. Genetics, China Agricultural University
-  education2: B.S. Bioengineering, Henan Science and Technology University
-
-- name: Huimin Chen
-  info: Bioinformatic engineer, 2020/01 - now
-  number_educ: 2
-  email: chenhuimin066[at]163.com
-  education1: M.S. Genetics, China Agricultural University
-  education2: B.S. Bioengineering, Yanshan University
+- name: Wenxue Li (李闻雪)
+  photo: Koen.jpg
+  info: Lab Manager, 2021/4 - now
+  number_educ: 1
+  education1: B.S. Nursing, Taishan Vocational College of Nursing
