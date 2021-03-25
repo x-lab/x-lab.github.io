@@ -1,18 +1,15 @@
 - name: An Li (李安)
-  photo: Koen.jpg
   info: Senior Software Architect, 2020/6 - now
   number_educ: 1
   education1: B.S. Computer Science, Zhengzhou University
 
 - name: Ting Zhang (张婷）
-  photo: ting_zhang.jpg
   info: Computational Biologist, 2019/12 - now
   number_educ: 2
   education1: M.S. Genetics, China Agricultural University
   education2: B.S. Biology, Jilin University
 
 - name: Juncheng Xue (薛军城)
-  photo: Koen.jpg
   info: Software Engineer, 2021/1 - now
   number_educ: 1
   education1:  B.S. Vehicle Engineering, Jilin University
