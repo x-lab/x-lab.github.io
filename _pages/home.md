@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-<center> We aspire to translate state-of-the-art computational technologies to improve human healthcare. Currently we focus on three directions: privacy preserved health information exchange, application of artificial intelligence in medical diagnosis and medical devices, and computational biology. We are based at <a ref='http://www.aiit.org.cn'>Advanced Institute of Information Technology of Peking University</a> and <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a>. </center>
+<center> Our group develops and applies state-of-the-art computational technologies for biology and biomedine. Currently, our <a ref="{{ site.url }}{{ site.baseurl }}/research">research</a> mainly focus on privacy preserved computation and its application in healthcare data sharing. We also develop and employ machine learning methods for disease risk prediction and medical device data analysis. We are currently affiliated with <a ref='http://www.aiit.org.cn'>Advanced Institute of Information Technology of Peking University</a>, <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a> and <a href="">Massachusetts General Hospital</a> and <a href="">Harvard Medical School</a>. </center>
 
 <div class="row">
   <div class="col-sm-6 clearfix">
@@ -18,17 +18,7 @@ permalink: /
   </div>
 </div>
 
-
-<div class="col-sm-6">
-</div>
-
-<div class="col-sm-6">
-</div>
-
-<br>
-
-<center> <b>We are looking for passionate new Postdocs, graduate students, engineers and scientists to join the team (<a ref='{{ site.url }}{{ site.baseurl }}/positions'>more info</a></b>) </center>
-<br>
+<center> <b>We always welcome passionate postdocs, graduate students, engineers and scientists to <a ref='{{ site.url }}{{ site.baseurl }}/positions'>join our group</a></b>. </center> <br>
 
 <!-- <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
 
