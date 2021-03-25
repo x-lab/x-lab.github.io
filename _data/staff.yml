@@ -4,7 +4,6 @@
   number_educ: 1
   education1: B.S. Computer Science, Zhengzhou University
 
-
 - name: Ting Zhang (张婷）
   photo: ting_zhang.jpg
   info: Computational Biologist, 2019/12 - now
@@ -17,9 +16,3 @@
   info: Software Engineer, 2021/1 - now
   number_educ: 1
   education1:  B.S. Vehicle Engineering, Jilin University
-
-- name: Wenxue Li (李闻雪)
-  photo: Koen.jpg
-  info: Lab Manager, 2021/4 - now
-  number_educ: 1
-  education1: B.S. Nursing, Taishan Vocational College of Nursing

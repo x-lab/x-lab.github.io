@@ -249,24 +249,28 @@ permalink: /members/
 
 ## Former Staff and Interns
 <div class="row">
+  <div class="col-sm-6 clearfix">
+  <h4>Staff</h4>
+  {% for member in site.data.alumni_visitors %}
+  {{ member.name }}
+  {% endfor %}
+  </div>
 
-<div class="col-sm-6 clearfix">
-<h4>Staff</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-6 clearfix">
-<h4>Interns</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
+  <div class="col-sm-6 clearfix">
+  <h4>Interns</h4>
+  {% for member in site.data.alumni_msc %}
+  {{ member.name }}
+  {% endfor %}
+  </div>
 </div>
 
 <hr />
 
 ## Administration
-Please contact <a href='mailto: wenxue@unblok.net'>Wenxue</a> for administrative support.
+
+{% for member in site.data.admin %}
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}</i>
+{% endfor %}
+
+<!-- Please contact <a href='mailto: wenxue@unblok.net'>Wenxue</a> for administrative support. -->
