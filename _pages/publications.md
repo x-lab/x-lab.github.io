@@ -33,7 +33,7 @@ Bioinformatics, in prepration. <br>
 ## 2020
 **Tracing the evolutionary history and global expansion of Candida auris using population genomic analyses** <br>
 Nancy A Chow, José F Muñoz, Lalitha Gade, Elizabeth L Berkow, Xiao Li, Rory M Welsh, Kaitlin Forsberg, Shawn R Lockhart, Rodney Adam, Alexandre Alanio, Ana Alastruey-Izquierdo, Sahar Althawadi, Ana Belén Araúz, Ronen Ben-Ami, Amrita Bharat, Belinda Calvo, Marie Desnos-Ollivier, Patricia Escandón, Dianne Gardam, Revathi Gunturu, Christopher H Heath, Oliver Kurzai, Ronny Martin, Anastasia P Litvintseva, Christina A Cuomo <br>
-MBio. (Article)
+MBio. (Article, [bioRxiv]())
 
 **The GTEx Consortium atlas of genetic regulatory effects across human tissues** <br>
 **GTEx Consortium**<br>
@@ -57,7 +57,7 @@ Science. (Article)
 ## 2018
 **Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics** <br>
 Alvaro N. Barbeira, Scott P. Dickinson, Rodrigo Bonazzola, Jiamao Zheng, Heather E. Wheeler, Jason M. Torres, Eric S. Torstenson, Kaanan P. Shah, Tzintzuni Garcia, Todd L. Edwards, Eli A. Stahl, Laura M. Huckins, **GTEx Consortium**, Dan L. Nicolae, Nancy J. Cox & Hae Kyung Im <br>
-Nature Communication. 
+Nature Communication.
 <hr>
 ## 2017
 **Substantial contribution of genetic variation in the expression of transcription factors to phenotypic variation revealed by eRD-GWAS** <br>

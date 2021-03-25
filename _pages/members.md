@@ -8,7 +8,7 @@ permalink: /members/
 
 # Members of XLab
 
-**We are looking for passionate new Postdocs, graduate students, engineers and scientists to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/openings) **!**
+**We are looking for passionate new Postdocs, graduate students, engineers and scientists to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/join) **!**
 
 <!-- Jump to [staff](#staff), [students](#students), [interns](#interns), and [administrative support](#administrative-support). -->
 <hr />

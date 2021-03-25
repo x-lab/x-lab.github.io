@@ -18,7 +18,7 @@ permalink: /
   </div>
 </div>
 
-<center> <b>We always welcome passionate postdocs, graduate students, engineers and scientists to <a ref='{{ site.url }}{{ site.baseurl }}/positions'>join our group</a></b>. </center> <br>
+<center> <b>We always welcome passionate postdocs, graduate students, engineers and scientists to <a ref='{{ site.url }}{{ site.baseurl }}/join'>join our group</a></b>. </center> <br>
 
 <!-- <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
 
