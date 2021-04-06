@@ -273,4 +273,4 @@ permalink: /members/
   <i>{{ member.info }}</i>
 {% endfor %}
 
-<!-- Please contact <a href='mailto: wenxue@unblok.net'>Wenxue</a> for administrative support. -->
+Please contact <a href='mailto: wenxue@unblok.net'>Wenxue</a> for administrative support.
