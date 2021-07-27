@@ -8,7 +8,7 @@ permalink: /members/
 
 # Members of XLab
 
-**We are looking for passionate new Postdocs, graduate students, engineers and scientists to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/join) **!**
+**We are looking for passionate staff engineers and scientists, postdoctorial fellows, graduate and undergraduate students/interns to [join our team]({{ site.url }}{{ site.baseurl }}/join)!**
 
 <!-- Jump to [staff](#staff), [students](#students), [interns](#interns), and [administrative support](#administrative-support). -->
 <hr />
@@ -19,10 +19,9 @@ permalink: /members/
   <i>{{ member.info }}</i>
 
   <ul style="overflow: hidden">
-  {% if member.number_title == 2 %}
     <li> {{member.title1}} </li>
     <li> {{member.title2}} </li>
-  {% endif %}
+    <li> {{member.title3}}</li>
   </ul>
 
 {% endfor %}
@@ -247,7 +246,7 @@ permalink: /members/
 
 <hr />
 
-## Former Staff and Interns
+## Alumni
 <div class="row">
   <div class="col-sm-6 clearfix">
   <h4>Staff</h4>
@@ -272,5 +271,3 @@ permalink: /members/
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
 {% endfor %}
-
-Please contact <a href='mailto: wenxue@unblok.net'>Wenxue</a> for administrative support.

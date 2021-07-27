@@ -6,19 +6,28 @@ sitemap: false
 permalink: /
 ---
 
-<center> Our group develops and applies state-of-the-art computational technologies for biology and biomedine. Currently, our <a ref="{{ site.url }}{{ site.baseurl }}/research">research</a> mainly focus on privacy preserved computation and its application in healthcare data sharing. We also develop and employ machine learning methods for disease risk prediction and medical device data analysis. We are currently affiliated with <a ref='http://www.aiit.org.cn'>Advanced Institute of Information Technology of Peking University</a>, <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a> and <a href="">Massachusetts General Hospital</a> and <a href="">Harvard Medical School</a>. </center>
+<br>
+<center>
+<p>
+  Our group develops and applies state-of-the-art computational technologies to resolve biological and biomedical questions. Currently, we are mainly interested in <b>1) decentralized technologies</b> and its application in healthcare data sharing, <b>2) machine learning methodologies</b> and <b>3) computational biology</b>. <br>
+  <b>We always welcome passionate staff engineers and scientists, postdocs, graduate and undergraduate students to <a href="{{ site.url }}{{ site.baseurl }}/join">join our group</a>
+  </b>.
+</p>
 
 <div class="row">
   <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.png" class="img-responsive" width="75%" style="float: right" />
-
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.png" class="img-responsive" width="75%" style="float: right" />
   </div>
   <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/building/75-ames.jpg" class="img-responsive" width="75%" style="float: left" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/75-ames.jpg" class="img-responsive" width="75%" style="float: left" />
   </div>
 </div>
 
-<center> <b>We always welcome passionate postdocs, graduate students, engineers and scientists to <a ref='{{ site.url }}{{ site.baseurl }}/join'>join our group</a></b>. </center> <br>
+We are physically situated at the <a ref='http://www.aiit.org.cn'>Advanced Institute of Information Technology, Peking University</a> in Hangzhou, Zhejiang, China and the <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a>, Cambridge, MA, US.
+
+<br>
+<br>
+</center>
 
 <!-- <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
 
