@@ -1,9 +1,10 @@
 - name: <a href="https://xiaoli0.github.io">Xiao Li (李潇)</a>
   photo: xiaoli.png
   info: Principal Investigator, Qianjiang Scholar
-  email: xiaoli[at]{aiit.org.cn, broadinstitute.org, broad.mit.edu}
+  email: firstnamelastname[at]{aiit.org.cn, broadinstitute.org, broad.mit.edu}
   github: <a href="https://github.com/xiaoli0">github</a>
-  number_title: 2
+  number_title: 3
   twitter: <a href="https://twitter.com/xiaolicbs">twitter</a>
-  title1: Director, Laboratory of Frontier Technologies, Center for Intelligent Medicine, Advanced Institute of Information Technology
-  title2: Associate Scientist, Medical and Population Genetics Program, Broad Insitute of MIT and Harvard
+  title1: Director, Laboratory of Frontier Technologies, Advanced Institute of Information Technology
+  title2: Associate Scientist, Broad Insitute, MGH and HMS
+  title3: Research Associate, School of Public Health, Peking University 

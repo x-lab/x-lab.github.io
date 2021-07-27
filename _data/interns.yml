@@ -8,15 +8,10 @@
 #  education3:
 #  education4:
 
-- name:  Xiaoyan Zhao(赵小燕)
-  info: Product Manager, 2020/12 - now
+- name: Fei Chen (陈菲)
+  info: UI/UX Designer, 2021/5 - now
   number_educ: 1
-  education1: M.S. and B.S., Nursing, Peking University Medical School
-
-- name: Xinru Zheng (郑心如)
-  info: UI/UX Designer, 2020/12 - now
-  number_educ: 1
-  education1: B.A. Industrial Design, Jiangnan University
+  education1: B.A. Industrial Design, Fuzhou University
 
 - name: Xuhui Cao (曹旭辉)
   info: Product Manager, 2021/3 - now
