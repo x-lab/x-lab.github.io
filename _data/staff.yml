@@ -19,7 +19,7 @@
   number_educ: 1
   education1: B.S. Applied Physics, Nantong University
 
-# - name: Xiaoqian Li （李小倩）
-#   info: Software Engineer, 2021/7 - now
-#   number_educ: 1
-#   education1: B.S. Electronic and Information Engineering, China Jiliang University
+- name: Xiaoqian Li （李小倩）
+  info: Software Engineer, 2021/7 - now
+  number_educ: 1
+  education1: B.S. Electronic and Information Engineering, China Jiliang University

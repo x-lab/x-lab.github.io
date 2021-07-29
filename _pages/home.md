@@ -9,9 +9,8 @@ permalink: /
 <br>
 <center>
 <p>
-  Our group develops and applies state-of-the-art computational technologies to resolve biological and biomedical questions. Currently, we are mainly interested in <b>1) decentralized technologies</b> and its application in healthcare data sharing, <b>2) machine learning methodologies</b> and <b>3) computational biology</b>. <br>
-  <b>We always welcome passionate staff engineers and scientists, postdocs, graduate and undergraduate students to <a href="{{ site.url }}{{ site.baseurl }}/join">join our group</a>
-  </b>.
+  Our group develops and applies state-of-the-art computational technologies to resolve biological and biomedical questions. Currently, we are interested in <b>1) decentralized technologies</b> and their application in healthcare data sharing, <b>2) machine learning methodologies</b> and <b>3) computational biology</b>. <br>
+  <b>We always welcome passionate scientists, engineers and, postdocs, graduate and undergraduate students to <a href="{{ site.url }}{{ site.baseurl }}/join">join our group</a></b>.
 </p>
 
 <div class="row">
