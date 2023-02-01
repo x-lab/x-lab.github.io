@@ -1,16 +1,5 @@
-- name: Chunfeng Fu (付春凤)
-  info: M.S. student, 2020/8 - now
+- name: Lingzhu Shen （沈凌竹）
+  info: Associate Computational Biologist, 2022/12 - now
   number_educ: 2
-  education1: M.S. Computer Science, Southeast University
-  education2: B.S. Computer Science, Shandong University of Finance and Economics
-
-- name: Sizhe Qiu (裘思哲)
-  info: M.S. student, 2021/6 - now
-  number_educ: 2
-  education1: M.S. Bioengineering, UCSD
-  education2: B.S. Bioengineering, UCSD
-
-- name: Weisen Xia (夏维森)
-  info: B.S. student, 2021/8 - now
-  number_educ: 1
-  education1: B.S. Mathematics, Xiangtan University
+  education1: B.S. Zhejiang University
+  education2: M.S. Johns Hopkins University

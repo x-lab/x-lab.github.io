@@ -8,18 +8,8 @@
 #  education3:
 #  education4:
 
-- name: Fei Chen (陈菲)
-  info: UI/UX Designer, 2021/5 - now
-  number_educ: 1
-  education1: B.A. Industrial Design, Fuzhou University
-
-- name: Xuhui Cao (曹旭辉)
-  info: Product Manager, 2021/3 - now
+- name: Bolin Li （李柏林）
+  info: Software Engineer, 2022/10 - now
   number_educ: 2
-  education1: M.S. Industrial Design, Nanjing University of Science and Technology
-  education2: B.S. Industrial Design, Anhui Jianzhu University
-
-- name: Wenhao Xu (徐文昊)
-  info: Software Engineer, 2021/3 - now
-  number_educ: 1
-  education1: B.S. Software Engineer, Zhejiang University of Water Resources and Electric Power
+  education1: B.S. Hefei College
+  education2: M.S. Xidian University

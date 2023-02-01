@@ -1,25 +1,10 @@
-- name: An Li (李安)
-  info: Principal Software Architect, 2020/6 - now
-  number_educ: 1
-  education1: B.S. Computer Science, Zhengzhou University
-
 - name: Ting Zhang (张婷）
-  info: Assistant Scientist, 2019/12 - now
+  info: Assistant Investigator, 2019/12 - now
   number_educ: 2
   education1: M.S. Genetics, China Agricultural University
   education2: B.S. Biology, Jilin University
 
-- name: Juncheng Xue (薛军城)
-  info: Software Engineer, 2021/1 - now
+- name: Zhentao Lan (蓝镇涛）
+  info: Lab Manager, 2023/2 - now
   number_educ: 1
-  education1:  B.S. Vehicle Engineering, Jilin University
-
-- name: Leilei Li (李蕾蕾)
-  info: Software engineer, 2021/5 - now
-  number_educ: 1
-  education1: B.S. Applied Physics, Nantong University
-
-- name: Xiaoqian Li （李小倩）
-  info: Software Engineer, 2021/7 - now
-  number_educ: 1
-  education1: B.S. Electronic and Information Engineering, China Jiliang University
+  education1: B.S. Biology, China Agricultural University
