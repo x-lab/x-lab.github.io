@@ -15,7 +15,7 @@ permalink: /
 
 <div class="row">
   <div class="col-sm-6 clearfix">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.jpg" class="img-responsive" width="75%" style="float: right" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.png" class="img-responsive" width="75%" style="float: right" />
   </div>
   <div class="col-sm-6 clearfix">
     <img src="{{ site.url }}{{ site.baseurl }}/images/building/75-ames.jpg" class="img-responsive" width="75%" style="float: left" />
