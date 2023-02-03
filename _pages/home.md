@@ -9,20 +9,20 @@ permalink: /
 <br>
 <center>
 <p>
-  Our group develops and applies state-of-the-art computational technologies to resolve biological and biomedical questions. Currently, we are interested in <b>1) decentralized technologies</b> and their application in healthcare data sharing, <b>2) machine learning methodologies</b> and <b>3) computational biology</b>. <br>
+  Our group develops and applies state-of-the-art computational technologies to resolve biological and biomedical questions. <br> Currently, we are interested in developing algorithms and software packages to better understand <b>human and pathogenic microbe</b> genomics, leveraging cutting edge computational technologies, including but not limited to <b>Artificial Intelligence</b>, <b>decentralized technologies</b> and <b>cloud-native technologies</b>.<br>
   <b>We always welcome passionate scientists, engineers and, postdocs, graduate and undergraduate students to <a href="{{ site.url }}{{ site.baseurl }}/join">join our group</a></b>.
 </p>
 
 <div class="row">
   <div class="col-sm-6 clearfix">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.png" class="img-responsive" width="75%" style="float: right" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.jpg" class="img-responsive" width="75%" style="float: right" />
   </div>
   <div class="col-sm-6 clearfix">
     <img src="{{ site.url }}{{ site.baseurl }}/images/building/75-ames.jpg" class="img-responsive" width="75%" style="float: left" />
   </div>
 </div>
 
-We are physically situated at the <a ref='http://www.aiit.org.cn'>Advanced Institute of Information Technology, Peking University</a> in Hangzhou, Zhejiang, China and the <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a>, Cambridge, MA, US.
+We are physically situated at the <a ref='https://www.aiit.org.cn'>Advanced Institute of Information Technology, Peking University</a> in Hangzhou, Zhejiang, China and the <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a>, Cambridge, MA, US.
 
 <br>
 <br>
