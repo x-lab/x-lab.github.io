@@ -5,16 +5,12 @@ excerpt: "XLab -- Publications."
 sitemap: false
 permalink: /publications/
 ---
+For a full list, check [here](https://scholar.google.com/citations?user=XJhHXVwAAAAJ&hl=en).
 
-## 2021
-**Comparing genomic variant identification protocols for fungi to develop best practices.** <br>
-**Li X**, Munoz JF, Gade L, Chow NA, ..., Alastruey A, Litvintseva AP , Cuomo CA*.<br>
-Microbial Genomics. In preparation <br>
-
+## In prep
 **funpipe: a python framework for efficient development of fungal bioinformatic pipelines.** <br>
 **Li X**, Munoz J, Cuomo CA*. <br>
 Bioinformatics, in preparation. <br>
-
 
 **covsir: an R package for subgenome coverage visualization** <br>
 **Li X**, Munoz J, Cuomo CA*. <br>
@@ -28,75 +24,85 @@ Bioinformatics, in preparation.
 **Li X***, Nettleton D\*. <br>
 Bioinformatics, in prepration. <br>
 
+## 2023
+**Comparing genomic variant identification protocols for fungi to develop best practices.** <br>
+**Li X**, Munoz JF, Gade L, Chow NA, ..., Alastruey A, Litvintseva AP , Cuomo CA*.<br>
+Microbial Genomics. 2023. ([Article](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000979)) <br>
+
 <hr>
+
+## 2022
+**Emerging information technologies for the next generation of elderly care** <br>
+**Zhang T**, **Li X***.<br>
+Interdisciplinary Nursing Research. 2022. ([Article](https://journals.lww.com/inr/Fulltext/2022/11000/Emerging_information_technologies_for_the_next.10.aspx))
+
+## 2021
+**Population-scale tissue transcriptomics maps long non-coding RNAs to complex disease** <br>
+de Goede OM\*, Nachum DC, ..., **GTEx Consortium**, ..., Montgomery SB* <br>
+Cell. 2021. ([Article](https://www.sciencedirect.com/science/article/pii/S0092867421003810))
 
 ## 2020
 **Tracing the evolutionary history and global expansion of Candida auris using population genomic analyses** <br>
 Nancy A Chow, José F Muñoz, Lalitha Gade, Elizabeth L Berkow, Xiao Li, Rory M Welsh, Kaitlin Forsberg, Shawn R Lockhart, Rodney Adam, Alexandre Alanio, Ana Alastruey-Izquierdo, Sahar Althawadi, Ana Belén Araúz, Ronen Ben-Ami, Amrita Bharat, Belinda Calvo, Marie Desnos-Ollivier, Patricia Escandón, Dianne Gardam, Revathi Gunturu, Christopher H Heath, Oliver Kurzai, Ronny Martin, Anastasia P Litvintseva, Christina A Cuomo <br>
-MBio. (Article, [bioRxiv]())
+MBio. 2020. (Article, [bioRxiv]())
 
 **The GTEx Consortium atlas of genetic regulatory effects across human tissues** <br>
 **GTEx Consortium**<br>
-Science (Article)
+Science. 2020. (Article)
 
 **Cell type–specific genetic regulation of gene expression across human tissues** <br>
 S Kim-Hellmuth, ..., **GTEx Consortium**, KG Ardlie, T Lappalainen. <br>
-Science (Article)
+Science 2020. (Article)
 
 **Determinants of telomere length across human tissues** <br>
 K Demanelis, ..., **GTEx Consortium**, BL Pierce. <br>
-Science ([Article]())
+Science. 2020. ([Article]())
 <hr>
 
 ## 2019
 **RNA sequence analysis reveals macroscopic somatic clonal expansion across normal tissues**<br>
 Keren Yizhak, François Aguet, Jaegil Kim, Julian M Hess, Kirsten Kübler, Jonna Grimsby, Ruslana Frazer, Hailei Zhang, Nicholas J Haradhvala, Daniel Rosebrock, Dimitri Livitz, **Xiao Li**, Eila Arich-Landkof, Noam Shoresh, Chip Stewart, Ayellet V Segrè, Philip A Branton, Paz Polak, Kristin G Ardlie, Gad Getz<br>
-Science. (Article)
+Science. 2019. (Article)
 
 <hr>
 ## 2018
 **Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics** <br>
 Alvaro N. Barbeira, Scott P. Dickinson, Rodrigo Bonazzola, Jiamao Zheng, Heather E. Wheeler, Jason M. Torres, Eric S. Torstenson, Kaanan P. Shah, Tzintzuni Garcia, Todd L. Edwards, Eli A. Stahl, Laura M. Huckins, **GTEx Consortium**, Dan L. Nicolae, Nancy J. Cox & Hae Kyung Im <br>
-Nature Communication.
+Nature Communication. 2018.
 <hr>
-## 2017
+## Before 2017
 **Substantial contribution of genetic variation in the expression of transcription factors to phenotypic variation revealed by eRD-GWAS** <br>
 Lin H, Liu Q, <b>Li X</b>, Yang J, Liu S, Huang Y, Scanlon MJ, Nettleton D, Schnable PS<br>
-Genome Biology (Article)
+Genome Biology. 2017. ([Article](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1328-6))
 
 **Genetic effects on gene expression across human tissues**. <br>
-**GTEx Consortium** <br>
-Nature. ([Article]())
+**GTEx Consortium**.<br>
+Nature. 2017. ([Article]())
 
 **Landscape of X chromosome inactivation across human tissues**. <br>
 Tukiainen T, Villani AC, Yen A, Rivas MA, Marshall JL, ..., **GTEx Consortium**, ..., MacArthur DG. <br>
-Nature. ([Article]())
+Nature. 2017. ([Article]())
 
 **Identifying cis-mediators for trans-eQTLs across many human tissues using genomic mediation analysis** <br>
 Yang F, Wang J, **GTEx Consortium**, Pierce BL, Chen LS. <br>
-Genome Research. ([Article](https://genome.cshlp.org/content/27/11/1859.short#aff-1))
+Genome Research. 2017. ([Article](https://genome.cshlp.org/content/27/11/1859.short#aff-1))
 
-## 2016
 **Colocalization of GWAS and eQTL signals detects target genes**<br>
 Hormozdiari F, van de Bunt M, Segrè AV, <b>Li X</b>, Joo JWJ, Bilow M, Sul JH, Sankararaman S, Pasaniuc B, Eskin E. <br>
-American Journal of Human Genetics ([Article](https://doi.org/10.1016/j.ajhg.2016.10.003))
+American Journal of Human Genetics. 2016 ([Article](https://doi.org/10.1016/j.ajhg.2016.10.003))
 
 **ForestPMPlot: a flexible tool for visualizing heterogeneity between studies in meta-analysis** <br>
 EY Kang, Y Park, **X Li**, AV Segrè, B Han, E Eskin
-G3: Genes, Genomes, Genetics ([Article]())
-<hr>
+G3: Genes, Genomes, Genetics. 2016. ([Article](https://academic.oup.com/g3journal/article/6/7/1793/6027682))
 
-## 2015
 **Genetic control of morphometric diversity in the maize shoot apical meristem** <br>
 Leiboff S, Li X, Hu H, Todt N, Yang J, **Li X**, Yu X, Muehlbauer GJ, Timmermans MCP, Yu J, Schnable PS, Scanlon MJ<br>
-Nature Communication. ([Article]())
-<hr>
+Nature Communication. 2015.([Article]())
 
-## Prior to 2015
 **A prototypic lysine methyltransferase 4 from archaea with degenerate sequence specificity methylates chromatin proteins Sul7d and Cren7 in different patterns**<br>
-Y Niu, Y Xia, S Wang, J Li, C Niu, **X Li**, Y Zhao, H Xiong, Z Li, H Lou, Q Cao. <br>
-Journal of Biological Chemistry. ([Article]())
+Y Niu, Y Xia, S Wang, J Li, C Niu, **X Li**, Y Zhao, H Xiong, Z Li, H Lou, Q Cao.<br>
+Journal of Biological Chemistry. 2013. ([Article]())
 
 <hr>
-*: co-first authors or co-corresponding authors.
-For a full list, click [here](https://scholar.google.com/citations?user=CFw3HbgAAAAJ&hl=en).
+*: co-first authors or co-corresponding authors. <br>
+**Bold** are members of X-Lab.

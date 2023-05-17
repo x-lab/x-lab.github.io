@@ -9,8 +9,8 @@ permalink: /
 <br>
 <center>
 <p>
-  Our group develops and applies state-of-the-art computational technologies to resolve biological and biomedical questions. <br> Currently, we are interested in developing algorithms and software packages to better understand <b>human and pathogenic microbe</b> genomics, leveraging cutting edge computational technologies, including but not limited to <b>Artificial Intelligence</b>, <b>decentralized technologies</b> and <b>cloud-native technologies</b>.<br>
-  <b>We always welcome passionate scientists, engineers and, postdocs, graduate and undergraduate students to <a href="{{ site.url }}{{ site.baseurl }}/join">join our group</a></b>.
+  Our group develops and applies state-of-the-art computational technologies to answer biological and biomedical questions. <br> Currently, we are interested in developing algorithms and software packages to better understand <b>human and pathogenic microbe</b> genomics, leveraging cutting edge computational technologies, including but not limited to <b>Artificial Intelligence</b>, <b>decentralized technologies</b> and <b>cloud-native technologies</b>.<br>
+  <b>We always welcome passionate scientists, engineers, postdocs, graduate and undergraduate students to <a href="{{ site.url }}{{ site.baseurl }}/join">join our lab</a></b>.
 </p>
 
 <div class="row">

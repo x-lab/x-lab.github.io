@@ -3,7 +3,7 @@ title: "News"
 layout: textlay
 excerpt: "XLab at Advanced Institute of Information Technology."
 sitemap: false
-permalink: /contact.html
+permalink: /contact
 ---
 
 <center>
