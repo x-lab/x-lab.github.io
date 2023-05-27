@@ -13,8 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
   of Peking University and the Broad Institute of MIT and Harvard strives to
   develop and adopt cutting edge technologies for biological and biomedical
   questions.
-baseurl: "https://x-lab.org.cn"
-url: ""
+baseurl: ""
+url: "https://x-lab.org.cn"
 
 include:
   - .htaccess
