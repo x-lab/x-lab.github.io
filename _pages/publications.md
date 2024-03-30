@@ -9,8 +9,9 @@ permalink: /publications/
 For a full list, check [here](https://scholar.google.com/citations?user=XJhHXVwAAAAJ&hl=en).
 
 ## Invited Reviews and Prospectives
-[**Emerging information technologies for the next generation of elderly care**](https://journals.lww.com/inr/Fulltext/2022/11000/Emerging_information_technologies_for_the_next.10.aspx) <br>
+[**Emerging information technologies for the next generation of elderly care**](https://journals.lww.com/inr/Fulltext/2022/11000/Emerging_information_technologies_for_the_next.10.aspx).<br>
 **Zhang T**, **Li X***. **Interdisciplinary Nursing Research**. 2022.
+
 <hr>
 
 ## Methods
@@ -45,7 +46,7 @@ Yizhak K, Aguet F, Kim J, Hess JM, Kübler K, Grimsby J, Frazer R, Zhang H, Hara
 **Li X**, Munoz JF, Gade L, Chow NA, ..., Alastruey A, Litvintseva AP , Cuomo CA. **Microbial Genomics**. 2023. ([Code](https://github.com/broadinstitute/isham_wgs)) <br>
 
 [**Tracing the evolutionary history and global expansion of Candida auris using population genomic analyses**](https://journals.asm.org/doi/10.1128/mBio.03364-19). <br>
-Chow NA, Muñoz JF, Gade L, Berkow EL, Li X, Welsh RM, Forsberg K, Lockhart SR, Adam R, Alanio A, Alastruey-Izquierdo A, Althawadi S, Araúz AB, Ben-Ami R, Bharat A, Calvo B, Desnos-Ollivier M, Escandón P, Gardam D, Gunturu R, Heath CH, Kurzai O, Martin R, Litvintseva AP\*, Cuomo CA\*. **MBio**. 2020.
+Chow NA, Muñoz JF, Gade L, Berkow EL, **Li X**, Welsh RM, Forsberg K, Lockhart SR, Adam R, Alanio A, Alastruey-Izquierdo A, Althawadi S, Araúz AB, Ben-Ami R, Bharat A, Calvo B, Desnos-Ollivier M, Escandón P, Gardam D, Gunturu R, Heath CH, Kurzai O, Martin R, Litvintseva AP\*, Cuomo CA\*. **MBio**. 2020.
 
 ### Plant Genomics
 [**Genetic control of morphometric diversity in the maize shoot apical meristem**](https://www.nature.com/articles/ncomms9974) <br>

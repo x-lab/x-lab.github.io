@@ -1,7 +1,7 @@
 ---
-title: "XLab - Home"
+title: "X-Lab - Home"
 layout: homelay
-excerpt: "XLab at AIIT and Broad Institute."
+excerpt: "X-Lab at AIIT and Broad Institute."
 sitemap: false
 permalink: /
 ---

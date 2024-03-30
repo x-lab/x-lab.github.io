@@ -1,7 +1,7 @@
 ---
-title: "XLab - members"
+title: "X-Lab - members"
 layout: gridlay
-excerpt: "XLab: Team members"
+excerpt: "X-Lab: Team members"
 sitemap: false
 permalink: /members/
 ---
@@ -48,29 +48,29 @@ permalink: /members/
   {% endif %}
 
   {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
+  <li> {{ member.education4 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   </ul>
@@ -112,29 +112,29 @@ permalink: /members/
   {% endif %}
 
   {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   {% if member.number_educ == 3 %}
-    <li> {{ member.education1 }} </li>
-    <li> {{ member.education2 }} </li>
     <li> {{ member.education3 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education1 }} </li>
   {% endif %}
 
   {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
+  <li> {{ member.education4 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   </ul>
@@ -175,21 +175,21 @@ permalink: /members/
   {% endif %}
 
   {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education1 }} </li>
   {% endif %}
 
   </ul>
@@ -207,8 +207,6 @@ permalink: /members/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-
 
 
 <!--
@@ -264,10 +262,3 @@ permalink: /members/
 </div>
 
 <hr />
-
-## Administration
-
-{% for member in site.data.admin %}
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}</i>
-{% endfor %}

@@ -10,6 +10,13 @@
 
 - name: Yunfeng Yang（杨云峰）
   info: Software Engineer, 2023/3 - now
+  number_educ: 3
+  education3: Ph.D. Computer Science, Shanghai University
+  education2: M.S. Biophysics, Shanghai University
+  education1: B.S. Environmental Engineering, Lishui College
+
+- name: Sheng Li (李晟)
+  info: Bioinformatic Engineer, 2023/6 - now
   number_educ: 2
-  education1: M.S. Shanghai University
-  education2: B.S. Lishui College
+  education2: M.S. Pharmatheutical Informatics, Zhejiang University of Technology
+  education1: B.S. Pharmatheutical Engineering, Sichuan University of Science and Engineering
