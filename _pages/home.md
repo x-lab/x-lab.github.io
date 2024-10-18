@@ -1,7 +1,7 @@
 ---
 title: "X-Lab - Home"
 layout: homelay
-excerpt: "X-Lab at AIIT and Broad Institute."
+excerpt: "X-Lab at AIIT, PKU and Broad Institute."
 sitemap: false
 permalink: /
 ---
@@ -14,15 +14,20 @@ permalink: /
 </p>
 
 <div class="row">
-  <div class="col-sm-6 clearfix">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.png" class="img-responsive" width="75%" style="float: right" />
+  <div class="col-sm-4 clearfix">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.webp" class="img-responsive" width="100%" style="float: right" />
   </div>
-  <div class="col-sm-6 clearfix">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/building/75-ames.jpg" class="img-responsive" width="75%" style="float: left" />
+
+  <div class="col-sm-4 clearfix">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/bjmu.jpg" class="img-responsive" width="100%" style="float: middle" />
+  </div>
+
+  <div class="col-sm-4 clearfix">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/75-ames.webp" class="img-responsive" width="100%" style="float: left" />
   </div>
 </div>
 
-We are physically situated at the <a ref='https://www.aiit.org.cn'>Advanced Institute of Information Technology, Peking University</a> in Hangzhou, Zhejiang, China and the <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a>, Cambridge, MA, US.
+We are physically situated at the <a ref='https://www.aiit.org.cn'>Advanced Institute of Information Technology, Peking University</a> in Hangzhou, Zhejiang, <a ref='https://sph.pku.edu.cn'>School of Public Health, Peking University</a> in Beijing, China and the <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a>, Cambridge, MA, US.
 
 <br>
 <br>

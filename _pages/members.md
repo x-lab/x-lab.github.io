@@ -14,7 +14,7 @@ permalink: /members/
 <hr />
 ## PI
 {% for member in site.data.pi %}
-
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
 
