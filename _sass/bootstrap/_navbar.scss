@@ -90,11 +90,7 @@
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   .navbar-collapse {
-    max-height: $navbar-collapse-max-height;
-
-    @media (max-device-width: $screen-xs-min) and (orientation: landscape) {
-      max-height: 200px;
-    }
+    height: 390px;
   }
 }
 
@@ -395,8 +391,6 @@
 
 // Default navbar
 .navbar-default {
-  background-color: $navbar-default-bg;
-  border-color: $navbar-default-border;
 
   .navbar-brand {
     color: $navbar-default-brand-color;
@@ -413,28 +407,47 @@
 
   .navbar-nav {
     > li > a {
-      color: $navbar-default-link-color;
+      color: #1C1F23;
+      font-size: 16px;
+      font-family: PingFang SC;
+      font-weight: 600;
+      line-height: 22px;
+      word-wrap: break-word;
+      position: relative;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #2453AD;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+      }
 
       &:hover,
-      &:focus {
-        color: $navbar-default-link-hover-color;
-        background-color: $navbar-default-link-hover-bg;
+      &.active {
+        color: #2453AD;
+        text-decoration: none;
+        
+        &::after {
+          transform: scaleX(1);
+        }
       }
     }
+
     > .active > a {
       &,
       &:hover,
       &:focus {
-        color: $navbar-default-link-active-color;
-        background-color: $navbar-default-link-active-bg;
-      }
-    }
-    > .disabled > a {
-      &,
-      &:hover,
-      &:focus {
-        color: $navbar-default-link-disabled-color;
-        background-color: $navbar-default-link-disabled-bg;
+        color: #2453AD;
+        background-color: transparent;
+        
+        &::after {
+          transform: scaleX(1);
+        }
       }
     }
   }
@@ -450,10 +463,7 @@
     }
   }
 
-  .navbar-collapse,
-  .navbar-form {
-    border-color: $navbar-default-border;
-  }
+  .navbar-collapse
 
   // Dropdown menu items
   .navbar-nav {

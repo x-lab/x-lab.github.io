@@ -8,18 +8,28 @@
 		<span class="icon-bar"></span>
 	  </button>
 
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">X-Lab</a>
+    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/" style="display: flex; align-items: center;">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/Logo.svg" alt="X-Lab Logo" height="30">
+    </a>
+
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">HOME</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/members">PEOPLE</a></li>
-    <li><a href="{{ site.url }}{{ site.baseurl }}/publications">PUBLICATIONS</a></li>
-    <!-- <li><a href="{{ site.url }}{{ site.baseurl }}/resources">RESOURCES</a></li> -->
-		<li><a href="{{ site.url }}{{ site.baseurl }}/join">JOIN</a></li>
-    <!-- <li><a href="{{ site.url }}{{ site.baseurl }}/news">NEWS</a></li> -->
-    <!-- <li><a href="{{ site.url }}{{ site.baseurl }}/news">NEWS</a></li> -->
-    <li><a href="{{ site.url }}{{ site.baseurl }}/contact">CONTACT</a></li>
+		<li {% if page.url == '/' %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+    </li>
+		<li {% if page.url contains '/members' %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/members">People</a>
+    </li>
+    <li {% if page.url contains '/publications' %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a>
+    </li>
+		<li {% if page.url contains '/join' %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/join">Join</a>
+    </li>
+		<li {% if page.url contains '/contact' %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/contact">Contact</a>
+    </li>
 	  </ul>
 	</div>
   </div>

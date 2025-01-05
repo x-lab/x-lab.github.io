@@ -9,10 +9,7 @@
 title: The X-Lab
 email: xlab.aiit@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The X-Lab (Xiao Li Laboratory) at Advanced Institute of Information Technology
-  of Peking University and the Broad Institute of MIT and Harvard strives to
-  develop and adopt cutting edge technologies for biological and biomedical
-  questions.
+  We aspire to benefit humanity via delivery and scale of world-class science, through bleeding edge computational technologies.
 baseurl: ""
 url: "https://x-lab.org.cn"
 
