@@ -21,14 +21,20 @@ figcaption {
 
 h1 {
   font-size: 40px;
+  color: #2453AD;
+  margin-bottom: 30px;
 }
 
 h2 {
   font-size: 30px;
+  color: #1C1F23;
+  margin: 40px 0 20px;
 }
 
 p {
   font-size: 17px;
+  color: #1C1F23;
+  line-height: 1.6;
 }
 
 /* Top navigation bar */
@@ -110,4 +116,74 @@ firstp {
 .panel-footer img {
   height: 35px;
   margin: 14px 0;
+}
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 609px;
+  padding: 110px 94px;
+  position: relative;
+}
+
+.hero-content {
+  width: 756px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title-container {
+  padding: 16px;
+}
+
+.title-container h1 {
+  color: #4285F4;
+  font-size: 64px;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 0;
+}
+
+.description-container {
+  padding: 16px 20px;
+}
+
+.description-container p {
+  color: #1C1F23;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+.action-buttons {
+  padding: 16px 0;
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: 'PingFang SC', sans-serif;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #4285F4;
+  color: white;
+}
+
+.btn-outline {
+  background: white;
+  color: #4285F4;
+  border: 1px solid #F0F7FE;
 }

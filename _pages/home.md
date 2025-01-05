@@ -8,29 +8,41 @@ permalink: /
 
 <br>
 <center>
+
+
+<h2>About us</h2>
+
 <p>
-  Our group develops and applies state-of-the-art computational technologies to answer biological and biomedical questions. <br> Currently, we are interested in developing algorithms and software packages to better understand <b>human and pathogenic microbe</b> genomics, leveraging cutting edge computational technologies, including but not limited to <b>Artificial Intelligence</b>, <b>decentralized technologies</b> and <b>cloud-native technologies</b>.<br>
-  <b>We always welcome passionate scientists, engineers, postdocs, graduate and undergraduate students to <a href="{{ site.url }}{{ site.baseurl }}/join">join our lab</a></b>.
+  Our group develops and applies state-of-the-art computational technologies to answer biological and biomedical questions.
 </p>
+
+<p>
+  Currently, we are interested in developing algorithms and software packages to better understand <b>human and pathogenic microbe</b> genomics, leveraging cutting edge computational technologies, including but not limited to <b>Artificial Intelligence</b>, <b>decentralized technologies</b> and <b>cloud-native technologies</b>.
+</p>
+
+<div class="join-callout">
+  <p>We always welcome <b>passionate scientists, engineers, postdocs, graduate and undergraduate students</b> to join our lab.</p>
+  <a href="{{ site.url }}{{ site.baseurl }}/join" class="btn btn-primary">Join our lab</a>
+</div>
 
 <div class="row">
   <div class="col-sm-4 clearfix">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.webp" class="img-responsive" width="100%" style="float: right" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/aiit.webp" class="img-responsive" width="100%" />
   </div>
 
   <div class="col-sm-4 clearfix">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/building/bjmu.webp" class="img-responsive" width="100%" style="float: middle" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/bjmu.webp" class="img-responsive" width="100%" />
   </div>
 
   <div class="col-sm-4 clearfix">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/building/75-ames.webp" class="img-responsive" width="100%" style="float: left" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/building/75-ames.webp" class="img-responsive" width="100%" />
   </div>
 </div>
 
-We are physically situated at the <a ref='https://www.aiit.org.cn'>Advanced Institute of Information Technology, Peking University</a> in Hangzhou, Zhejiang, <a ref='https://sph.pku.edu.cn'>School of Public Health, Peking University</a> in Beijing, China and the <a ref='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a>, Cambridge, MA, US.
+<p>
+We are physically situated at the <a href='https://www.aiit.org.cn'>Advanced Institute of Information Technology, Peking University</a> in Hangzhou, Zhejiang, <a href='https://sph.pku.edu.cn'>School of Public Health, Peking University</a> in Beijing, China and the <a href='https://www.broadinstitute.org'>Broad Institute of MIT and Harvard</a>, Cambridge, MA, US.
+</p>
 
-<br>
-<br>
 </center>
 
 <!-- <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
