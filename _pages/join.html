@@ -1,0 +1,135 @@
+---
+layout: default
+title: Join
+permalink: /join/
+---
+
+<link rel="stylesheet" href="/assets/css/contact.css">
+
+<div class="contact-container">
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="section-content">
+      <header class="section-header">
+        <img class="quote-mark-large" src="/assets/img/quote_mark.svg" alt="">
+        <h1 class="section-title">Join us</h1>
+      </header>
+
+      <div class="content-area">
+        <article class="contact-card">
+          <div class="card-content">
+            <img class="small-quote" src="/assets/img/small_quote_mark.svg" alt="">
+            <p class="card-text">We always welcome young talents with a passion for science and technology to join our group. Lab members will have the opportunity to work with world-class scientists and engineers from both academia and industria. Besides working on cutting-edge projects, all members can participate in our startup incubated at the AIIT.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</div>
+<hr class="section-divider">
+
+<!-- How to apply -->
+<div class="apply-section">
+  <div class="apply-container">
+    <div class="apply-content">
+      <div class="apply-header">
+        <h2 class="apply-title">How to apply</h2>
+      </div>
+      <div class="apply-text">
+        <div class="apply-description">
+          <span>All application materials go </span>
+          <a href="#" class="link-blue">here</a>
+          <span>. </span>
+          <span>If you are interested in working with us as a staff scientist or postdoc, please send me an </span>
+          <a href="#" class="link-blue" onclick="copyEmail(event)">email</a>
+          <span>. We will further contact you for interviews if we think you are a good match. Following are positions available:</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- Staff scientists and Postdocs -->
+<div class="apply-section">
+    <div class="apply-container">
+      <div class="apply-content">
+        <div class="apply-header">
+          <h2 class="apply-title">Staff scientists and Postdocs</h2>
+        </div>
+        <div class="apply-text">
+          <div class="apply-description">
+            <span>Staff scientists and postdoc fellows will have their own fundings and can assemble independent research teams. Staff scienitsts could promote to investigators at AIIT, while postdocs have opportunities to promote to scientists. We fully support application of NSFC and other state grants.</span>
+            <br/>
+            <br/>
+            <span>State briefly why you are interested and attach a CV. Postdoc fellowships are available.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<style>
+  .section-divider {
+  /* width: 1230px; */
+  height: 1px;
+  background: var(--usage-default---semi-color-default-active, #C6C9CD);
+}
+
+.apply-section {
+  /* width: 1230px; */
+  padding: 36px;
+}
+
+.apply-container {
+  display: flex;
+  gap: 37px;
+  align-items: flex-start;
+}
+
+.apply-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.apply-title {
+  color: #1C1F23;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.apply-text {
+  height: 56px;
+}
+
+.apply-description {
+  font-size: 20px;
+  font-family: Helvetica;
+  line-height: 28px;
+  color: #1C1F23;
+}
+
+.link-blue {
+  color: #2182F7;
+  font-weight: 700;
+  text-decoration: underline;
+}
+</style>
+
+<script>
+function copyEmail(event) {
+    event.preventDefault();
+    const email = 'xlab@gmail.com'; // 替换成实际的招聘邮箱地址
+    navigator.clipboard.writeText(email).then(() => {
+        alert('Email address copied to clipboard: ' + email);
+    }).catch(err => {
+        console.error('Failed to copy email:', err);
+    });
+}
+</script>

@@ -1,0 +1,178 @@
+pi:
+  name: Xiao Li
+  name_cn: 李潇
+  title: Director, Quanjiang Scholar Investigator
+  positions:
+    - Director, X-Lab and Center for Mendelian Genomics, Advanced Institute of Information Technology, Peking University
+    - Computational Biologist, Broad Insitute, Massachusetts General Hospital, and Harvard Medical School
+    - Senior Research Associate, School of Public Health, Peking University
+  image: /assets/img/xiao_li.png
+
+staff:
+  - name: Ting Zhang
+    name_cn: 张婷
+    title: Assistant Investigator, 2019/12 - now
+    education:
+      - B.S. Biology, Jilin University
+      - M.S. Genetics, China Agricultural University
+
+  - name: Xintian Zhou
+    name_cn: 周芯甜
+    title: Lab Manager, 2023/05 - now
+    education:
+      - B.A. Tourism Management, Hangzhou Normal University
+
+  - name: Shicong Zhou
+    name_cn: 周世聪
+    title: Head of Engineering, 2024/3 - now
+    education:
+      - B.S. Computer Science, Zhejiang Gongshang University
+
+  - name: Sheng Li
+    name_cn: 李晟
+    title: Associate Computational Biologist, 2024/6 - now
+    education:
+      - M.S. Pharmatheutical Informatics, Zhejiang University of Technology
+      - B.S. Pharmatheutical Engineering, Sichuan University of Science and Engineering
+
+  - name: Jiaqian Mao
+    name_cn: 毛佳倩
+    title: Product Manager/Designer, 2024/9 - now
+    education:
+      - M.A. Design, Shanghai Jiaotong University
+      - B.A. Industrial Design, Jiangnan University
+
+students:
+  # - name: Student Name 1
+  #   name_cn: 学生名字1
+  #   title: PhD Student
+  #   education:
+  #     - B.S. Computer Science, University A
+  #     - M.S. Computer Science, University B
+
+  # ... add more students ...
+
+interns:
+  # - name: Su Liu
+  #   name_cn: 刘愫
+  #   title: 2019, now data scienist at Amazon.
+
+  # ... add more interns ...
+
+alumni:
+  staff:
+    - name: Yu Yang
+      name_cn: 杨宇
+      title: Associate Computational Biologist, 2019
+
+    - name: Zhonghua Li
+      name_cn: 李中华
+      title: Associate Computational Biologist, 2019
+
+    - name: Huimin Chen
+      name_cn: 陈会敏
+      title: Associate Computational Biologist, 2019
+
+    - name: Wenxue Li
+      name_cn: 李闻雪
+      title: Lab Manager, 2021
+
+    - name: Juncheng Xue
+      name_cn: 薛军城
+      title: Software Engineer, 2021
+
+    - name: An Li
+      name_cn: 李安
+      title: Software Architect, 2021-2022
+
+    - name: Leilei Li
+      name_cn: 李蕾蕾
+      title: Software engineer, 2021-2023
+
+    - name: Xiaoqian Li
+      name_cn: 李小倩
+      title: Software Engineer, 2021
+
+    - name: Zhentao Lan
+      name_cn: 蓝镇涛
+      title: Lab Manager, 2022-2023
+
+  interns:
+    - name: Jiahui Chen
+      name_cn: 陈佳慧
+      title: 2020, now MS at Carnegie Mellon University.
+
+    - name: Jiaqian Mao
+      name_cn: 毛佳倩
+      title: 2020-2021, now our Lab designer!
+      highlight: true
+
+    - name: Xiaoyan Zhao
+      name_cn: 赵小燕
+      title: 2020-2021, now MS at Peking University.
+
+    - name: Xinru Zheng
+      name_cn: 郑心如
+      title: 2021, now in industry.
+
+    - name: Xuhui Cao
+      name_cn: 曹旭辉
+      title: 2021, now in industry.
+
+    - name: Wenhao Xu
+      name_cn: 徐文昊
+      title: 2021, now in industry.
+
+    - name: Junyu Li
+      name_cn: 李军豫
+      title: 2021, now BS at Nanyang Polytechnic University.
+
+    - name: Fei Chen
+      name_cn: 陈菲
+      title: 2021, now in industry.
+
+    - name: Chunfeng Fu
+      name_cn: 付春凤
+      title: 2020 - 2021, now in industry.
+
+    - name: Weisen Xia
+      name_cn: 夏维森
+      title: 2021, now MS at University of South California.
+
+    - name: Sizhe Qiu
+      name_cn: 裘思哲
+      title: 2021, now DPhil at University of Oxford.
+
+    - name: Bolin Li
+      name_cn: 李柏林
+      title: 2022-2023, now ME at Xidian University.
+
+    - name: Haijing Yuan
+      name_cn: 袁海晶
+      title: 2023, now in industry.
+
+    - name: Yi Liu
+      name_cn: 柳依
+      title: 2023, now MS at University of Manchester.
+
+    - name: Lingzhu Shen
+      name_cn: 沈凌竹
+      title: 2023, now PhD student at Case Western Reserve University.
+
+    - name: Xintian Zhou
+      name_cn: 周芯甜
+      title: 2023, now our Lab Manager!
+      highlight: true
+
+    - name: Sheng Li
+      name_cn: 李晟
+      title: 2023, now our Associate Computational Biologist!
+      highlight: true
+
+    - name: Jingo Yao
+      name_cn: 姚金波
+      title: 2023, now MS at University of Malaya.
+
+    - name: Yunfeng Yang
+      name_cn: 杨云峰
+      title: 2023, now PhD student at Shanghai University. 

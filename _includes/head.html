@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
+
+    <style>
+      @font-face {
+        font-family: 'PingFang SC';
+        src: url('/assets/PingFang-SC-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'PingFang SC Bold';
+        src: url('/assets/PingFang-SC-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+      }
+      
+      body {
+        font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial !important;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+      }
+    </style>
+  </head>

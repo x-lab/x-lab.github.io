@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Join</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <style>
+      @font-face {
+        font-family: 'PingFang SC';
+        src: url('/assets/PingFang-SC-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'PingFang SC Bold';
+        src: url('/assets/PingFang-SC-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+      }
+      
+      body {
+        font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial !important;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header class="site-header">
+  <div class="container">
+    <div class="header-content">
+      <!-- Logo -->
+      <a href="/" class="logo">
+        <img src="/assets/img/logo.png" alt="The Xiao Li Lab" style="width: 130px; ">
+      </a>
+
+      <!-- Navigation -->
+      <nav class="main-nav">
+        
+          <a href="/" 
+             class="nav-link ">
+            Home
+          </a>
+        
+          <a href="/people/" 
+             class="nav-link ">
+            People
+          </a>
+        
+          <a href="/publications/" 
+             class="nav-link ">
+            Publications
+          </a>
+        
+          <a href="/join/" 
+             class="nav-link active">
+            Join
+          </a>
+        
+          <a href="/contact/" 
+             class="nav-link ">
+            Contact
+          </a>
+        
+      </nav>
+    </div>
+  </div>
+</header>
+
+<style>
+.site-header {
+  padding: 1rem 0;
+  background-color: #ffffff;
+  position: relative;
+  height: 100px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* padding: 0 2rem; */
+  width: 1200px;
+  position: relative;
+  height: 100%;
+}
+
+.logo {
+  position: relative;
+  transform: translateY(0);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  margin-right: 0.5rem;
+  transform: rotate(45deg);
+}
+
+.main-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  transform: translateY(0);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #1756e8;
+}
+
+.nav-link.active {
+  color: #1756e8;
+  border-bottom: 2px solid #1756e8;
+}
+</style>
+
+    
+    <main class="main-content">
+      <link rel="stylesheet" href="/assets/css/contact.css">
+
+<div class="contact-container">
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="section-content">
+      <header class="section-header">
+        <img class="quote-mark-large" src="/assets/img/quote_mark.svg" alt="">
+        <h1 class="section-title">Join us</h1>
+      </header>
+
+      <div class="content-area">
+        <article class="contact-card">
+          <div class="card-content">
+            <img class="small-quote" src="/assets/img/small_quote_mark.svg" alt="">
+            <p class="card-text">We always welcome young talents with a passion for science and technology to join our group. Lab members will have the opportunity to work with world-class scientists and engineers from both academia and industria. Besides working on cutting-edge projects, all members can participate in our startup incubated at the AIIT.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</div>
+<hr class="section-divider">
+
+<!-- How to apply -->
+<div class="apply-section">
+  <div class="apply-container">
+    <div class="apply-content">
+      <div class="apply-header">
+        <h2 class="apply-title">How to apply</h2>
+      </div>
+      <div class="apply-text">
+        <div class="apply-description">
+          <span>All application materials go </span>
+          <a href="#" class="link-blue">here</a>
+          <span>. </span>
+          <span>If you are interested in working with us as a staff scientist or postdoc, please send me an </span>
+          <a href="#" class="link-blue" onclick="copyEmail(event)">email</a>
+          <span>. We will further contact you for interviews if we think you are a good match. Following are positions available:</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- Staff scientists and Postdocs -->
+<div class="apply-section">
+    <div class="apply-container">
+      <div class="apply-content">
+        <div class="apply-header">
+          <h2 class="apply-title">Staff scientists and Postdocs</h2>
+        </div>
+        <div class="apply-text">
+          <div class="apply-description">
+            <span>Staff scientists and postdoc fellows will have their own fundings and can assemble independent research teams. Staff scienitsts could promote to investigators at AIIT, while postdocs have opportunities to promote to scientists. We fully support application of NSFC and other state grants.</span>
+            <br/>
+            <br/>
+            <span>State briefly why you are interested and attach a CV. Postdoc fellowships are available.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<style>
+  .section-divider {
+  /* width: 1230px; */
+  height: 1px;
+  background: var(--usage-default---semi-color-default-active, #C6C9CD);
+}
+
+.apply-section {
+  /* width: 1230px; */
+  padding: 36px;
+}
+
+.apply-container {
+  display: flex;
+  gap: 37px;
+  align-items: flex-start;
+}
+
+.apply-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.apply-title {
+  color: #1C1F23;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.apply-text {
+  height: 56px;
+}
+
+.apply-description {
+  font-size: 20px;
+  font-family: Helvetica;
+  line-height: 28px;
+  color: #1C1F23;
+}
+
+.link-blue {
+  color: #2182F7;
+  font-weight: 700;
+  text-decoration: underline;
+}
+</style>
+
+<script>
+function copyEmail(event) {
+    event.preventDefault();
+    const email = 'xlab@gmail.com'; // 替换成实际的招聘邮箱地址
+    navigator.clipboard.writeText(email).then(() => {
+        alert('Email address copied to clipboard: ' + email);
+    }).catch(err => {
+        console.error('Failed to copy email:', err);
+    });
+}
+</script>
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-content">
+    <!-- 合作机构 logo 区域 -->
+    <div class="partner-logos">
+      <div class="logo-row">
+        <img src="/assets/img/aiit-logo.png" alt="浙江省北大信息技术高等研究院" class="partner-logo">
+        <img src="/assets/img/pku-logo.png" alt="北京大学医学部" class="partner-logo">
+        <img src="/assets/img/broad-logo.png" alt="Broad Institute" class="partner-logo">
+        <img src="/assets/img/mgh-logo.png" alt="Massachusetts General Hospital" class="partner-logo">
+        <img src="/assets/img/hms-logo.png" alt="Harvard Medical School" class="partner-logo">
+      </div>
+    </div>
+
+    <!-- 版权和备案信息 -->
+    <div class="footer-info">
+      <p class="copyright">© 2024 All Rights Reserved.</p>
+      <p class="icp-info">浙ICP备202003583号-2</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+    margin-top: 3rem;
+  }
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .partner-logos {
+    margin-bottom: 2rem;
+  }
+
+  .logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .partner-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .footer-info {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .copyright, .icp-info {
+    margin: 0.5rem 0;
+  }
+
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .partner-logo {
+      height: 30px;
+    }
+    
+    .logo-row {
+      gap: 1rem;
+    }
+  }
+</style>
+
+
+    
+  </body>
+</html>

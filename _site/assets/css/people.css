@@ -1,0 +1,2699 @@
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+  }
+  
+  .frame .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    padding: 32px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .frame .div {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .overlap-group-wrapper {
+    position: relative;
+    width: 527px;
+    height: 116px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    height: 116px;
+  }
+  
+  .frame .quote-mark {
+    position: absolute;
+    width: 142px;
+    height: 116px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .section-heading {
+    display: flex;
+    flex-direction: column;
+    width: 488px;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 56px;
+    left: 39px;
+  }
+  
+  .frame .section-title {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--semi-global-usage-text-semi-color-text-0);
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 44px;
+  }
+  
+  .frame .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .frame .testimonial-item-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .testimonial-item {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: var(--semi-global-usage-default-semi-color-default-hover);
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    background-color: var(--semi-global-usage-bg-semi-color-bg-0);
+    overflow: hidden;
+  }
+  
+  .frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .img {
+    position: relative;
+    width: 16px;
+    height: 13px;
+  }
+  
+  .frame .feedback-person {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .feedback {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--header-header-4-EN-regular-font-family);
+    font-weight: var(--header-header-4-EN-regular-font-weight);
+    color: var(--semi-global-usage-text-semi-color-text-0);
+    font-size: var(--header-header-4-EN-regular-font-size);
+    letter-spacing: var(--header-header-4-EN-regular-letter-spacing);
+    line-height: var(--header-header-4-EN-regular-line-height);
+    font-style: var(--header-header-4-EN-regular-font-style);
+  }
+  
+  .frame .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 6px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--semi-global-usage-primary-semi-color-primary);
+    border-radius: var(--semi-button-radius-button);
+    border: 0px none;
+    border-color: var(--semi-button-color-button-primary-border-default);
+  }
+  
+  .frame .label {
+    position: relative;
+    width: fit-content;
+    font-family: var(--header-header-5-EN-regular-font-family);
+    font-weight: var(--header-header-5-EN-regular-font-weight);
+    color: var(--semi-global-usage-bg-semi-color-bg-0);
+    font-size: var(--header-header-5-EN-regular-font-size);
+    letter-spacing: var(--header-header-5-EN-regular-letter-spacing);
+    line-height: var(--header-header-5-EN-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--header-header-5-EN-regular-font-style);
+  }
+  
+  .frame .div-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    /* padding: 0px 105px; */
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .line {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    margin-top: -1.00px;
+    object-fit: cover;
+  }
+  
+  .frame .testimonial-item-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36.51px;
+    padding: 36.51px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--semi-global-usage-bg-semi-color-bg-0);
+    border-radius: 9.13px;
+    overflow: hidden;
+    border-radius: 1px;
+  }
+  
+  .frame .div-4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 37px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 37px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .frame .feature-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--header-header-1-EN-semi-bold-font-family);
+    font-weight: var(--header-header-1-EN-semi-bold-font-weight);
+    color: var(--semi-global-usage-black-semi-color-black);
+    font-size: var(--header-header-1-EN-semi-bold-font-size);
+    letter-spacing: var(--header-header-1-EN-semi-bold-letter-spacing);
+    line-height: var(--header-header-1-EN-semi-bold-line-height);
+    font-style: var(--header-header-1-EN-semi-bold-font-style);
+  }
+  
+  .frame .div-6 {
+    display: flex;
+    flex-direction: column;
+    width: 705px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-7 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--header-header-4-EN-semi-bold-font-family);
+    font-weight: var(--header-header-4-EN-semi-bold-font-weight);
+    color: var(--semi-global-usage-text-semi-color-text-0);
+    font-size: var(--header-header-4-EN-semi-bold-font-size);
+    letter-spacing: var(--header-header-4-EN-semi-bold-letter-spacing);
+    line-height: var(--header-header-4-EN-semi-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--header-header-4-EN-semi-bold-font-style);
+  }
+  
+  .frame .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--header-header-4-CN-semi-bold-font-family);
+    font-weight: var(--header-header-4-CN-semi-bold-font-weight);
+    color: var(--semi-global-usage-text-semi-color-text-0);
+    font-size: var(--header-header-4-CN-semi-bold-font-size);
+    letter-spacing: var(--header-header-4-CN-semi-bold-letter-spacing);
+    line-height: var(--header-header-4-CN-semi-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--header-header-4-CN-semi-bold-font-style);
+  }
+  
+  .frame .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--header-header-4-EN-regular-font-family);
+    font-weight: var(--header-header-4-EN-regular-font-weight);
+    color: var(--semi-global-usage-text-semi-color-text-0);
+    font-size: var(--header-header-4-EN-regular-font-size);
+    letter-spacing: var(--header-header-4-EN-regular-letter-spacing);
+    line-height: var(--header-header-4-EN-regular-line-height);
+    font-style: var(--header-header-4-EN-regular-font-style);
+  }
+  .frame .text-wrapper-4.highlight {
+    font-family: var(--header-header-4-EN-semi-bold-font-family);
+    font-weight: var(--header-header-4-EN-semi-bold-font-weight);
+    color: var(--semi-global-usage-info-semi-color-info-active);
+    font-size: var(--header-header-4-EN-semi-bold-font-size);
+    letter-spacing: var(--header-header-4-EN-semi-bold-letter-spacing);
+  }
+  
+  .frame .div-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-9 {
+    gap: 8px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .frame .dot-wrapper {
+    display: flex;
+    width: 6px;
+    height: 30px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .frame .dot {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 6px;
+    background-color: var(--semi-global-usage-data-semi-color-data-1);
+    border-radius: 3px;
+  }
+  
+  .frame .text-wrapper-5 {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--header-header-4-EN-regular-font-family);
+    font-weight: var(--header-header-4-EN-regular-font-weight);
+    color: var(--semi-global-usage-text-semi-color-text-1);
+    font-size: var(--header-header-4-EN-regular-font-size);
+    letter-spacing: var(--header-header-4-EN-regular-letter-spacing);
+    line-height: var(--header-header-4-EN-regular-line-height);
+    font-style: var(--header-header-4-EN-regular-font-style);
+  }
+  
+  .frame .image-wrapper {
+    display: flex;
+    width: 326px;
+    height: 324px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    border-radius: 26px;
+    overflow: hidden;
+  }
+  
+  .frame .image {
+    position: relative;
+    width: 324px;
+    height: 322px;
+    object-fit: cover;
+    border-radius: 26px;
+    border-radius: 2px solid #E0E0E0;
+  }
+  
+  .frame .div-10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-11 {
+    display: flex;
+    flex-direction: column;
+    width: 578.5px;
+    min-height: 156px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .frame .div-12 {
+    flex-direction: column;
+    width: 578.5px;
+    height: 118px;
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .frame .div-13 {
+    display: flex;
+    flex-direction: column;
+    width: 578.5px;
+    height: 208px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .frame .div-14 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-15 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .frame .testimonial-item-3 {
+    display: inline-flex;
+    gap: 36.51px;
+    /* padding: 36.51px 0px 36.51px 36px; */
+    flex: 0 0 auto;
+    border-radius: 9.13px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    background-color: var(--semi-global-usage-bg-semi-color-bg-0);
+    overflow: hidden;
+  }
+  
+  .frame .frame-wrapper-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 37px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-16 {
+    display: flex;
+    flex-direction: column;
+    width: 1194px;
+    align-items: flex-start;
+    gap: 37px;
+    position: relative;
+  }
+  
+  .frame .div-17 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 37px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-6 {
+    position: relative;
+    width: 1194px;
+    margin-top: -1.00px;
+    font-family: var(--header-header-2-EN-semi-bold-font-family);
+    font-weight: var(--header-header-2-EN-semi-bold-font-weight);
+    color: var(--semi-global-usage-text-semi-color-text-1);
+    font-size: var(--header-header-2-EN-semi-bold-font-size);
+    letter-spacing: var(--header-header-2-EN-semi-bold-letter-spacing);
+    line-height: var(--header-header-2-EN-semi-bold-line-height);
+    font-style: var(--header-header-2-EN-semi-bold-font-style);
+  }
+  
+  .frame .div-18 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 37px 37px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-19 {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .frame .p {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--header-header-4-EN-semi-bold-font-family);
+    font-weight: var(--header-header-4-EN-semi-bold-font-weight);
+    color: var(--semi-global-usage-info-semi-color-info-active);
+    font-size: var(--header-header-4-EN-semi-bold-font-size);
+    letter-spacing: var(--header-header-4-EN-semi-bold-letter-spacing);
+    line-height: var(--header-header-4-EN-semi-bold-line-height);
+    font-style: var(--header-header-4-EN-semi-bold-font-style);
+  }
+  
+  :root {
+    --semiusage-semi-black: var(--semi-global-palette-black-semi-black);
+    --semiusage-semi-white: var(--semi-global-palette-white-semi-white);
+    --semiusagebg-color-bg-0: var(--semi-global-usage-bg-semi-color-bg-0);
+    --semiusagebg-color-bg-1: var(--semi-global-usage-bg-semi-color-bg-1);
+    --semiusagebg-color-bg-2: var(--semi-global-usage-bg-semi-color-bg-2);
+    --semiusagebg-color-bg-3: var(--semi-global-usage-bg-semi-color-bg-3);
+    --semiusagebg-color-bg-4: var(--semi-global-usage-bg-semi-color-bg-4);
+    --semiusageinfo-color-info: var(--semi-global-usage-info-semi-color-info);
+    --semiusageinfo-color-info-hover: var(
+      --semi-global-usage-info-semi-color-info-hover
+    );
+    --semiusageinfo-color-info-active: var(
+      --semi-global-usage-info-semi-color-info-active
+    );
+    --semiusageinfo-color-info-disabled: var(
+      --semi-global-usage-info-semi-color-info-disabled
+    );
+    --semiusagelink-color-link: var(--semi-global-usage-link-semi-color-link);
+    --semiusagelink-color-link-hover: var(
+      --semi-global-usage-link-semi-color-link-hover
+    );
+    --semiusagelink-color-link-active: var(
+      --semi-global-usage-link-semi-color-link-active
+    );
+    --semiusagelink-color-link-visited: var(
+      --semi-global-usage-link-semi-color-link-visited
+    );
+    --semiusagenav-color-nav-bg: var(--semi-global-usage-nav-semi-color-nav-bg);
+    --semiusageblack-color-black: var(--semi-global-usage-black-semi-color-black);
+    --semiusagedata-color-data-0: var(--semi-global-usage-data-semi-color-data-0);
+    --semiusagedata-color-data-1: var(--semi-global-usage-data-semi-color-data-1);
+    --semiusagedata-color-data-2: var(--semi-global-usage-data-semi-color-data-2);
+    --semiusagedata-color-data-3: var(--semi-global-usage-data-semi-color-data-3);
+    --semiusagedata-color-data-4: var(--semi-global-usage-data-semi-color-data-4);
+    --semiusagedata-color-data-5: var(--semi-global-usage-data-semi-color-data-5);
+    --semiusagedata-color-data-6: var(--semi-global-usage-data-semi-color-data-6);
+    --semiusagedata-color-data-7: var(--semi-global-usage-data-semi-color-data-7);
+    --semiusagedata-color-data-8: var(--semi-global-usage-data-semi-color-data-8);
+    --semiusagedata-color-data-9: var(--semi-global-usage-data-semi-color-data-9);
+    --semiusagedata-color-data-10: var(
+      --semi-global-usage-data-semi-color-data-10
+    );
+    --semiusagedata-color-data-11: var(
+      --semi-global-usage-data-semi-color-data-11
+    );
+    --semiusagedata-color-data-12: var(
+      --semi-global-usage-data-semi-color-data-12
+    );
+    --semiusagedata-color-data-13: var(
+      --semi-global-usage-data-semi-color-data-13
+    );
+    --semiusagedata-color-data-14: var(
+      --semi-global-usage-data-semi-color-data-14
+    );
+    --semiusagedata-color-data-15: var(
+      --semi-global-usage-data-semi-color-data-15
+    );
+    --semiusagedata-color-data-16: var(
+      --semi-global-usage-data-semi-color-data-16
+    );
+    --semiusagedata-color-data-17: var(
+      --semi-global-usage-data-semi-color-data-17
+    );
+    --semiusagedata-color-data-18: var(
+      --semi-global-usage-data-semi-color-data-18
+    );
+    --semiusagedata-color-data-19: var(
+      --semi-global-usage-data-semi-color-data-19
+    );
+    --semiusagefill-color-fill-0: var(--semi-global-usage-fill-semi-color-fill-0);
+    --semiusagefill-color-fill-1: var(--semi-global-usage-fill-semi-color-fill-1);
+    --semiusagefill-color-fill-2: var(--semi-global-usage-fill-semi-color-fill-2);
+    --semiusagetext-color-text-0: var(--semi-global-usage-text-semi-color-text-0);
+    --semiusagetext-color-text-1: var(--semi-global-usage-text-semi-color-text-1);
+    --semiusagetext-color-text-2: var(--semi-global-usage-text-semi-color-text-2);
+    --semiusagetext-color-text-3: var(--semi-global-usage-text-semi-color-text-3);
+    --semiusagewhite-color-white: var(--semi-global-usage-white-semi-color-white);
+    --semiusageborder-color-border: var(
+      --semi-global-usage-border-semi-color-border
+    );
+    --semiusagedanger-color-danger: var(
+      --semi-global-usage-danger-semi-color-danger
+    );
+    --semiusagedanger-color-danger-hover: var(
+      --semi-global-usage-danger-semi-color-danger-hover
+    );
+    --semiusagedanger-color-danger-active: var(
+      --semi-global-usage-danger-semi-color-danger-active
+    );
+    --semiusageshadow-color-shadow: var(
+      --semi-global-usage-shadow-semi-color-shadow
+    );
+    --semiusagedefault-color-default: var(
+      --semi-global-usage-default-semi-color-default
+    );
+    --semiusagedefault-color-default-hover: var(
+      --semi-global-usage-default-semi-color-default-hover
+    );
+    --semiusagedefault-color-default-active: var(
+      --semi-global-usage-default-semi-color-default-active
+    );
+    --semiusageprimary-color-primary: var(
+      --semi-global-usage-primary-semi-color-primary
+    );
+    --semiusageprimary-color-primary-hover: var(
+      --semi-global-usage-primary-semi-color-primary-hover
+    );
+    --semiusageprimary-color-primary-active: var(
+      --semi-global-usage-primary-semi-color-primary-active
+    );
+    --semiusageprimary-color-primary-disabled: var(
+      --semi-global-usage-primary-semi-color-primary-disabled
+    );
+    --semiusagesuccess-color-success: var(
+      --semi-global-usage-success-semi-color-success
+    );
+    --semiusagesuccess-color-success-hover: var(
+      --semi-global-usage-success-semi-color-success-hover
+    );
+    --semiusagesuccess-color-success-active: var(
+      --semi-global-usage-success-semi-color-success-active
+    );
+    --semiusagesuccess-color-success-disabled: var(
+      --semi-global-usage-success-semi-color-success-disabled
+    );
+    --semiusagewarning-color-warning: var(
+      --semi-global-usage-warning-semi-color-warning
+    );
+    --semiusagewarning-color-warning-hover: var(
+      --semi-global-usage-warning-semi-color-warning-hover
+    );
+    --semiusagewarning-color-warning-active: var(
+      --semi-global-usage-warning-semi-color-warning-active
+    );
+    --semiusagetertiary-color-tertiary: var(
+      --semi-global-usage-tertiary-semi-color-tertiary
+    );
+    --semiusagetertiary-color-tertiary-hover: var(
+      --semi-global-usage-tertiary-semi-color-tertiary-hover
+    );
+    --semiusagetertiary-color-tertiary-active: var(
+      --semi-global-usage-tertiary-semi-color-tertiary-active
+    );
+    --semiusagefocus-color-focus-border: var(
+      --semi-global-usage-focus-semi-color-focus-border
+    );
+    --semiusageoverlay-color-overlay-bg: var(
+      --semi-global-usage-overlay-semi-color-overlay-bg
+    );
+    --semiusagehighlight-color-highlight: var(
+      --semi-global-usage-highlight-semi-color-highlight
+    );
+    --semiusagehighlight-color-highlight-bg: var(
+      --semi-global-usage-highlight-semi-color-highlight-bg
+    );
+    --semiusagesecondary-color-secondary: var(
+      --semi-global-usage-secondary-semi-color-secondary
+    );
+    --semiusagesecondary-color-secondary-hover: var(
+      --semi-global-usage-secondary-semi-color-secondary-hover
+    );
+    --semiusagesecondary-color-secondary-active: var(
+      --semi-global-usage-secondary-semi-color-secondary-active
+    );
+    --semiusagesecondary-color-secondary-disabled: var(
+      --semi-global-usage-secondary-semi-color-secondary-disabled
+    );
+    --semiusagedisabled-color-disabled-bg: var(
+      --semi-global-usage-disabled-semi-color-disabled-bg
+    );
+    --semiusagedisabled-color-disabled-fill: var(
+      --semi-global-usage-disabled-semi-color-disabled-fill
+    );
+    --semiusagedisabled-color-disabled-text: var(
+      --semi-global-usage-disabled-semi-color-disabled-text
+    );
+    --semiusagedisabled-color-disabled-border: var(
+      --semi-global-usage-disabled-semi-color-disabled-border
+    );
+    --semiusageinfo-light-color-info-light-hover: var(
+      --semi-global-usage-info-light-semi-color-info-light-hover
+    );
+    --semiusageinfo-light-color-info-light-active: var(
+      --semi-global-usage-info-light-semi-color-info-light-active
+    );
+    --semiusageinfo-light-color-info-light-default: var(
+      --semi-global-usage-info-light-semi-color-info-light-default
+    );
+    --semiusagedanger-light-color-danger-light-hover: var(
+      --semi-global-usage-danger-light-semi-color-danger-light-hover
+    );
+    --semiusagedanger-light-color-danger-light-active: var(
+      --semi-global-usage-danger-light-semi-color-danger-light-active
+    );
+    --semiusagedanger-light-color-danger-light-default: var(
+      --semi-global-usage-danger-light-semi-color-danger-light-default
+    );
+    --semiusageprimary-light-color-primary-light-hover: var(
+      --semi-global-usage-primary-light-semi-color-primary-light-hover
+    );
+    --semiusageprimary-light-color-primary-light-active: var(
+      --semi-global-usage-primary-light-semi-color-primary-light-active
+    );
+    --semiusageprimary-light-color-primary-light-default: var(
+      --semi-global-usage-primary-light-semi-color-primary-light-default
+    );
+    --semiusagesuccess-light-color-success-light-hover: var(
+      --semi-global-usage-success-light-semi-color-success-light-hover
+    );
+    --semiusagesuccess-light-color-success-light-active: var(
+      --semi-global-usage-success-light-semi-color-success-light-active
+    );
+    --semiusagesuccess-light-color-success-light-default: var(
+      --semi-global-usage-success-light-semi-color-success-light-default
+    );
+    --semiusagewarning-light-color-warning-light-hover: var(
+      --semi-global-usage-warning-light-semi-color-warning-light-hover
+    );
+    --semiusagewarning-light-color-warning-light-active: var(
+      --semi-global-usage-warning-light-semi-color-warning-light-active
+    );
+    --semiusagewarning-light-color-warning-light-default: var(
+      --semi-global-usage-warning-light-semi-color-warning-light-default
+    );
+    --semiusagetertiary-light-color-tertiary-light-hover: var(
+      --semi-global-usage-tertiary-light-semi-color-tertiary-light-hover
+    );
+    --semiusagetertiary-light-color-tertiary-light-active: var(
+      --semi-global-usage-tertiary-light-semi-color-tertiary-light-active
+    );
+    --semiusagetertiary-light-color-tertiary-light-default: var(
+      --semi-global-usage-tertiary-light-semi-color-tertiary-light-default
+    );
+    --semiusagesecondary-light-color-secondary-light-hover: var(
+      --semi-global-usage-secondary-light-semi-color-secondary-light-hover
+    );
+    --semiusagesecondary-light-color-secondary-light-active: var(
+      --semi-global-usage-secondary-light-semi-color-secondary-light-active
+    );
+    --semiusagesecondary-light-color-secondary-light-default: var(
+      --semi-global-usage-secondary-light-semi-color-secondary-light-default
+    );
+    --semiusage0-semi-red-0: var(--semi-global-palette-red-semi-red-0);
+    --semiusage0-semi-blue-0: var(--semi-global-palette-blue-semi-blue-0);
+    --semiusage0-semi-cyan-0: var(--semi-global-palette-cyan-semi-cyan-0);
+    --semiusage0-semi-grey-0: var(--semi-global-palette-grey-semi-grey-0);
+    --semiusage0-semi-lime-0: var(--semi-global-palette-lime-semi-lime-0);
+    --semiusage0-semi-name-0: var(--semi-global-palette-name-semi-name-0);
+    --semiusage0-semi-pink-0: var(--semi-global-palette-pink-semi-pink-0);
+    --semiusage0-semi-teal-0: var(--semi-global-palette-teal-semi-teal-0);
+    --semiusage0-semi-amber-0: var(--semi-global-palette-amber-semi-amber-0);
+    --semiusage0-semi-brand-0: var(--semi-global-palette-brand-semi-brand-0);
+    --semiusage0-semi-green-0: var(--semi-global-palette-green-semi-green-0);
+    --semiusage0-semi-indigo-0: var(--semi-global-palette-indigo-semi-indigo-0);
+    --semiusage0-semi-orange-0: var(--semi-global-palette-orange-semi-orange-0);
+    --semiusage0-semi-purple-0: var(--semi-global-palette-purple-semi-purple-0);
+    --semiusage0-semi-violet-0: var(--semi-global-palette-violet-semi-violet-0);
+    --semiusage0-semi-yellow-0: var(--semi-global-palette-yellow-semi-yellow-0);
+    --semiusage1-semi-red-1: var(--semi-global-palette-red-semi-red-1);
+    --semiusage1-semi-blue-1: var(--semi-global-palette-blue-semi-blue-1);
+    --semiusage1-semi-cyan-1: var(--semi-global-palette-cyan-semi-cyan-1);
+    --semiusage1-semi-grey-1: var(--semi-global-palette-grey-semi-grey-1);
+    --semiusage1-semi-lime-1: var(--semi-global-palette-lime-semi-lime-1);
+    --semiusage1-semi-name-1: var(--semi-global-palette-name-semi-name-1);
+    --semiusage1-semi-pink-1: var(--semi-global-palette-pink-semi-pink-1);
+    --semiusage1-semi-teal-1: var(--semi-global-palette-teal-semi-teal-1);
+    --semiusage1-semi-amber-1: var(--semi-global-palette-amber-semi-amber-1);
+    --semiusage1-semi-brand-1: var(--semi-global-palette-brand-semi-brand-1);
+    --semiusage1-semi-green-1: var(--semi-global-palette-green-semi-green-1);
+    --semiusage1-semi-indigo-1: var(--semi-global-palette-indigo-semi-indigo-1);
+    --semiusage1-semi-orange-1: var(--semi-global-palette-orange-semi-orange-1);
+    --semiusage1-semi-purple-1: var(--semi-global-palette-purple-semi-purple-1);
+    --semiusage1-semi-violet-1: var(--semi-global-palette-violet-semi-violet-1);
+    --semiusage1-semi-yellow-1: var(--semi-global-palette-yellow-semi-yellow-1);
+    --semiusage2-semi-red-2: var(--semi-global-palette-red-semi-red-2);
+    --semiusage2-semi-blue-2: var(--semi-global-palette-blue-semi-blue-2);
+    --semiusage2-semi-cyan-2: var(--semi-global-palette-cyan-semi-cyan-2);
+    --semiusage2-semi-grey-2: var(--semi-global-palette-grey-semi-grey-2);
+    --semiusage2-semi-lime-2: var(--semi-global-palette-lime-semi-lime-2);
+    --semiusage2-semi-name-2: var(--semi-global-palette-name-semi-name-2);
+    --semiusage2-semi-pink-2: var(--semi-global-palette-pink-semi-pink-2);
+    --semiusage2-semi-teal-2: var(--semi-global-palette-teal-semi-teal-2);
+    --semiusage2-semi-amber-2: var(--semi-global-palette-amber-semi-amber-2);
+    --semiusage2-semi-brand-2: var(--semi-global-palette-brand-semi-brand-2);
+    --semiusage2-semi-green-2: var(--semi-global-palette-green-semi-green-2);
+    --semiusage2-semi-indigo-2: var(--semi-global-palette-indigo-semi-indigo-2);
+    --semiusage2-semi-orange-2: var(--semi-global-palette-orange-semi-orange-2);
+    --semiusage2-semi-purple-2: var(--semi-global-palette-purple-semi-purple-2);
+    --semiusage2-semi-violet-2: var(--semi-global-palette-violet-semi-violet-2);
+    --semiusage2-semi-yellow-2: var(--semi-global-palette-yellow-semi-yellow-2);
+    --semiusage3-semi-red-3: var(--semi-global-palette-red-semi-red-3);
+    --semiusage3-semi-blue-3: var(--semi-global-palette-blue-semi-blue-3);
+    --semiusage3-semi-cyan-3: var(--semi-global-palette-cyan-semi-cyan-3);
+    --semiusage3-semi-grey-3: var(--semi-global-palette-grey-semi-grey-3);
+    --semiusage3-semi-lime-3: var(--semi-global-palette-lime-semi-lime-3);
+    --semiusage3-semi-name-3: var(--semi-global-palette-name-semi-name-3);
+    --semiusage3-semi-pink-3: var(--semi-global-palette-pink-semi-pink-3);
+    --semiusage3-semi-teal-3: var(--semi-global-palette-teal-semi-teal-3);
+    --semiusage3-semi-amber-3: var(--semi-global-palette-amber-semi-amber-3);
+    --semiusage3-semi-brand-3: var(--semi-global-palette-brand-semi-brand-3);
+    --semiusage3-semi-green-3: var(--semi-global-palette-green-semi-green-3);
+    --semiusage3-semi-indigo-3: var(--semi-global-palette-indigo-semi-indigo-3);
+    --semiusage3-semi-orange-3: var(--semi-global-palette-orange-semi-orange-3);
+    --semiusage3-semi-purple-3: var(--semi-global-palette-purple-semi-purple-3);
+    --semiusage3-semi-violet-3: var(--semi-global-palette-violet-semi-violet-3);
+    --semiusage3-semi-yellow-3: var(--semi-global-palette-yellow-semi-yellow-3);
+    --semiusage4-semi-red-4: var(--semi-global-palette-red-semi-red-4);
+    --semiusage4-semi-blue-4: var(--semi-global-palette-blue-semi-blue-4);
+    --semiusage4-semi-cyan-4: var(--semi-global-palette-cyan-semi-cyan-4);
+    --semiusage4-semi-grey-4: var(--semi-global-palette-grey-semi-grey-4);
+    --semiusage4-semi-lime-4: var(--semi-global-palette-lime-semi-lime-4);
+    --semiusage4-semi-name-4: var(--semi-global-palette-name-semi-name-4);
+    --semiusage4-semi-pink-4: var(--semi-global-palette-pink-semi-pink-4);
+    --semiusage4-semi-teal-4: var(--semi-global-palette-teal-semi-teal-4);
+    --semiusage4-semi-amber-4: var(--semi-global-palette-amber-semi-amber-4);
+    --semiusage4-semi-brand-4: var(--semi-global-palette-brand-semi-brand-4);
+    --semiusage4-semi-green-4: var(--semi-global-palette-green-semi-green-4);
+    --semiusage4-semi-indigo-4: var(--semi-global-palette-indigo-semi-indigo-4);
+    --semiusage4-semi-orange-4: var(--semi-global-palette-orange-semi-orange-4);
+    --semiusage4-semi-purple-4: var(--semi-global-palette-purple-semi-purple-4);
+    --semiusage4-semi-violet-4: var(--semi-global-palette-violet-semi-violet-4);
+    --semiusage4-semi-yellow-4: var(--semi-global-palette-yellow-semi-yellow-4);
+    --semiusage5-semi-red-5: var(--semi-global-palette-red-semi-red-5);
+    --semiusage5-semi-blue-5: var(--semi-global-palette-blue-semi-blue-5);
+    --semiusage5-semi-cyan-5: var(--semi-global-palette-cyan-semi-cyan-5);
+    --semiusage5-semi-grey-5: var(--semi-global-palette-grey-semi-grey-5);
+    --semiusage5-semi-lime-5: var(--semi-global-palette-lime-semi-lime-5);
+    --semiusage5-semi-name-5: var(--semi-global-palette-name-semi-name-5);
+    --semiusage5-semi-pink-5: var(--semi-global-palette-pink-semi-pink-5);
+    --semiusage5-semi-teal-5: var(--semi-global-palette-teal-semi-teal-5);
+    --semiusage5-semi-amber-5: var(--semi-global-palette-amber-semi-amber-5);
+    --semiusage5-semi-brand-5: var(--semi-global-palette-brand-semi-brand-5);
+    --semiusage5-semi-green-5: var(--semi-global-palette-green-semi-green-5);
+    --semiusage5-semi-indigo-5: var(--semi-global-palette-indigo-semi-indigo-5);
+    --semiusage5-semi-orange-5: var(--semi-global-palette-orange-semi-orange-5);
+    --semiusage5-semi-purple-5: var(--semi-global-palette-purple-semi-purple-5);
+    --semiusage5-semi-violet-5: var(--semi-global-palette-violet-semi-violet-5);
+    --semiusage5-semi-yellow-5: var(--semi-global-palette-yellow-semi-yellow-5);
+    --semiusage6-semi-red-6: var(--semi-global-palette-red-semi-red-6);
+    --semiusage6-semi-blue-6: var(--semi-global-palette-blue-semi-blue-6);
+    --semiusage6-semi-cyan-6: var(--semi-global-palette-cyan-semi-cyan-6);
+    --semiusage6-semi-grey-6: var(--semi-global-palette-grey-semi-grey-6);
+    --semiusage6-semi-lime-6: var(--semi-global-palette-lime-semi-lime-6);
+    --semiusage6-semi-name-6: var(--semi-global-palette-name-semi-name-6);
+    --semiusage6-semi-pink-6: var(--semi-global-palette-pink-semi-pink-6);
+    --semiusage6-semi-teal-6: var(--semi-global-palette-teal-semi-teal-6);
+    --semiusage6-semi-amber-6: var(--semi-global-palette-amber-semi-amber-6);
+    --semiusage6-semi-brand-6: var(--semi-global-palette-brand-semi-brand-6);
+    --semiusage6-semi-green-6: var(--semi-global-palette-green-semi-green-6);
+    --semiusage6-semi-indigo-6: var(--semi-global-palette-indigo-semi-indigo-6);
+    --semiusage6-semi-orange-6: var(--semi-global-palette-orange-semi-orange-6);
+    --semiusage6-semi-purple-6: var(--semi-global-palette-purple-semi-purple-6);
+    --semiusage6-semi-violet-6: var(--semi-global-palette-violet-semi-violet-6);
+    --semiusage6-semi-yellow-6: var(--semi-global-palette-yellow-semi-yellow-6);
+    --semiusage7-semi-red-7: var(--semi-global-palette-red-semi-red-7);
+    --semiusage7-semi-blue-7: var(--semi-global-palette-blue-semi-blue-7);
+    --semiusage7-semi-cyan-7: var(--semi-global-palette-cyan-semi-cyan-7);
+    --semiusage7-semi-grey-7: var(--semi-global-palette-grey-semi-grey-7);
+    --semiusage7-semi-lime-7: var(--semi-global-palette-lime-semi-lime-7);
+    --semiusage7-semi-name-7: var(--semi-global-palette-name-semi-name-7);
+    --semiusage7-semi-pink-7: var(--semi-global-palette-pink-semi-pink-7);
+    --semiusage7-semi-teal-7: var(--semi-global-palette-teal-semi-teal-7);
+    --semiusage7-semi-amber-7: var(--semi-global-palette-amber-semi-amber-7);
+    --semiusage7-semi-brand-7: var(--semi-global-palette-brand-semi-brand-7);
+    --semiusage7-semi-green-7: var(--semi-global-palette-green-semi-green-7);
+    --semiusage7-semi-indigo-7: var(--semi-global-palette-indigo-semi-indigo-7);
+    --semiusage7-semi-orange-7: var(--semi-global-palette-orange-semi-orange-7);
+    --semiusage7-semi-purple-7: var(--semi-global-palette-purple-semi-purple-7);
+    --semiusage7-semi-violet-7: var(--semi-global-palette-violet-semi-violet-7);
+    --semiusage7-semi-yellow-7: var(--semi-global-palette-yellow-semi-yellow-7);
+    --semiusage8-semi-red-8: var(--semi-global-palette-red-semi-red-8);
+    --semiusage8-semi-blue-8: var(--semi-global-palette-blue-semi-blue-8);
+    --semiusage8-semi-cyan-8: var(--semi-global-palette-cyan-semi-cyan-8);
+    --semiusage8-semi-grey-8: var(--semi-global-palette-grey-semi-grey-8);
+    --semiusage8-semi-lime-8: var(--semi-global-palette-lime-semi-lime-8);
+    --semiusage8-semi-name-8: var(--semi-global-palette-name-semi-name-8);
+    --semiusage8-semi-pink-8: var(--semi-global-palette-pink-semi-pink-8);
+    --semiusage8-semi-teal-8: var(--semi-global-palette-teal-semi-teal-8);
+    --semiusage8-semi-amber-8: var(--semi-global-palette-amber-semi-amber-8);
+    --semiusage8-semi-brand-8: var(--semi-global-palette-brand-semi-brand-8);
+    --semiusage8-semi-green-8: var(--semi-global-palette-green-semi-green-8);
+    --semiusage8-semi-indigo-8: var(--semi-global-palette-indigo-semi-indigo-8);
+    --semiusage8-semi-orange-8: var(--semi-global-palette-orange-semi-orange-8);
+    --semiusage8-semi-purple-8: var(--semi-global-palette-purple-semi-purple-8);
+    --semiusage8-semi-violet-8: var(--semi-global-palette-violet-semi-violet-8);
+    --semiusage8-semi-yellow-8: var(--semi-global-palette-yellow-semi-yellow-8);
+    --semiusage9-semi-red-9: var(--semi-global-palette-red-semi-red-9);
+    --semiusage9-semi-blue-9: var(--semi-global-palette-blue-semi-blue-9);
+    --semiusage9-semi-cyan-9: var(--semi-global-palette-cyan-semi-cyan-9);
+    --semiusage9-semi-grey-9: var(--semi-global-palette-grey-semi-grey-9);
+    --semiusage9-semi-lime-9: var(--semi-global-palette-lime-semi-lime-9);
+    --semiusage9-semi-name-9: var(--semi-global-palette-name-semi-name-9);
+    --semiusage9-semi-pink-9: var(--semi-global-palette-pink-semi-pink-9);
+    --semiusage9-semi-teal-9: var(--semi-global-palette-teal-semi-teal-9);
+    --semiusage9-semi-amber-9: var(--semi-global-palette-amber-semi-amber-9);
+    --semiusage9-semi-brand-9: var(--semi-global-palette-brand-semi-brand-9);
+    --semiusage9-semi-green-9: var(--semi-global-palette-green-semi-green-9);
+    --semiusage9-semi-indigo-9: var(--semi-global-palette-indigo-semi-indigo-9);
+    --semiusage9-semi-orange-9: var(--semi-global-palette-orange-semi-orange-9);
+    --semiusage9-semi-purple-9: var(--semi-global-palette-purple-semi-purple-9);
+    --semiusage9-semi-violet-9: var(--semi-global-palette-violet-semi-violet-9);
+    --semiusage9-semi-yellow-9: var(--semi-global-palette-yellow-semi-yellow-9);
+    --semiusageblue-semi-light-blue-0: var(
+      --semi-global-palette-light-blue-semi-light-blue-0
+    );
+    --semiusageblue-semi-light-blue-1: var(
+      --semi-global-palette-light-blue-semi-light-blue-1
+    );
+    --semiusageblue-semi-light-blue-2: var(
+      --semi-global-palette-light-blue-semi-light-blue-2
+    );
+    --semiusageblue-semi-light-blue-3: var(
+      --semi-global-palette-light-blue-semi-light-blue-3
+    );
+    --semiusageblue-semi-light-blue-4: var(
+      --semi-global-palette-light-blue-semi-light-blue-4
+    );
+    --semiusageblue-semi-light-blue-5: var(
+      --semi-global-palette-light-blue-semi-light-blue-5
+    );
+    --semiusageblue-semi-light-blue-6: var(
+      --semi-global-palette-light-blue-semi-light-blue-6
+    );
+    --semiusageblue-semi-light-blue-7: var(
+      --semi-global-palette-light-blue-semi-light-blue-7
+    );
+    --semiusageblue-semi-light-blue-8: var(
+      --semi-global-palette-light-blue-semi-light-blue-8
+    );
+    --semiusageblue-semi-light-blue-9: var(
+      --semi-global-palette-light-blue-semi-light-blue-9
+    );
+    --semiusagegreen-semi-light-green-0: var(
+      --semi-global-palette-light-green-semi-light-green-0
+    );
+    --semiusagegreen-semi-light-green-1: var(
+      --semi-global-palette-light-green-semi-light-green-1
+    );
+    --semiusagegreen-semi-light-green-2: var(
+      --semi-global-palette-light-green-semi-light-green-2
+    );
+    --semiusagegreen-semi-light-green-3: var(
+      --semi-global-palette-light-green-semi-light-green-3
+    );
+    --semiusagegreen-semi-light-green-4: var(
+      --semi-global-palette-light-green-semi-light-green-4
+    );
+    --semiusagegreen-semi-light-green-5: var(
+      --semi-global-palette-light-green-semi-light-green-5
+    );
+    --semiusagegreen-semi-light-green-6: var(
+      --semi-global-palette-light-green-semi-light-green-6
+    );
+    --semiusagegreen-semi-light-green-7: var(
+      --semi-global-palette-light-green-semi-light-green-7
+    );
+    --semiusagegreen-semi-light-green-8: var(
+      --semi-global-palette-light-green-semi-light-green-8
+    );
+    --semiusagegreen-semi-light-green-9: var(
+      --semi-global-palette-light-green-semi-light-green-9
+    );
+    --semipaletteblack-black: var(--semi-global-palette-black-semi-black);
+    --semipalettered-red-0: var(--semi-global-palette-red-semi-red-0);
+    --semipalettered-red-1: var(--semi-global-palette-red-semi-red-1);
+    --semipalettered-red-2: var(--semi-global-palette-red-semi-red-2);
+    --semipalettered-red-3: var(--semi-global-palette-red-semi-red-3);
+    --semipalettered-red-4: var(--semi-global-palette-red-semi-red-4);
+    --semipalettered-red-5: var(--semi-global-palette-red-semi-red-5);
+    --semipalettered-red-6: var(--semi-global-palette-red-semi-red-6);
+    --semipalettered-red-7: var(--semi-global-palette-red-semi-red-7);
+    --semipalettered-red-8: var(--semi-global-palette-red-semi-red-8);
+    --semipalettered-red-9: var(--semi-global-palette-red-semi-red-9);
+    --semipalettewhite-white: var(--semi-global-palette-white-semi-white);
+    --semipaletteblue-blue-0: var(--semi-global-palette-blue-semi-blue-0);
+    --semipaletteblue-blue-1: var(--semi-global-palette-blue-semi-blue-1);
+    --semipaletteblue-blue-2: var(--semi-global-palette-blue-semi-blue-2);
+    --semipaletteblue-blue-3: var(--semi-global-palette-blue-semi-blue-3);
+    --semipaletteblue-blue-4: var(--semi-global-palette-blue-semi-blue-4);
+    --semipaletteblue-blue-5: var(--semi-global-palette-blue-semi-blue-5);
+    --semipaletteblue-blue-6: var(--semi-global-palette-blue-semi-blue-6);
+    --semipaletteblue-blue-7: var(--semi-global-palette-blue-semi-blue-7);
+    --semipaletteblue-blue-8: var(--semi-global-palette-blue-semi-blue-8);
+    --semipaletteblue-blue-9: var(--semi-global-palette-blue-semi-blue-9);
+    --semipalettecyan-cyan-0: var(--semi-global-palette-cyan-semi-cyan-0);
+    --semipalettecyan-cyan-1: var(--semi-global-palette-cyan-semi-cyan-1);
+    --semipalettecyan-cyan-2: var(--semi-global-palette-cyan-semi-cyan-2);
+    --semipalettecyan-cyan-3: var(--semi-global-palette-cyan-semi-cyan-3);
+    --semipalettecyan-cyan-4: var(--semi-global-palette-cyan-semi-cyan-4);
+    --semipalettecyan-cyan-5: var(--semi-global-palette-cyan-semi-cyan-5);
+    --semipalettecyan-cyan-6: var(--semi-global-palette-cyan-semi-cyan-6);
+    --semipalettecyan-cyan-7: var(--semi-global-palette-cyan-semi-cyan-7);
+    --semipalettecyan-cyan-8: var(--semi-global-palette-cyan-semi-cyan-8);
+    --semipalettecyan-cyan-9: var(--semi-global-palette-cyan-semi-cyan-9);
+    --semipalettegrey-grey-0: var(--semi-global-palette-grey-semi-grey-0);
+    --semipalettegrey-grey-1: var(--semi-global-palette-grey-semi-grey-1);
+    --semipalettegrey-grey-2: var(--semi-global-palette-grey-semi-grey-2);
+    --semipalettegrey-grey-3: var(--semi-global-palette-grey-semi-grey-3);
+    --semipalettegrey-grey-4: var(--semi-global-palette-grey-semi-grey-4);
+    --semipalettegrey-grey-5: var(--semi-global-palette-grey-semi-grey-5);
+    --semipalettegrey-grey-6: var(--semi-global-palette-grey-semi-grey-6);
+    --semipalettegrey-grey-7: var(--semi-global-palette-grey-semi-grey-7);
+    --semipalettegrey-grey-8: var(--semi-global-palette-grey-semi-grey-8);
+    --semipalettegrey-grey-9: var(--semi-global-palette-grey-semi-grey-9);
+    --semipalettelime-lime-0: var(--semi-global-palette-lime-semi-lime-0);
+    --semipalettelime-lime-1: var(--semi-global-palette-lime-semi-lime-1);
+    --semipalettelime-lime-2: var(--semi-global-palette-lime-semi-lime-2);
+    --semipalettelime-lime-3: var(--semi-global-palette-lime-semi-lime-3);
+    --semipalettelime-lime-4: var(--semi-global-palette-lime-semi-lime-4);
+    --semipalettelime-lime-5: var(--semi-global-palette-lime-semi-lime-5);
+    --semipalettelime-lime-6: var(--semi-global-palette-lime-semi-lime-6);
+    --semipalettelime-lime-7: var(--semi-global-palette-lime-semi-lime-7);
+    --semipalettelime-lime-8: var(--semi-global-palette-lime-semi-lime-8);
+    --semipalettelime-lime-9: var(--semi-global-palette-lime-semi-lime-9);
+    --semipalettename-name-0: var(--semi-global-palette-name-semi-name-0);
+    --semipalettename-name-1: var(--semi-global-palette-name-semi-name-1);
+    --semipalettename-name-2: var(--semi-global-palette-name-semi-name-2);
+    --semipalettename-name-3: var(--semi-global-palette-name-semi-name-3);
+    --semipalettename-name-4: var(--semi-global-palette-name-semi-name-4);
+    --semipalettename-name-5: var(--semi-global-palette-name-semi-name-5);
+    --semipalettename-name-6: var(--semi-global-palette-name-semi-name-6);
+    --semipalettename-name-7: var(--semi-global-palette-name-semi-name-7);
+    --semipalettename-name-8: var(--semi-global-palette-name-semi-name-8);
+    --semipalettename-name-9: var(--semi-global-palette-name-semi-name-9);
+    --semipalettepink-pink-0: var(--semi-global-palette-pink-semi-pink-0);
+    --semipalettepink-pink-1: var(--semi-global-palette-pink-semi-pink-1);
+    --semipalettepink-pink-2: var(--semi-global-palette-pink-semi-pink-2);
+    --semipalettepink-pink-3: var(--semi-global-palette-pink-semi-pink-3);
+    --semipalettepink-pink-4: var(--semi-global-palette-pink-semi-pink-4);
+    --semipalettepink-pink-5: var(--semi-global-palette-pink-semi-pink-5);
+    --semipalettepink-pink-6: var(--semi-global-palette-pink-semi-pink-6);
+    --semipalettepink-pink-7: var(--semi-global-palette-pink-semi-pink-7);
+    --semipalettepink-pink-8: var(--semi-global-palette-pink-semi-pink-8);
+    --semipalettepink-pink-9: var(--semi-global-palette-pink-semi-pink-9);
+    --semipaletteteal-teal-0: var(--semi-global-palette-teal-semi-teal-0);
+    --semipaletteteal-teal-1: var(--semi-global-palette-teal-semi-teal-1);
+    --semipaletteteal-teal-2: var(--semi-global-palette-teal-semi-teal-2);
+    --semipaletteteal-teal-3: var(--semi-global-palette-teal-semi-teal-3);
+    --semipaletteteal-teal-4: var(--semi-global-palette-teal-semi-teal-4);
+    --semipaletteteal-teal-5: var(--semi-global-palette-teal-semi-teal-5);
+    --semipaletteteal-teal-6: var(--semi-global-palette-teal-semi-teal-6);
+    --semipaletteteal-teal-7: var(--semi-global-palette-teal-semi-teal-7);
+    --semipaletteteal-teal-8: var(--semi-global-palette-teal-semi-teal-8);
+    --semipaletteteal-teal-9: var(--semi-global-palette-teal-semi-teal-9);
+    --semipaletteamber-amber-0: var(--semi-global-palette-amber-semi-amber-0);
+    --semipaletteamber-amber-1: var(--semi-global-palette-amber-semi-amber-1);
+    --semipaletteamber-amber-2: var(--semi-global-palette-amber-semi-amber-2);
+    --semipaletteamber-amber-3: var(--semi-global-palette-amber-semi-amber-3);
+    --semipaletteamber-amber-4: var(--semi-global-palette-amber-semi-amber-4);
+    --semipaletteamber-amber-5: var(--semi-global-palette-amber-semi-amber-5);
+    --semipaletteamber-amber-6: var(--semi-global-palette-amber-semi-amber-6);
+    --semipaletteamber-amber-7: var(--semi-global-palette-amber-semi-amber-7);
+    --semipaletteamber-amber-8: var(--semi-global-palette-amber-semi-amber-8);
+    --semipaletteamber-amber-9: var(--semi-global-palette-amber-semi-amber-9);
+    --semipalettebrand-brand-0: var(--semi-global-palette-brand-semi-brand-0);
+    --semipalettebrand-brand-1: var(--semi-global-palette-brand-semi-brand-1);
+    --semipalettebrand-brand-2: var(--semi-global-palette-brand-semi-brand-2);
+    --semipalettebrand-brand-3: var(--semi-global-palette-brand-semi-brand-3);
+    --semipalettebrand-brand-4: var(--semi-global-palette-brand-semi-brand-4);
+    --semipalettebrand-brand-5: var(--semi-global-palette-brand-semi-brand-5);
+    --semipalettebrand-brand-6: var(--semi-global-palette-brand-semi-brand-6);
+    --semipalettebrand-brand-7: var(--semi-global-palette-brand-semi-brand-7);
+    --semipalettebrand-brand-8: var(--semi-global-palette-brand-semi-brand-8);
+    --semipalettebrand-brand-9: var(--semi-global-palette-brand-semi-brand-9);
+    --semipalettegreen-green-0: var(--semi-global-palette-green-semi-green-0);
+    --semipalettegreen-green-1: var(--semi-global-palette-green-semi-green-1);
+    --semipalettegreen-green-2: var(--semi-global-palette-green-semi-green-2);
+    --semipalettegreen-green-3: var(--semi-global-palette-green-semi-green-3);
+    --semipalettegreen-green-4: var(--semi-global-palette-green-semi-green-4);
+    --semipalettegreen-green-5: var(--semi-global-palette-green-semi-green-5);
+    --semipalettegreen-green-6: var(--semi-global-palette-green-semi-green-6);
+    --semipalettegreen-green-7: var(--semi-global-palette-green-semi-green-7);
+    --semipalettegreen-green-8: var(--semi-global-palette-green-semi-green-8);
+    --semipalettegreen-green-9: var(--semi-global-palette-green-semi-green-9);
+    --semipaletteindigo-indigo-0: var(--semi-global-palette-indigo-semi-indigo-0);
+    --semipaletteindigo-indigo-1: var(--semi-global-palette-indigo-semi-indigo-1);
+    --semipaletteindigo-indigo-2: var(--semi-global-palette-indigo-semi-indigo-2);
+    --semipaletteindigo-indigo-3: var(--semi-global-palette-indigo-semi-indigo-3);
+    --semipaletteindigo-indigo-4: var(--semi-global-palette-indigo-semi-indigo-4);
+    --semipaletteindigo-indigo-5: var(--semi-global-palette-indigo-semi-indigo-5);
+    --semipaletteindigo-indigo-6: var(--semi-global-palette-indigo-semi-indigo-6);
+    --semipaletteindigo-indigo-7: var(--semi-global-palette-indigo-semi-indigo-7);
+    --semipaletteindigo-indigo-8: var(--semi-global-palette-indigo-semi-indigo-8);
+    --semipaletteindigo-indigo-9: var(--semi-global-palette-indigo-semi-indigo-9);
+    --semipaletteorange-orange-0: var(--semi-global-palette-orange-semi-orange-0);
+    --semipaletteorange-orange-1: var(--semi-global-palette-orange-semi-orange-1);
+    --semipaletteorange-orange-2: var(--semi-global-palette-orange-semi-orange-2);
+    --semipaletteorange-orange-3: var(--semi-global-palette-orange-semi-orange-3);
+    --semipaletteorange-orange-4: var(--semi-global-palette-orange-semi-orange-4);
+    --semipaletteorange-orange-5: var(--semi-global-palette-orange-semi-orange-5);
+    --semipaletteorange-orange-6: var(--semi-global-palette-orange-semi-orange-6);
+    --semipaletteorange-orange-7: var(--semi-global-palette-orange-semi-orange-7);
+    --semipaletteorange-orange-8: var(--semi-global-palette-orange-semi-orange-8);
+    --semipaletteorange-orange-9: var(--semi-global-palette-orange-semi-orange-9);
+    --semipalettepurple-purple-0: var(--semi-global-palette-purple-semi-purple-0);
+    --semipalettepurple-purple-1: var(--semi-global-palette-purple-semi-purple-1);
+    --semipalettepurple-purple-2: var(--semi-global-palette-purple-semi-purple-2);
+    --semipalettepurple-purple-3: var(--semi-global-palette-purple-semi-purple-3);
+    --semipalettepurple-purple-4: var(--semi-global-palette-purple-semi-purple-4);
+    --semipalettepurple-purple-5: var(--semi-global-palette-purple-semi-purple-5);
+    --semipalettepurple-purple-6: var(--semi-global-palette-purple-semi-purple-6);
+    --semipalettepurple-purple-7: var(--semi-global-palette-purple-semi-purple-7);
+    --semipalettepurple-purple-8: var(--semi-global-palette-purple-semi-purple-8);
+    --semipalettepurple-purple-9: var(--semi-global-palette-purple-semi-purple-9);
+    --semipaletteviolet-violet-0: var(--semi-global-palette-violet-semi-violet-0);
+    --semipaletteviolet-violet-1: var(--semi-global-palette-violet-semi-violet-1);
+    --semipaletteviolet-violet-2: var(--semi-global-palette-violet-semi-violet-2);
+    --semipaletteviolet-violet-3: var(--semi-global-palette-violet-semi-violet-3);
+    --semipaletteviolet-violet-4: var(--semi-global-palette-violet-semi-violet-4);
+    --semipaletteviolet-violet-5: var(--semi-global-palette-violet-semi-violet-5);
+    --semipaletteviolet-violet-6: var(--semi-global-palette-violet-semi-violet-6);
+    --semipaletteviolet-violet-7: var(--semi-global-palette-violet-semi-violet-7);
+    --semipaletteviolet-violet-8: var(--semi-global-palette-violet-semi-violet-8);
+    --semipaletteviolet-violet-9: var(--semi-global-palette-violet-semi-violet-9);
+    --semipaletteyellow-yellow-0: var(--semi-global-palette-yellow-semi-yellow-0);
+    --semipaletteyellow-yellow-1: var(--semi-global-palette-yellow-semi-yellow-1);
+    --semipaletteyellow-yellow-2: var(--semi-global-palette-yellow-semi-yellow-2);
+    --semipaletteyellow-yellow-3: var(--semi-global-palette-yellow-semi-yellow-3);
+    --semipaletteyellow-yellow-4: var(--semi-global-palette-yellow-semi-yellow-4);
+    --semipaletteyellow-yellow-5: var(--semi-global-palette-yellow-semi-yellow-5);
+    --semipaletteyellow-yellow-6: var(--semi-global-palette-yellow-semi-yellow-6);
+    --semipaletteyellow-yellow-7: var(--semi-global-palette-yellow-semi-yellow-7);
+    --semipaletteyellow-yellow-8: var(--semi-global-palette-yellow-semi-yellow-8);
+    --semipaletteyellow-yellow-9: var(--semi-global-palette-yellow-semi-yellow-9);
+    --semipalettelight-blue-light-blue-0: var(
+      --semi-global-palette-light-blue-semi-light-blue-0
+    );
+    --semipalettelight-blue-light-blue-1: var(
+      --semi-global-palette-light-blue-semi-light-blue-1
+    );
+    --semipalettelight-blue-light-blue-2: var(
+      --semi-global-palette-light-blue-semi-light-blue-2
+    );
+    --semipalettelight-blue-light-blue-3: var(
+      --semi-global-palette-light-blue-semi-light-blue-3
+    );
+    --semipalettelight-blue-light-blue-4: var(
+      --semi-global-palette-light-blue-semi-light-blue-4
+    );
+    --semipalettelight-blue-light-blue-5: var(
+      --semi-global-palette-light-blue-semi-light-blue-5
+    );
+    --semipalettelight-blue-light-blue-6: var(
+      --semi-global-palette-light-blue-semi-light-blue-6
+    );
+    --semipalettelight-blue-light-blue-7: var(
+      --semi-global-palette-light-blue-semi-light-blue-7
+    );
+    --semipalettelight-blue-light-blue-8: var(
+      --semi-global-palette-light-blue-semi-light-blue-8
+    );
+    --semipalettelight-blue-light-blue-9: var(
+      --semi-global-palette-light-blue-semi-light-blue-9
+    );
+    --semipalettelight-green-light-green-0: var(
+      --semi-global-palette-light-green-semi-light-green-0
+    );
+    --semipalettelight-green-light-green-1: var(
+      --semi-global-palette-light-green-semi-light-green-1
+    );
+    --semipalettelight-green-light-green-2: var(
+      --semi-global-palette-light-green-semi-light-green-2
+    );
+    --semipalettelight-green-light-green-3: var(
+      --semi-global-palette-light-green-semi-light-green-3
+    );
+    --semipalettelight-green-light-green-4: var(
+      --semi-global-palette-light-green-semi-light-green-4
+    );
+    --semipalettelight-green-light-green-5: var(
+      --semi-global-palette-light-green-semi-light-green-5
+    );
+    --semipalettelight-green-light-green-6: var(
+      --semi-global-palette-light-green-semi-light-green-6
+    );
+    --semipalettelight-green-light-green-7: var(
+      --semi-global-palette-light-green-semi-light-green-7
+    );
+    --semipalettelight-green-light-green-8: var(
+      --semi-global-palette-light-green-semi-light-green-8
+    );
+    --semipalettelight-green-light-green-9: var(
+      --semi-global-palette-light-green-semi-light-green-9
+    );
+    --header-header-1-EN-regular-font-family: "Helvetica", Helvetica;
+    --header-header-1-EN-regular-font-weight: 400;
+    --header-header-1-EN-regular-font-size: 32px;
+    --header-header-1-EN-regular-letter-spacing: 0px;
+    --header-header-1-EN-regular-line-height: 44px;
+    --header-header-1-EN-regular-font-style: normal;
+    --header-header-1-CN-regular-font-weight: 400;
+    --header-header-1-CN-regular-font-size: 32px;
+    --header-header-1-CN-regular-letter-spacing: 0px;
+    --header-header-1-CN-regular-line-height: 44px;
+    --header-header-1-CN-regular-font-style: normal;
+    --header-header-1-EN-semi-bold-font-family: "Helvetica", Helvetica;
+    --header-header-1-EN-semi-bold-font-weight: 700;
+    --header-header-1-EN-semi-bold-font-size: 32px;
+    --header-header-1-EN-semi-bold-letter-spacing: 0px;
+    --header-header-1-EN-semi-bold-line-height: 44px;
+    --header-header-1-EN-semi-bold-font-style: normal;
+    --header-header-1-CN-semi-bold-font-weight: 400;
+    --header-header-1-CN-semi-bold-font-size: 32px;
+    --header-header-1-CN-semi-bold-letter-spacing: 0px;
+    --header-header-1-CN-semi-bold-line-height: 44px;
+    --header-header-1-CN-semi-bold-font-style: normal;
+    --header-header-2-EN-regular-font-family: "Helvetica", Helvetica;
+    --header-header-2-EN-regular-font-weight: 400;
+    --header-header-2-EN-regular-font-size: 28px;
+    --header-header-2-EN-regular-letter-spacing: 0px;
+    --header-header-2-EN-regular-line-height: 40px;
+    --header-header-2-EN-regular-font-style: normal;
+    --header-header-2-CN-regular-font-weight: 400;
+    --header-header-2-CN-regular-font-size: 28px;
+    --header-header-2-CN-regular-letter-spacing: 0px;
+    --header-header-2-CN-regular-line-height: 40px;
+    --header-header-2-CN-regular-font-style: normal;
+    --header-header-2-EN-semi-bold-font-family: "Helvetica", Helvetica;
+    --header-header-2-EN-semi-bold-font-weight: 700;
+    --header-header-2-EN-semi-bold-font-size: 28px;
+    --header-header-2-EN-semi-bold-letter-spacing: 0px;
+    --header-header-2-EN-semi-bold-line-height: 40px;
+    --header-header-2-EN-semi-bold-font-style: normal;
+    --header-header-2-CN-semi-bold-font-weight: 400;
+    --header-header-2-CN-semi-bold-font-size: 28px;
+    --header-header-2-CN-semi-bold-letter-spacing: 0px;
+    --header-header-2-CN-semi-bold-line-height: 40px;
+    --header-header-2-CN-semi-bold-font-style: normal;
+    --header-header-3-EN-regular-font-family: "Helvetica", Helvetica;
+    --header-header-3-EN-regular-font-weight: 400;
+    --header-header-3-EN-regular-font-size: 24px;
+    --header-header-3-EN-regular-letter-spacing: 0px;
+    --header-header-3-EN-regular-line-height: 32px;
+    --header-header-3-EN-regular-font-style: normal;
+    --header-header-3-CN-regular-font-weight: 400;
+    --header-header-3-CN-regular-font-size: 24px;
+    --header-header-3-CN-regular-letter-spacing: 0px;
+    --header-header-3-CN-regular-line-height: 32px;
+    --header-header-3-CN-regular-font-style: normal;
+    --header-header-3-EN-semi-bold-font-family: "Helvetica", Helvetica;
+    --header-header-3-EN-semi-bold-font-weight: 700;
+    --header-header-3-EN-semi-bold-font-size: 24px;
+    --header-header-3-EN-semi-bold-letter-spacing: 0px;
+    --header-header-3-EN-semi-bold-line-height: 32px;
+    --header-header-3-EN-semi-bold-font-style: normal;
+    --header-header-3-CN-semi-bold-font-weight: 400;
+    --header-header-3-CN-semi-bold-font-size: 24px;
+    --header-header-3-CN-semi-bold-letter-spacing: 0px;
+    --header-header-3-CN-semi-bold-line-height: 32px;
+    --header-header-3-CN-semi-bold-font-style: normal;
+    --header-header-4-EN-regular-font-family: "Helvetica", Helvetica;
+    --header-header-4-EN-regular-font-weight: 400;
+    --header-header-4-EN-regular-font-size: 20px;
+    --header-header-4-EN-regular-letter-spacing: 0px;
+    --header-header-4-EN-regular-line-height: 28px;
+    --header-header-4-EN-regular-font-style: normal;
+    --header-header-4-CN-regular-font-weight: 400;
+    --header-header-4-CN-regular-font-size: 20px;
+    --header-header-4-CN-regular-letter-spacing: 0px;
+    --header-header-4-CN-regular-line-height: 28px;
+    --header-header-4-CN-regular-font-style: normal;
+    --header-header-4-EN-semi-bold-font-family: "Helvetica", Helvetica;
+    --header-header-4-EN-semi-bold-font-weight: 700;
+    --header-header-4-EN-semi-bold-font-size: 20px;
+    --header-header-4-EN-semi-bold-letter-spacing: 0px;
+    --header-header-4-EN-semi-bold-line-height: 28px;
+    --header-header-4-EN-semi-bold-font-style: normal;
+    --header-header-4-CN-semi-bold-font-weight: 400;
+    --header-header-4-CN-semi-bold-font-size: 20px;
+    --header-header-4-CN-semi-bold-letter-spacing: 0px;
+    --header-header-4-CN-semi-bold-line-height: 28px;
+    --header-header-4-CN-semi-bold-font-style: normal;
+    --header-header-5-EN-regular-font-family: "Helvetica", Helvetica;
+    --header-header-5-EN-regular-font-weight: 400;
+    --header-header-5-EN-regular-font-size: 18px;
+    --header-header-5-EN-regular-letter-spacing: 0px;
+    --header-header-5-EN-regular-line-height: 24px;
+    --header-header-5-EN-regular-font-style: normal;
+    --header-header-5-CN-regular-font-weight: 400;
+    --header-header-5-CN-regular-font-size: 18px;
+    --header-header-5-CN-regular-letter-spacing: 0px;
+    --header-header-5-CN-regular-line-height: 24px;
+    --header-header-5-CN-regular-font-style: normal;
+    --header-header-5-EN-semi-bold-font-family: "Helvetica", Helvetica;
+    --header-header-5-EN-semi-bold-font-weight: 700;
+    --header-header-5-EN-semi-bold-font-size: 18px;
+    --header-header-5-EN-semi-bold-letter-spacing: 0px;
+    --header-header-5-EN-semi-bold-line-height: 24px;
+    --header-header-5-EN-semi-bold-font-style: normal;
+    --header-header-5-CN-semi-bold-font-weight: 400;
+    --header-header-5-CN-semi-bold-font-size: 18px;
+    --header-header-5-CN-semi-bold-letter-spacing: 0px;
+    --header-header-5-CN-semi-bold-line-height: 24px;
+    --header-header-5-CN-semi-bold-font-style: normal;
+    --header-header-6-EN-regular-font-family: "Helvetica", Helvetica;
+    --header-header-6-EN-regular-font-weight: 400;
+    --header-header-6-EN-regular-font-size: 16px;
+    --header-header-6-EN-regular-letter-spacing: 0px;
+    --header-header-6-EN-regular-line-height: 22px;
+    --header-header-6-EN-regular-font-style: normal;
+    --header-header-6-CN-regular-font-weight: 400;
+    --header-header-6-CN-regular-font-size: 16px;
+    --header-header-6-CN-regular-letter-spacing: 0px;
+    --header-header-6-CN-regular-line-height: 22px;
+    --header-header-6-CN-regular-font-style: normal;
+    --header-header-6-EN-semi-bold-font-family: "Helvetica", Helvetica;
+    --header-header-6-EN-semi-bold-font-weight: 700;
+    --header-header-6-EN-semi-bold-font-size: 16px;
+    --header-header-6-EN-semi-bold-letter-spacing: 0px;
+    --header-header-6-EN-semi-bold-line-height: 22px;
+    --header-header-6-EN-semi-bold-font-style: normal;
+    --header-header-6-CN-semi-bold-font-weight: 400;
+    --header-header-6-CN-semi-bold-font-size: 16px;
+    --header-header-6-CN-semi-bold-letter-spacing: 0px;
+    --header-header-6-CN-semi-bold-line-height: 22px;
+    --header-header-6-CN-semi-bold-font-style: normal;
+    --paragraph-small-EN-regular-font-family: "Helvetica", Helvetica;
+    --paragraph-small-EN-regular-font-weight: 400;
+    --paragraph-small-EN-regular-font-size: 12px;
+    --paragraph-small-EN-regular-letter-spacing: 0px;
+    --paragraph-small-EN-regular-line-height: 16px;
+    --paragraph-small-EN-regular-font-style: normal;
+    --paragraph-small-CN-regular-font-weight: 400;
+    --paragraph-small-CN-regular-font-size: 12px;
+    --paragraph-small-CN-regular-letter-spacing: 0px;
+    --paragraph-small-CN-regular-line-height: 16px;
+    --paragraph-small-CN-regular-font-style: normal;
+    --paragraph-small-EN-semi-bold-font-family: "Helvetica", Helvetica;
+    --paragraph-small-EN-semi-bold-font-weight: 700;
+    --paragraph-small-EN-semi-bold-font-size: 12px;
+    --paragraph-small-EN-semi-bold-letter-spacing: 0px;
+    --paragraph-small-EN-semi-bold-line-height: 16px;
+    --paragraph-small-EN-semi-bold-font-style: normal;
+    --paragraph-small-CN-semi-bold-font-weight: 400;
+    --paragraph-small-CN-semi-bold-font-size: 12px;
+    --paragraph-small-CN-semi-bold-letter-spacing: 0px;
+    --paragraph-small-CN-semi-bold-line-height: 16px;
+    --paragraph-small-CN-semi-bold-font-style: normal;
+    --paragraph-regular-EN-regular-font-family: "Helvetica", Helvetica;
+    --paragraph-regular-EN-regular-font-weight: 400;
+    --paragraph-regular-EN-regular-font-size: 14px;
+    --paragraph-regular-EN-regular-letter-spacing: 0px;
+    --paragraph-regular-EN-regular-line-height: 20px;
+    --paragraph-regular-EN-regular-font-style: normal;
+    --paragraph-regular-CN-regular-font-weight: 400;
+    --paragraph-regular-CN-regular-font-size: 14px;
+    --paragraph-regular-CN-regular-letter-spacing: 0px;
+    --paragraph-regular-CN-regular-line-height: 20px;
+    --paragraph-regular-CN-regular-font-style: normal;
+    --paragraph-regular-EN-semi-bold-font-family: "Helvetica", Helvetica;
+    --paragraph-regular-EN-semi-bold-font-weight: 700;
+    --paragraph-regular-EN-semi-bold-font-size: 14px;
+    --paragraph-regular-EN-semi-bold-letter-spacing: 0px;
+    --paragraph-regular-EN-semi-bold-line-height: 20px;
+    --paragraph-regular-EN-semi-bold-font-style: normal;
+    --paragraph-regular-CN-semi-bold-font-weight: 400;
+    --paragraph-regular-CN-semi-bold-font-size: 14px;
+    --paragraph-regular-CN-semi-bold-letter-spacing: 0px;
+    --paragraph-regular-CN-semi-bold-line-height: 20px;
+    --paragraph-regular-CN-semi-bold-font-style: normal;
+    --shadow-0: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    --shadow-1: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    --shadow-2: 0px 2px 4px 0px rgba(0, 0, 0, 0.14), 0px 0px 1px 0px
+      rgba(0, 0, 0, 0.16);
+    --shadow-knob: 0px 4px 6px 0px rgba(0, 0, 0, 0.1), 0px 0px 1px 0px
+      rgba(0, 0, 0, 0.3);
+    --shadow-elevated: 0px 0px 1px 0px rgba(0, 0, 0, 0.3), 0px 4px 14px 0px
+      rgba(0, 0, 0, 0.1);
+    --semi-global-usage-bg-semi-color-bg-0: rgba(255, 255, 255, 1);
+    --semi-global-usage-bg-semi-color-bg-1: rgba(255, 255, 255, 1);
+    --semi-global-usage-bg-semi-color-bg-2: rgba(255, 255, 255, 1);
+    --semi-global-usage-bg-semi-color-bg-3: rgba(255, 255, 255, 1);
+    --semi-global-usage-bg-semi-color-bg-4: rgba(255, 255, 255, 1);
+    --semi-global-usage-info-semi-color-info: rgba(33, 130, 247, 1);
+    --semi-global-usage-link-semi-color-link: rgba(33, 130, 247, 1);
+    --semi-global-usage-nav-semi-color-nav-bg: rgba(255, 255, 255, 1);
+    --semi-global-usage-black-semi-color-black: rgba(0, 0, 0, 1);
+    --semi-global-usage-data-semi-color-data-0: rgba(87, 105, 255, 1);
+    --semi-global-usage-data-semi-color-data-1: rgba(142, 212, 231, 1);
+    --semi-global-usage-data-semi-color-data-2: rgba(245, 135, 0, 1);
+    --semi-global-usage-data-semi-color-data-3: rgba(220, 183, 252, 1);
+    --semi-global-usage-data-semi-color-data-4: rgba(74, 156, 247, 1);
+    --semi-global-usage-data-semi-color-data-5: rgba(243, 204, 53, 1);
+    --semi-global-usage-data-semi-color-data-6: rgba(254, 128, 144, 1);
+    --semi-global-usage-data-semi-color-data-7: rgba(139, 215, 210, 1);
+    --semi-global-usage-data-semi-color-data-8: rgba(131, 176, 35, 1);
+    --semi-global-usage-data-semi-color-data-9: rgba(233, 165, 229, 1);
+    --semi-global-usage-fill-semi-color-fill-0: rgba(46, 49, 56, 0.05);
+    --semi-global-usage-fill-semi-color-fill-1: rgba(46, 49, 56, 0.09);
+    --semi-global-usage-fill-semi-color-fill-2: rgba(46, 49, 56, 0.13);
+    --semi-global-usage-text-semi-color-text-0: rgba(28, 31, 35, 1);
+    --semi-global-usage-text-semi-color-text-1: rgba(28, 31, 35, 0.8);
+    --semi-global-usage-text-semi-color-text-2: rgba(28, 31, 35, 0.6);
+    --semi-global-usage-text-semi-color-text-3: rgba(28, 31, 35, 0.35);
+    --semi-global-usage-white-semi-color-white: rgba(255, 255, 255, 1);
+    --semi-global-usage-data-semi-color-data-10: rgba(48, 167, 206, 1);
+    --semi-global-usage-data-semi-color-data-11: rgba(249, 192, 100, 1);
+    --semi-global-usage-data-semi-color-data-12: rgba(177, 113, 249, 1);
+    --semi-global-usage-data-semi-color-data-13: rgba(119, 182, 249, 1);
+    --semi-global-usage-data-semi-color-data-14: rgba(200, 143, 2, 1);
+    --semi-global-usage-data-semi-color-data-15: rgba(255, 170, 178, 1);
+    --semi-global-usage-data-semi-color-data-16: rgba(51, 176, 171, 1);
+    --semi-global-usage-data-semi-color-data-17: rgba(182, 215, 129, 1);
+    --semi-global-usage-data-semi-color-data-18: rgba(212, 88, 212, 1);
+    --semi-global-usage-data-semi-color-data-19: rgba(188, 198, 255, 1);
+    --semi-global-usage-border-semi-color-border: rgba(28, 31, 35, 0.08);
+    --semi-global-usage-danger-semi-color-danger: rgba(246, 95, 61, 1);
+    --semi-global-usage-shadow-semi-color-shadow: rgba(0, 0, 0, 0.04);
+    --semi-global-usage-default-semi-color-default: rgba(249, 249, 249, 1);
+    --semi-global-usage-info-semi-color-info-hover: rgba(22, 105, 211, 1);
+    --semi-global-usage-link-semi-color-link-hover: rgba(22, 105, 211, 1);
+    --semi-global-usage-primary-semi-color-primary: rgba(66, 133, 244, 1);
+    --semi-global-usage-success-semi-color-success: rgba(62, 179, 85, 1);
+    --semi-global-usage-warning-semi-color-warning: rgba(249, 164, 34, 1);
+    --semi-global-usage-info-semi-color-info-active: rgba(13, 81, 176, 1);
+    --semi-global-usage-link-semi-color-link-active: rgba(13, 81, 176, 1);
+    --semi-global-usage-link-semi-color-link-visited: rgba(33, 130, 247, 1);
+    --semi-global-usage-tertiary-semi-color-tertiary: rgba(107, 111, 117, 1);
+    --semi-global-usage-focus-semi-color-focus-border: rgba(66, 133, 244, 1);
+    --semi-global-usage-info-semi-color-info-disabled: rgba(165, 208, 252, 1);
+    --semi-global-usage-overlay-semi-color-overlay-bg: rgba(22, 22, 26, 0.6);
+    --semi-global-usage-danger-semi-color-danger-hover: rgba(210, 71, 46, 1);
+    --semi-global-usage-highlight-semi-color-highlight: rgba(0, 0, 0, 1);
+    --semi-global-usage-secondary-semi-color-secondary: rgba(32, 151, 235, 1);
+    --semi-global-usage-danger-semi-color-danger-active: rgba(175, 49, 33, 1);
+    --semi-global-usage-disabled-semi-color-disabled-bg: rgba(230, 232, 234, 1);
+    --semi-global-usage-default-semi-color-default-hover: rgba(230, 232, 234, 1);
+    --semi-global-usage-primary-semi-color-primary-hover: rgba(50, 107, 208, 1);
+    --semi-global-usage-success-semi-color-success-hover: rgba(50, 149, 71, 1);
+    --semi-global-usage-warning-semi-color-warning-hover: rgba(208, 127, 26, 1);
+    --semi-global-usage-default-semi-color-default-active: rgba(198, 201, 205, 1);
+    --semi-global-usage-disabled-semi-color-disabled-fill: rgba(46, 49, 56, 0.04);
+    --semi-global-usage-disabled-semi-color-disabled-text: rgba(28, 31, 35, 0.35);
+    --semi-global-usage-highlight-semi-color-highlight-bg: rgba(249, 222, 76, 1);
+    --semi-global-usage-primary-semi-color-primary-active: rgba(36, 83, 173, 1);
+    --semi-global-usage-success-semi-color-success-active: rgba(39, 119, 57, 1);
+    --semi-global-usage-warning-semi-color-warning-active: rgba(166, 93, 19, 1);
+    --semi-global-usage-tertiary-semi-color-tertiary-hover: rgba(85, 90, 97, 1);
+    --semi-global-usage-disabled-semi-color-disabled-border: rgba(
+      230,
+      232,
+      234,
+      1
+    );
+    --semi-global-usage-primary-semi-color-primary-disabled: rgba(
+      177,
+      209,
+      251,
+      1
+    );
+    --semi-global-usage-success-semi-color-success-disabled: rgba(
+      166,
+      225,
+      174,
+      1
+    );
+    --semi-global-usage-tertiary-semi-color-tertiary-active: rgba(65, 69, 76, 1);
+    --semi-global-usage-secondary-semi-color-secondary-hover: rgba(
+      21,
+      123,
+      199,
+      1
+    );
+    --semi-global-usage-secondary-semi-color-secondary-active: rgba(
+      12,
+      96,
+      164,
+      1
+    );
+    --semi-global-usage-info-light-semi-color-info-light-hover: rgba(
+      209,
+      232,
+      253,
+      1
+    );
+    --semi-global-usage-info-light-semi-color-info-light-active: rgba(
+      165,
+      208,
+      252,
+      1
+    );
+    --semi-global-usage-secondary-semi-color-secondary-disabled: rgba(
+      162,
+      216,
+      247,
+      1
+    );
+    --semi-global-usage-info-light-semi-color-info-light-default: rgba(
+      237,
+      246,
+      254,
+      1
+    );
+    --semi-global-usage-danger-light-semi-color-danger-light-hover: rgba(
+      253,
+      227,
+      215,
+      1
+    );
+    --semi-global-usage-danger-light-semi-color-danger-light-active: rgba(
+      251,
+      197,
+      176,
+      1
+    );
+    --semi-global-usage-danger-light-semi-color-danger-light-default: rgba(
+      254,
+      245,
+      240,
+      1
+    );
+    --semi-global-usage-primary-light-semi-color-primary-light-hover: rgba(
+      216,
+      232,
+      253,
+      1
+    );
+    --semi-global-usage-success-light-semi-color-success-light-hover: rgba(
+      208,
+      240,
+      213,
+      1
+    );
+    --semi-global-usage-warning-light-semi-color-warning-light-hover: rgba(
+      254,
+      242,
+      210,
+      1
+    );
+    --semi-global-usage-primary-light-semi-color-primary-light-active: rgba(
+      177,
+      209,
+      251,
+      1
+    );
+    --semi-global-usage-success-light-semi-color-success-light-active: rgba(
+      166,
+      225,
+      174,
+      1
+    );
+    --semi-global-usage-warning-light-semi-color-warning-light-active: rgba(
+      253,
+      227,
+      165,
+      1
+    );
+    --semi-global-usage-primary-light-semi-color-primary-light-default: rgba(
+      240,
+      247,
+      254,
+      1
+    );
+    --semi-global-usage-success-light-semi-color-success-light-default: rgba(
+      236,
+      247,
+      238,
+      1
+    );
+    --semi-global-usage-tertiary-light-semi-color-tertiary-light-hover: rgba(
+      230,
+      232,
+      234,
+      1
+    );
+    --semi-global-usage-warning-light-semi-color-warning-light-default: rgba(
+      254,
+      250,
+      238,
+      1
+    );
+    --semi-global-usage-tertiary-light-semi-color-tertiary-light-active: rgba(
+      198,
+      201,
+      205,
+      1
+    );
+    --semi-global-usage-secondary-light-semi-color-secondary-light-hover: rgba(
+      209,
+      232,
+      253,
+      1
+    );
+    --semi-global-usage-tertiary-light-semi-color-tertiary-light-default: rgba(
+      249,
+      249,
+      249,
+      1
+    );
+    --semi-global-usage-secondary-light-semi-color-secondary-light-active: rgba(
+      165,
+      208,
+      252,
+      1
+    );
+    --semi-global-usage-secondary-light-semi-color-secondary-light-default: rgba(
+      236,
+      247,
+      253,
+      1
+    );
+    --semi-global-semi-shadow-elevated: 0px;
+    --semi-global-semi-shadow-2: 0px;
+    --semi-global-semi-shadow-knob: 0px;
+    --semi-global-semi-border-radius-full: 9999px;
+    --semi-global-semi-border-radius-large: 12px;
+    --semi-global-semi-border-radius-small: 4px;
+    --semi-global-semi-border-radius-medium: 6px;
+    --semi-global-semi-border-radius-extra-small: 3px;
+    --semi-global-palette-black-semi-black: rgba(0, 0, 0, 1);
+    --semi-global-palette-red-semi-red-0: rgba(254, 245, 240, 1);
+    --semi-global-palette-red-semi-red-1: rgba(253, 227, 215, 1);
+    --semi-global-palette-red-semi-red-2: rgba(251, 197, 176, 1);
+    --semi-global-palette-red-semi-red-3: rgba(250, 165, 137, 1);
+    --semi-global-palette-red-semi-red-4: rgba(248, 131, 99, 1);
+    --semi-global-palette-red-semi-red-5: rgba(246, 95, 61, 1);
+    --semi-global-palette-red-semi-red-6: rgba(210, 71, 46, 1);
+    --semi-global-palette-red-semi-red-7: rgba(175, 49, 33, 1);
+    --semi-global-palette-red-semi-red-8: rgba(139, 32, 22, 1);
+    --semi-global-palette-red-semi-red-9: rgba(103, 18, 13, 1);
+    --semi-global-palette-white-semi-white: rgba(255, 255, 255, 1);
+    --semi-global-palette-blue-semi-blue-0: rgba(237, 246, 254, 1);
+    --semi-global-palette-blue-semi-blue-1: rgba(209, 232, 253, 1);
+    --semi-global-palette-blue-semi-blue-2: rgba(165, 208, 252, 1);
+    --semi-global-palette-blue-semi-blue-3: rgba(120, 183, 250, 1);
+    --semi-global-palette-blue-semi-blue-4: rgba(76, 157, 249, 1);
+    --semi-global-palette-blue-semi-blue-5: rgba(33, 130, 247, 1);
+    --semi-global-palette-blue-semi-blue-6: rgba(22, 105, 211, 1);
+    --semi-global-palette-blue-semi-blue-7: rgba(13, 81, 176, 1);
+    --semi-global-palette-blue-semi-blue-8: rgba(6, 60, 140, 1);
+    --semi-global-palette-blue-semi-blue-9: rgba(1, 41, 104, 1);
+    --semi-global-palette-cyan-semi-cyan-0: rgba(232, 247, 248, 1);
+    --semi-global-palette-cyan-semi-cyan-1: rgba(200, 237, 240, 1);
+    --semi-global-palette-cyan-semi-cyan-2: rgba(150, 219, 225, 1);
+    --semi-global-palette-cyan-semi-cyan-3: rgba(104, 200, 210, 1);
+    --semi-global-palette-cyan-semi-cyan-4: rgba(64, 180, 195, 1);
+    --semi-global-palette-cyan-semi-cyan-5: rgba(29, 160, 180, 1);
+    --semi-global-palette-cyan-semi-cyan-6: rgba(23, 131, 150, 1);
+    --semi-global-palette-cyan-semi-cyan-7: rgba(17, 103, 120, 1);
+    --semi-global-palette-cyan-semi-cyan-8: rgba(12, 76, 90, 1);
+    --semi-global-palette-cyan-semi-cyan-9: rgba(7, 49, 60, 1);
+    --semi-global-palette-grey-semi-grey-0: rgba(249, 249, 249, 1);
+    --semi-global-palette-grey-semi-grey-1: rgba(230, 232, 234, 1);
+    --semi-global-palette-grey-semi-grey-2: rgba(198, 201, 205, 1);
+    --semi-global-palette-grey-semi-grey-3: rgba(167, 170, 176, 1);
+    --semi-global-palette-grey-semi-grey-4: rgba(136, 140, 146, 1);
+    --semi-global-palette-grey-semi-grey-5: rgba(107, 111, 117, 1);
+    --semi-global-palette-grey-semi-grey-6: rgba(85, 90, 97, 1);
+    --semi-global-palette-grey-semi-grey-7: rgba(65, 69, 76, 1);
+    --semi-global-palette-grey-semi-grey-8: rgba(46, 49, 56, 1);
+    --semi-global-palette-grey-semi-grey-9: rgba(28, 31, 35, 1);
+    --semi-global-palette-lime-semi-lime-0: rgba(242, 250, 233, 1);
+    --semi-global-palette-lime-semi-lime-1: rgba(226, 245, 203, 1);
+    --semi-global-palette-lime-semi-lime-2: rgba(201, 235, 154, 1);
+    --semi-global-palette-lime-semi-lime-3: rgba(180, 226, 109, 1);
+    --semi-global-palette-lime-semi-lime-4: rgba(162, 216, 67, 1);
+    --semi-global-palette-lime-semi-lime-5: rgba(148, 206, 28, 1);
+    --semi-global-palette-lime-semi-lime-6: rgba(120, 172, 22, 1);
+    --semi-global-palette-lime-semi-lime-7: rgba(94, 137, 16, 1);
+    --semi-global-palette-lime-semi-lime-8: rgba(68, 103, 11, 1);
+    --semi-global-palette-lime-semi-lime-9: rgba(44, 69, 7, 1);
+    --semi-global-palette-name-semi-name-0: rgba(245, 252, 255, 1);
+    --semi-global-palette-name-semi-name-1: rgba(224, 247, 255, 1);
+    --semi-global-palette-name-semi-name-2: rgba(194, 238, 255, 1);
+    --semi-global-palette-name-semi-name-3: rgba(163, 227, 255, 1);
+    --semi-global-palette-name-semi-name-4: rgba(133, 216, 255, 1);
+    --semi-global-palette-name-semi-name-5: rgba(102, 204, 255, 1);
+    --semi-global-palette-name-semi-name-6: rgba(83, 167, 213, 1);
+    --semi-global-palette-name-semi-name-7: rgba(65, 131, 170, 1);
+    --semi-global-palette-name-semi-name-8: rgba(47, 97, 128, 1);
+    --semi-global-palette-name-semi-name-9: rgba(31, 63, 85, 1);
+    --semi-global-palette-pink-semi-pink-0: rgba(253, 239, 239, 1);
+    --semi-global-palette-pink-semi-pink-1: rgba(250, 212, 215, 1);
+    --semi-global-palette-pink-semi-pink-2: rgba(245, 171, 180, 1);
+    --semi-global-palette-pink-semi-pink-3: rgba(240, 132, 148, 1);
+    --semi-global-palette-pink-semi-pink-4: rgba(235, 94, 119, 1);
+    --semi-global-palette-pink-semi-pink-5: rgba(230, 57, 94, 1);
+    --semi-global-palette-pink-semi-pink-6: rgba(194, 42, 80, 1);
+    --semi-global-palette-pink-semi-pink-7: rgba(159, 30, 66, 1);
+    --semi-global-palette-pink-semi-pink-8: rgba(123, 19, 52, 1);
+    --semi-global-palette-pink-semi-pink-9: rgba(87, 11, 38, 1);
+    --semi-global-palette-teal-semi-teal-0: rgba(231, 247, 247, 1);
+    --semi-global-palette-teal-semi-teal-1: rgba(198, 240, 238, 1);
+    --semi-global-palette-teal-semi-teal-2: rgba(147, 225, 223, 1);
+    --semi-global-palette-teal-semi-teal-3: rgba(101, 209, 209, 1);
+    --semi-global-palette-teal-semi-teal-4: rgba(60, 192, 194, 1);
+    --semi-global-palette-teal-semi-teal-5: rgba(24, 174, 179, 1);
+    --semi-global-palette-teal-semi-teal-6: rgba(19, 143, 149, 1);
+    --semi-global-palette-teal-semi-teal-7: rgba(14, 112, 119, 1);
+    --semi-global-palette-teal-semi-teal-8: rgba(9, 83, 90, 1);
+    --semi-global-palette-teal-semi-teal-9: rgba(6, 54, 60, 1);
+    --semi-global-palette-amber-semi-amber-0: rgba(253, 253, 238, 1);
+    --semi-global-palette-amber-semi-amber-1: rgba(251, 249, 212, 1);
+    --semi-global-palette-amber-semi-amber-2: rgba(248, 241, 169, 1);
+    --semi-global-palette-amber-semi-amber-3: rgba(244, 230, 128, 1);
+    --semi-global-palette-amber-semi-amber-4: rgba(241, 216, 88, 1);
+    --semi-global-palette-amber-semi-amber-5: rgba(237, 201, 49, 1);
+    --semi-global-palette-amber-semi-amber-6: rgba(198, 170, 39, 1);
+    --semi-global-palette-amber-semi-amber-7: rgba(158, 138, 30, 1);
+    --semi-global-palette-amber-semi-amber-8: rgba(119, 105, 21, 1);
+    --semi-global-palette-amber-semi-amber-9: rgba(79, 71, 13, 1);
+    --semi-global-palette-brand-semi-brand-0: rgba(240, 247, 254, 1);
+    --semi-global-palette-brand-semi-brand-1: rgba(216, 232, 253, 1);
+    --semi-global-palette-brand-semi-brand-2: rgba(177, 209, 251, 1);
+    --semi-global-palette-brand-semi-brand-3: rgba(140, 184, 248, 1);
+    --semi-global-palette-brand-semi-brand-4: rgba(103, 159, 246, 1);
+    --semi-global-palette-brand-semi-brand-5: rgba(66, 133, 244, 1);
+    --semi-global-palette-brand-semi-brand-6: rgba(50, 107, 208, 1);
+    --semi-global-palette-brand-semi-brand-7: rgba(36, 83, 173, 1);
+    --semi-global-palette-brand-semi-brand-8: rgba(25, 61, 137, 1);
+    --semi-global-palette-brand-semi-brand-9: rgba(15, 42, 101, 1);
+    --semi-global-palette-green-semi-green-0: rgba(236, 247, 238, 1);
+    --semi-global-palette-green-semi-green-1: rgba(208, 240, 213, 1);
+    --semi-global-palette-green-semi-green-2: rgba(166, 225, 174, 1);
+    --semi-global-palette-green-semi-green-3: rgba(127, 209, 141, 1);
+    --semi-global-palette-green-semi-green-4: rgba(93, 194, 111, 1);
+    --semi-global-palette-green-semi-green-5: rgba(62, 179, 85, 1);
+    --semi-global-palette-green-semi-green-6: rgba(50, 149, 71, 1);
+    --semi-global-palette-green-semi-green-7: rgba(39, 119, 57, 1);
+    --semi-global-palette-green-semi-green-8: rgba(28, 90, 43, 1);
+    --semi-global-palette-green-semi-green-9: rgba(18, 60, 29, 1);
+    --semi-global-palette-indigo-semi-indigo-0: rgba(236, 238, 247, 1);
+    --semi-global-palette-indigo-semi-indigo-1: rgba(209, 214, 240, 1);
+    --semi-global-palette-indigo-semi-indigo-2: rgba(166, 175, 225, 1);
+    --semi-global-palette-indigo-semi-indigo-3: rgba(128, 139, 209, 1);
+    --semi-global-palette-indigo-semi-indigo-4: rgba(94, 106, 194, 1);
+    --semi-global-palette-indigo-semi-indigo-5: rgba(63, 75, 179, 1);
+    --semi-global-palette-indigo-semi-indigo-6: rgba(51, 60, 159, 1);
+    --semi-global-palette-indigo-semi-indigo-7: rgba(40, 47, 138, 1);
+    --semi-global-palette-indigo-semi-indigo-8: rgba(31, 36, 118, 1);
+    --semi-global-palette-indigo-semi-indigo-9: rgba(23, 25, 97, 1);
+    --semi-global-palette-orange-semi-orange-0: rgba(254, 250, 238, 1);
+    --semi-global-palette-orange-semi-orange-1: rgba(254, 242, 210, 1);
+    --semi-global-palette-orange-semi-orange-2: rgba(253, 227, 165, 1);
+    --semi-global-palette-orange-semi-orange-3: rgba(251, 209, 121, 1);
+    --semi-global-palette-orange-semi-orange-4: rgba(250, 188, 77, 1);
+    --semi-global-palette-orange-semi-orange-5: rgba(249, 164, 34, 1);
+    --semi-global-palette-orange-semi-orange-6: rgba(208, 127, 26, 1);
+    --semi-global-palette-orange-semi-orange-7: rgba(166, 93, 19, 1);
+    --semi-global-palette-orange-semi-orange-8: rgba(125, 64, 13, 1);
+    --semi-global-palette-orange-semi-orange-9: rgba(83, 38, 8, 1);
+    --semi-global-palette-purple-semi-purple-0: rgba(247, 236, 247, 1);
+    --semi-global-palette-purple-semi-purple-1: rgba(240, 207, 238, 1);
+    --semi-global-palette-purple-semi-purple-2: rgba(225, 164, 223, 1);
+    --semi-global-palette-purple-semi-purple-3: rgba(209, 124, 209, 1);
+    --semi-global-palette-purple-semi-purple-4: rgba(190, 89, 194, 1);
+    --semi-global-palette-purple-semi-purple-5: rgba(170, 58, 179, 1);
+    --semi-global-palette-purple-semi-purple-6: rgba(147, 47, 159, 1);
+    --semi-global-palette-purple-semi-purple-7: rgba(124, 36, 138, 1);
+    --semi-global-palette-purple-semi-purple-8: rgba(102, 28, 118, 1);
+    --semi-global-palette-purple-semi-purple-9: rgba(81, 20, 97, 1);
+    --semi-global-palette-violet-semi-violet-0: rgba(244, 238, 249, 1);
+    --semi-global-palette-violet-semi-violet-1: rgba(229, 212, 243, 1);
+    --semi-global-palette-violet-semi-violet-2: rgba(203, 172, 232, 1);
+    --semi-global-palette-violet-semi-violet-3: rgba(176, 134, 220, 1);
+    --semi-global-palette-violet-semi-violet-4: rgba(149, 100, 209, 1);
+    --semi-global-palette-violet-semi-violet-5: rgba(122, 69, 197, 1);
+    --semi-global-palette-violet-semi-violet-6: rgba(102, 57, 177, 1);
+    --semi-global-palette-violet-semi-violet-7: rgba(84, 45, 156, 1);
+    --semi-global-palette-violet-semi-violet-8: rgba(67, 35, 136, 1);
+    --semi-global-palette-violet-semi-violet-9: rgba(52, 27, 115, 1);
+    --semi-global-palette-yellow-semi-yellow-0: rgba(254, 254, 237, 1);
+    --semi-global-palette-yellow-semi-yellow-1: rgba(253, 251, 209, 1);
+    --semi-global-palette-yellow-semi-yellow-2: rgba(252, 244, 165, 1);
+    --semi-global-palette-yellow-semi-yellow-3: rgba(250, 235, 120, 1);
+    --semi-global-palette-yellow-semi-yellow-4: rgba(249, 222, 76, 1);
+    --semi-global-palette-yellow-semi-yellow-5: rgba(247, 207, 33, 1);
+    --semi-global-palette-yellow-semi-yellow-6: rgba(206, 175, 25, 1);
+    --semi-global-palette-yellow-semi-yellow-7: rgba(165, 142, 19, 1);
+    --semi-global-palette-yellow-semi-yellow-8: rgba(124, 108, 13, 1);
+    --semi-global-palette-yellow-semi-yellow-9: rgba(82, 73, 8, 1);
+    --semi-global-palette-light-blue-semi-light-blue-0: rgba(236, 247, 253, 1);
+    --semi-global-palette-light-blue-semi-light-blue-1: rgba(208, 236, 251, 1);
+    --semi-global-palette-light-blue-semi-light-blue-2: rgba(162, 216, 247, 1);
+    --semi-global-palette-light-blue-semi-light-blue-3: rgba(117, 195, 243, 1);
+    --semi-global-palette-light-blue-semi-light-blue-4: rgba(74, 173, 239, 1);
+    --semi-global-palette-light-blue-semi-light-blue-5: rgba(32, 151, 235, 1);
+    --semi-global-palette-light-blue-semi-light-blue-6: rgba(21, 123, 199, 1);
+    --semi-global-palette-light-blue-semi-light-blue-7: rgba(12, 96, 164, 1);
+    --semi-global-palette-light-blue-semi-light-blue-8: rgba(6, 71, 128, 1);
+    --semi-global-palette-light-blue-semi-light-blue-9: rgba(1, 49, 92, 1);
+    --semi-global-palette-light-green-semi-light-green-0: rgba(243, 248, 236, 1);
+    --semi-global-palette-light-green-semi-light-green-1: rgba(226, 240, 209, 1);
+    --semi-global-palette-light-green-semi-light-green-2: rgba(197, 225, 167, 1);
+    --semi-global-palette-light-green-semi-light-green-3: rgba(170, 210, 128, 1);
+    --semi-global-palette-light-green-semi-light-green-4: rgba(144, 195, 94, 1);
+    --semi-global-palette-light-green-semi-light-green-5: rgba(119, 180, 63, 1);
+    --semi-global-palette-light-green-semi-light-green-6: rgba(97, 150, 51, 1);
+    --semi-global-palette-light-green-semi-light-green-7: rgba(75, 120, 40, 1);
+    --semi-global-palette-light-green-semi-light-green-8: rgba(55, 90, 29, 1);
+    --semi-global-palette-light-green-semi-light-green-9: rgba(36, 60, 19, 1);
+    --semi-button-radius-button: 3px;
+    --semi-button-color-button-primary-border-default: rgba(0, 0, 0, 0);
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-semi-global-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+  [data-semi-global-mode="light"] {
+    --semi-global-usage-bg-semi-color-bg-0: rgba(255, 255, 255, 1);
+    --semi-global-usage-bg-semi-color-bg-1: rgba(255, 255, 255, 1);
+    --semi-global-usage-bg-semi-color-bg-2: rgba(255, 255, 255, 1);
+    --semi-global-usage-bg-semi-color-bg-3: rgba(255, 255, 255, 1);
+    --semi-global-usage-bg-semi-color-bg-4: rgba(255, 255, 255, 1);
+    --semi-global-usage-info-semi-color-info: rgba(33, 130, 247, 1);
+    --semi-global-usage-link-semi-color-link: rgba(33, 130, 247, 1);
+    --semi-global-usage-nav-semi-color-nav-bg: rgba(255, 255, 255, 1);
+    --semi-global-usage-data-semi-color-data-0: rgba(87, 105, 255, 1);
+    --semi-global-usage-data-semi-color-data-1: rgba(142, 212, 231, 1);
+    --semi-global-usage-data-semi-color-data-2: rgba(245, 135, 0, 1);
+    --semi-global-usage-data-semi-color-data-3: rgba(220, 183, 252, 1);
+    --semi-global-usage-data-semi-color-data-4: rgba(74, 156, 247, 1);
+    --semi-global-usage-data-semi-color-data-5: rgba(243, 204, 53, 1);
+    --semi-global-usage-data-semi-color-data-6: rgba(254, 128, 144, 1);
+    --semi-global-usage-data-semi-color-data-7: rgba(139, 215, 210, 1);
+    --semi-global-usage-data-semi-color-data-8: rgba(131, 176, 35, 1);
+    --semi-global-usage-data-semi-color-data-9: rgba(233, 165, 229, 1);
+    --semi-global-usage-fill-semi-color-fill-0: rgba(46, 49, 56, 0.05);
+    --semi-global-usage-fill-semi-color-fill-1: rgba(46, 49, 56, 0.09);
+    --semi-global-usage-fill-semi-color-fill-2: rgba(46, 49, 56, 0.13);
+    --semi-global-usage-text-semi-color-text-0: rgba(28, 31, 35, 1);
+    --semi-global-usage-text-semi-color-text-1: rgba(28, 31, 35, 0.8);
+    --semi-global-usage-text-semi-color-text-2: rgba(28, 31, 35, 0.6);
+    --semi-global-usage-text-semi-color-text-3: rgba(28, 31, 35, 0.35);
+    --semi-global-usage-white-semi-color-white: rgba(255, 255, 255, 1);
+    --semi-global-usage-data-semi-color-data-10: rgba(48, 167, 206, 1);
+    --semi-global-usage-data-semi-color-data-11: rgba(249, 192, 100, 1);
+    --semi-global-usage-data-semi-color-data-12: rgba(177, 113, 249, 1);
+    --semi-global-usage-data-semi-color-data-13: rgba(119, 182, 249, 1);
+    --semi-global-usage-data-semi-color-data-14: rgba(200, 143, 2, 1);
+    --semi-global-usage-data-semi-color-data-15: rgba(255, 170, 178, 1);
+    --semi-global-usage-data-semi-color-data-16: rgba(51, 176, 171, 1);
+    --semi-global-usage-data-semi-color-data-17: rgba(182, 215, 129, 1);
+    --semi-global-usage-data-semi-color-data-18: rgba(212, 88, 212, 1);
+    --semi-global-usage-data-semi-color-data-19: rgba(188, 198, 255, 1);
+    --semi-global-usage-border-semi-color-border: rgba(28, 31, 35, 0.08);
+    --semi-global-usage-danger-semi-color-danger: rgba(246, 95, 61, 1);
+    --semi-global-usage-default-semi-color-default: rgba(249, 249, 249, 1);
+    --semi-global-usage-info-semi-color-info-hover: rgba(22, 105, 211, 1);
+    --semi-global-usage-link-semi-color-link-hover: rgba(22, 105, 211, 1);
+    --semi-global-usage-primary-semi-color-primary: rgba(66, 133, 244, 1);
+    --semi-global-usage-success-semi-color-success: rgba(62, 179, 85, 1);
+    --semi-global-usage-warning-semi-color-warning: rgba(249, 164, 34, 1);
+    --semi-global-usage-info-semi-color-info-active: rgba(13, 81, 176, 1);
+    --semi-global-usage-link-semi-color-link-active: rgba(13, 81, 176, 1);
+    --semi-global-usage-link-semi-color-link-visited: rgba(33, 130, 247, 1);
+    --semi-global-usage-tertiary-semi-color-tertiary: rgba(107, 111, 117, 1);
+    --semi-global-usage-focus-semi-color-focus-border: rgba(66, 133, 244, 1);
+    --semi-global-usage-info-semi-color-info-disabled: rgba(165, 208, 252, 1);
+    --semi-global-usage-danger-semi-color-danger-hover: rgba(210, 71, 46, 1);
+    --semi-global-usage-highlight-semi-color-highlight: rgba(0, 0, 0, 1);
+    --semi-global-usage-secondary-semi-color-secondary: rgba(32, 151, 235, 1);
+    --semi-global-usage-danger-semi-color-danger-active: rgba(175, 49, 33, 1);
+    --semi-global-usage-disabled-semi-color-disabled-bg: rgba(230, 232, 234, 1);
+    --semi-global-usage-default-semi-color-default-hover: rgba(230, 232, 234, 1);
+    --semi-global-usage-primary-semi-color-primary-hover: rgba(50, 107, 208, 1);
+    --semi-global-usage-success-semi-color-success-hover: rgba(50, 149, 71, 1);
+    --semi-global-usage-warning-semi-color-warning-hover: rgba(208, 127, 26, 1);
+    --semi-global-usage-default-semi-color-default-active: rgba(198, 201, 205, 1);
+    --semi-global-usage-disabled-semi-color-disabled-fill: rgba(46, 49, 56, 0.04);
+    --semi-global-usage-disabled-semi-color-disabled-text: rgba(28, 31, 35, 0.35);
+    --semi-global-usage-highlight-semi-color-highlight-bg: rgba(249, 222, 76, 1);
+    --semi-global-usage-primary-semi-color-primary-active: rgba(36, 83, 173, 1);
+    --semi-global-usage-success-semi-color-success-active: rgba(39, 119, 57, 1);
+    --semi-global-usage-warning-semi-color-warning-active: rgba(166, 93, 19, 1);
+    --semi-global-usage-tertiary-semi-color-tertiary-hover: rgba(85, 90, 97, 1);
+    --semi-global-usage-disabled-semi-color-disabled-border: rgba(
+      230,
+      232,
+      234,
+      1
+    );
+    --semi-global-usage-primary-semi-color-primary-disabled: rgba(
+      177,
+      209,
+      251,
+      1
+    );
+    --semi-global-usage-success-semi-color-success-disabled: rgba(
+      166,
+      225,
+      174,
+      1
+    );
+    --semi-global-usage-tertiary-semi-color-tertiary-active: rgba(65, 69, 76, 1);
+    --semi-global-usage-secondary-semi-color-secondary-hover: rgba(
+      21,
+      123,
+      199,
+      1
+    );
+    --semi-global-usage-secondary-semi-color-secondary-active: rgba(
+      12,
+      96,
+      164,
+      1
+    );
+    --semi-global-usage-info-light-semi-color-info-light-hover: rgba(
+      209,
+      232,
+      253,
+      1
+    );
+    --semi-global-usage-info-light-semi-color-info-light-active: rgba(
+      165,
+      208,
+      252,
+      1
+    );
+    --semi-global-usage-secondary-semi-color-secondary-disabled: rgba(
+      162,
+      216,
+      247,
+      1
+    );
+    --semi-global-usage-info-light-semi-color-info-light-default: rgba(
+      237,
+      246,
+      254,
+      1
+    );
+    --semi-global-usage-danger-light-semi-color-danger-light-hover: rgba(
+      253,
+      227,
+      215,
+      1
+    );
+    --semi-global-usage-danger-light-semi-color-danger-light-active: rgba(
+      251,
+      197,
+      176,
+      1
+    );
+    --semi-global-usage-danger-light-semi-color-danger-light-default: rgba(
+      254,
+      245,
+      240,
+      1
+    );
+    --semi-global-usage-primary-light-semi-color-primary-light-hover: rgba(
+      216,
+      232,
+      253,
+      1
+    );
+    --semi-global-usage-success-light-semi-color-success-light-hover: rgba(
+      208,
+      240,
+      213,
+      1
+    );
+    --semi-global-usage-warning-light-semi-color-warning-light-hover: rgba(
+      254,
+      242,
+      210,
+      1
+    );
+    --semi-global-usage-primary-light-semi-color-primary-light-active: rgba(
+      177,
+      209,
+      251,
+      1
+    );
+    --semi-global-usage-success-light-semi-color-success-light-active: rgba(
+      166,
+      225,
+      174,
+      1
+    );
+    --semi-global-usage-warning-light-semi-color-warning-light-active: rgba(
+      253,
+      227,
+      165,
+      1
+    );
+    --semi-global-usage-primary-light-semi-color-primary-light-default: rgba(
+      240,
+      247,
+      254,
+      1
+    );
+    --semi-global-usage-success-light-semi-color-success-light-default: rgba(
+      236,
+      247,
+      238,
+      1
+    );
+    --semi-global-usage-tertiary-light-semi-color-tertiary-light-hover: rgba(
+      230,
+      232,
+      234,
+      1
+    );
+    --semi-global-usage-warning-light-semi-color-warning-light-default: rgba(
+      254,
+      250,
+      238,
+      1
+    );
+    --semi-global-usage-tertiary-light-semi-color-tertiary-light-active: rgba(
+      198,
+      201,
+      205,
+      1
+    );
+    --semi-global-usage-secondary-light-semi-color-secondary-light-hover: rgba(
+      209,
+      232,
+      253,
+      1
+    );
+    --semi-global-usage-tertiary-light-semi-color-tertiary-light-default: rgba(
+      249,
+      249,
+      249,
+      1
+    );
+    --semi-global-usage-secondary-light-semi-color-secondary-light-active: rgba(
+      165,
+      208,
+      252,
+      1
+    );
+    --semi-global-usage-secondary-light-semi-color-secondary-light-default: rgba(
+      236,
+      247,
+      253,
+      1
+    );
+    --semi-global-palette-red-semi-red-0: rgba(254, 245, 240, 1);
+    --semi-global-palette-red-semi-red-1: rgba(253, 227, 215, 1);
+    --semi-global-palette-red-semi-red-2: rgba(251, 197, 176, 1);
+    --semi-global-palette-red-semi-red-3: rgba(250, 165, 137, 1);
+    --semi-global-palette-red-semi-red-4: rgba(248, 131, 99, 1);
+    --semi-global-palette-red-semi-red-5: rgba(246, 95, 61, 1);
+    --semi-global-palette-red-semi-red-6: rgba(210, 71, 46, 1);
+    --semi-global-palette-red-semi-red-7: rgba(175, 49, 33, 1);
+    --semi-global-palette-red-semi-red-8: rgba(139, 32, 22, 1);
+    --semi-global-palette-red-semi-red-9: rgba(103, 18, 13, 1);
+    --semi-global-palette-blue-semi-blue-0: rgba(237, 246, 254, 1);
+    --semi-global-palette-blue-semi-blue-1: rgba(209, 232, 253, 1);
+    --semi-global-palette-blue-semi-blue-2: rgba(165, 208, 252, 1);
+    --semi-global-palette-blue-semi-blue-3: rgba(120, 183, 250, 1);
+    --semi-global-palette-blue-semi-blue-4: rgba(76, 157, 249, 1);
+    --semi-global-palette-blue-semi-blue-5: rgba(33, 130, 247, 1);
+    --semi-global-palette-blue-semi-blue-6: rgba(22, 105, 211, 1);
+    --semi-global-palette-blue-semi-blue-7: rgba(13, 81, 176, 1);
+    --semi-global-palette-blue-semi-blue-8: rgba(6, 60, 140, 1);
+    --semi-global-palette-blue-semi-blue-9: rgba(1, 41, 104, 1);
+    --semi-global-palette-cyan-semi-cyan-0: rgba(232, 247, 248, 1);
+    --semi-global-palette-cyan-semi-cyan-1: rgba(200, 237, 240, 1);
+    --semi-global-palette-cyan-semi-cyan-2: rgba(150, 219, 225, 1);
+    --semi-global-palette-cyan-semi-cyan-3: rgba(104, 200, 210, 1);
+    --semi-global-palette-cyan-semi-cyan-4: rgba(64, 180, 195, 1);
+    --semi-global-palette-cyan-semi-cyan-5: rgba(29, 160, 180, 1);
+    --semi-global-palette-cyan-semi-cyan-6: rgba(23, 131, 150, 1);
+    --semi-global-palette-cyan-semi-cyan-7: rgba(17, 103, 120, 1);
+    --semi-global-palette-cyan-semi-cyan-8: rgba(12, 76, 90, 1);
+    --semi-global-palette-cyan-semi-cyan-9: rgba(7, 49, 60, 1);
+    --semi-global-palette-grey-semi-grey-0: rgba(249, 249, 249, 1);
+    --semi-global-palette-grey-semi-grey-1: rgba(230, 232, 234, 1);
+    --semi-global-palette-grey-semi-grey-2: rgba(198, 201, 205, 1);
+    --semi-global-palette-grey-semi-grey-3: rgba(167, 170, 176, 1);
+    --semi-global-palette-grey-semi-grey-4: rgba(136, 140, 146, 1);
+    --semi-global-palette-grey-semi-grey-5: rgba(107, 111, 117, 1);
+    --semi-global-palette-grey-semi-grey-6: rgba(85, 90, 97, 1);
+    --semi-global-palette-grey-semi-grey-7: rgba(65, 69, 76, 1);
+    --semi-global-palette-grey-semi-grey-8: rgba(46, 49, 56, 1);
+    --semi-global-palette-grey-semi-grey-9: rgba(28, 31, 35, 1);
+    --semi-global-palette-lime-semi-lime-0: rgba(242, 250, 233, 1);
+    --semi-global-palette-lime-semi-lime-1: rgba(226, 245, 203, 1);
+    --semi-global-palette-lime-semi-lime-2: rgba(201, 235, 154, 1);
+    --semi-global-palette-lime-semi-lime-3: rgba(180, 226, 109, 1);
+    --semi-global-palette-lime-semi-lime-4: rgba(162, 216, 67, 1);
+    --semi-global-palette-lime-semi-lime-5: rgba(148, 206, 28, 1);
+    --semi-global-palette-lime-semi-lime-6: rgba(120, 172, 22, 1);
+    --semi-global-palette-lime-semi-lime-7: rgba(94, 137, 16, 1);
+    --semi-global-palette-lime-semi-lime-8: rgba(68, 103, 11, 1);
+    --semi-global-palette-lime-semi-lime-9: rgba(44, 69, 7, 1);
+    --semi-global-palette-name-semi-name-0: rgba(245, 252, 255, 1);
+    --semi-global-palette-name-semi-name-1: rgba(224, 247, 255, 1);
+    --semi-global-palette-name-semi-name-2: rgba(194, 238, 255, 1);
+    --semi-global-palette-name-semi-name-3: rgba(163, 227, 255, 1);
+    --semi-global-palette-name-semi-name-4: rgba(133, 216, 255, 1);
+    --semi-global-palette-name-semi-name-5: rgba(102, 204, 255, 1);
+    --semi-global-palette-name-semi-name-6: rgba(83, 167, 213, 1);
+    --semi-global-palette-name-semi-name-7: rgba(65, 131, 170, 1);
+    --semi-global-palette-name-semi-name-8: rgba(47, 97, 128, 1);
+    --semi-global-palette-name-semi-name-9: rgba(31, 63, 85, 1);
+    --semi-global-palette-pink-semi-pink-0: rgba(253, 239, 239, 1);
+    --semi-global-palette-pink-semi-pink-1: rgba(250, 212, 215, 1);
+    --semi-global-palette-pink-semi-pink-2: rgba(245, 171, 180, 1);
+    --semi-global-palette-pink-semi-pink-3: rgba(240, 132, 148, 1);
+    --semi-global-palette-pink-semi-pink-4: rgba(235, 94, 119, 1);
+    --semi-global-palette-pink-semi-pink-5: rgba(230, 57, 94, 1);
+    --semi-global-palette-pink-semi-pink-6: rgba(194, 42, 80, 1);
+    --semi-global-palette-pink-semi-pink-7: rgba(159, 30, 66, 1);
+    --semi-global-palette-pink-semi-pink-8: rgba(123, 19, 52, 1);
+    --semi-global-palette-pink-semi-pink-9: rgba(87, 11, 38, 1);
+    --semi-global-palette-teal-semi-teal-0: rgba(231, 247, 247, 1);
+    --semi-global-palette-teal-semi-teal-1: rgba(198, 240, 238, 1);
+    --semi-global-palette-teal-semi-teal-2: rgba(147, 225, 223, 1);
+    --semi-global-palette-teal-semi-teal-3: rgba(101, 209, 209, 1);
+    --semi-global-palette-teal-semi-teal-4: rgba(60, 192, 194, 1);
+    --semi-global-palette-teal-semi-teal-5: rgba(24, 174, 179, 1);
+    --semi-global-palette-teal-semi-teal-6: rgba(19, 143, 149, 1);
+    --semi-global-palette-teal-semi-teal-7: rgba(14, 112, 119, 1);
+    --semi-global-palette-teal-semi-teal-8: rgba(9, 83, 90, 1);
+    --semi-global-palette-teal-semi-teal-9: rgba(6, 54, 60, 1);
+    --semi-global-palette-amber-semi-amber-0: rgba(253, 253, 238, 1);
+    --semi-global-palette-amber-semi-amber-1: rgba(251, 249, 212, 1);
+    --semi-global-palette-amber-semi-amber-2: rgba(248, 241, 169, 1);
+    --semi-global-palette-amber-semi-amber-3: rgba(244, 230, 128, 1);
+    --semi-global-palette-amber-semi-amber-4: rgba(241, 216, 88, 1);
+    --semi-global-palette-amber-semi-amber-5: rgba(237, 201, 49, 1);
+    --semi-global-palette-amber-semi-amber-6: rgba(198, 170, 39, 1);
+    --semi-global-palette-amber-semi-amber-7: rgba(158, 138, 30, 1);
+    --semi-global-palette-amber-semi-amber-8: rgba(119, 105, 21, 1);
+    --semi-global-palette-amber-semi-amber-9: rgba(79, 71, 13, 1);
+    --semi-global-palette-brand-semi-brand-0: rgba(240, 247, 254, 1);
+    --semi-global-palette-brand-semi-brand-1: rgba(216, 232, 253, 1);
+    --semi-global-palette-brand-semi-brand-2: rgba(177, 209, 251, 1);
+    --semi-global-palette-brand-semi-brand-3: rgba(140, 184, 248, 1);
+    --semi-global-palette-brand-semi-brand-4: rgba(103, 159, 246, 1);
+    --semi-global-palette-brand-semi-brand-5: rgba(66, 133, 244, 1);
+    --semi-global-palette-brand-semi-brand-6: rgba(50, 107, 208, 1);
+    --semi-global-palette-brand-semi-brand-7: rgba(36, 83, 173, 1);
+    --semi-global-palette-brand-semi-brand-8: rgba(25, 61, 137, 1);
+    --semi-global-palette-brand-semi-brand-9: rgba(15, 42, 101, 1);
+    --semi-global-palette-green-semi-green-0: rgba(236, 247, 238, 1);
+    --semi-global-palette-green-semi-green-1: rgba(208, 240, 213, 1);
+    --semi-global-palette-green-semi-green-2: rgba(166, 225, 174, 1);
+    --semi-global-palette-green-semi-green-3: rgba(127, 209, 141, 1);
+    --semi-global-palette-green-semi-green-4: rgba(93, 194, 111, 1);
+    --semi-global-palette-green-semi-green-5: rgba(62, 179, 85, 1);
+    --semi-global-palette-green-semi-green-6: rgba(50, 149, 71, 1);
+    --semi-global-palette-green-semi-green-7: rgba(39, 119, 57, 1);
+    --semi-global-palette-green-semi-green-8: rgba(28, 90, 43, 1);
+    --semi-global-palette-green-semi-green-9: rgba(18, 60, 29, 1);
+    --semi-global-palette-indigo-semi-indigo-0: rgba(236, 238, 247, 1);
+    --semi-global-palette-indigo-semi-indigo-1: rgba(209, 214, 240, 1);
+    --semi-global-palette-indigo-semi-indigo-2: rgba(166, 175, 225, 1);
+    --semi-global-palette-indigo-semi-indigo-3: rgba(128, 139, 209, 1);
+    --semi-global-palette-indigo-semi-indigo-4: rgba(94, 106, 194, 1);
+    --semi-global-palette-indigo-semi-indigo-5: rgba(63, 75, 179, 1);
+    --semi-global-palette-indigo-semi-indigo-6: rgba(51, 60, 159, 1);
+    --semi-global-palette-indigo-semi-indigo-7: rgba(40, 47, 138, 1);
+    --semi-global-palette-indigo-semi-indigo-8: rgba(31, 36, 118, 1);
+    --semi-global-palette-indigo-semi-indigo-9: rgba(23, 25, 97, 1);
+    --semi-global-palette-orange-semi-orange-0: rgba(254, 250, 238, 1);
+    --semi-global-palette-orange-semi-orange-1: rgba(254, 242, 210, 1);
+    --semi-global-palette-orange-semi-orange-2: rgba(253, 227, 165, 1);
+    --semi-global-palette-orange-semi-orange-3: rgba(251, 209, 121, 1);
+    --semi-global-palette-orange-semi-orange-4: rgba(250, 188, 77, 1);
+    --semi-global-palette-orange-semi-orange-5: rgba(249, 164, 34, 1);
+    --semi-global-palette-orange-semi-orange-6: rgba(208, 127, 26, 1);
+    --semi-global-palette-orange-semi-orange-7: rgba(166, 93, 19, 1);
+    --semi-global-palette-orange-semi-orange-8: rgba(125, 64, 13, 1);
+    --semi-global-palette-orange-semi-orange-9: rgba(83, 38, 8, 1);
+    --semi-global-palette-purple-semi-purple-0: rgba(247, 236, 247, 1);
+    --semi-global-palette-purple-semi-purple-1: rgba(240, 207, 238, 1);
+    --semi-global-palette-purple-semi-purple-2: rgba(225, 164, 223, 1);
+    --semi-global-palette-purple-semi-purple-3: rgba(209, 124, 209, 1);
+    --semi-global-palette-purple-semi-purple-4: rgba(190, 89, 194, 1);
+    --semi-global-palette-purple-semi-purple-5: rgba(170, 58, 179, 1);
+    --semi-global-palette-purple-semi-purple-6: rgba(147, 47, 159, 1);
+    --semi-global-palette-purple-semi-purple-7: rgba(124, 36, 138, 1);
+    --semi-global-palette-purple-semi-purple-8: rgba(102, 28, 118, 1);
+    --semi-global-palette-purple-semi-purple-9: rgba(81, 20, 97, 1);
+    --semi-global-palette-violet-semi-violet-0: rgba(244, 238, 249, 1);
+    --semi-global-palette-violet-semi-violet-1: rgba(229, 212, 243, 1);
+    --semi-global-palette-violet-semi-violet-2: rgba(203, 172, 232, 1);
+    --semi-global-palette-violet-semi-violet-3: rgba(176, 134, 220, 1);
+    --semi-global-palette-violet-semi-violet-4: rgba(149, 100, 209, 1);
+    --semi-global-palette-violet-semi-violet-5: rgba(122, 69, 197, 1);
+    --semi-global-palette-violet-semi-violet-6: rgba(102, 57, 177, 1);
+    --semi-global-palette-violet-semi-violet-7: rgba(84, 45, 156, 1);
+    --semi-global-palette-violet-semi-violet-8: rgba(67, 35, 136, 1);
+    --semi-global-palette-violet-semi-violet-9: rgba(52, 27, 115, 1);
+    --semi-global-palette-yellow-semi-yellow-0: rgba(254, 254, 237, 1);
+    --semi-global-palette-yellow-semi-yellow-1: rgba(253, 251, 209, 1);
+    --semi-global-palette-yellow-semi-yellow-2: rgba(252, 244, 165, 1);
+    --semi-global-palette-yellow-semi-yellow-3: rgba(250, 235, 120, 1);
+    --semi-global-palette-yellow-semi-yellow-4: rgba(249, 222, 76, 1);
+    --semi-global-palette-yellow-semi-yellow-5: rgba(247, 207, 33, 1);
+    --semi-global-palette-yellow-semi-yellow-6: rgba(206, 175, 25, 1);
+    --semi-global-palette-yellow-semi-yellow-7: rgba(165, 142, 19, 1);
+    --semi-global-palette-yellow-semi-yellow-8: rgba(124, 108, 13, 1);
+    --semi-global-palette-yellow-semi-yellow-9: rgba(82, 73, 8, 1);
+    --semi-global-palette-light-blue-semi-light-blue-0: rgba(236, 247, 253, 1);
+    --semi-global-palette-light-blue-semi-light-blue-1: rgba(208, 236, 251, 1);
+    --semi-global-palette-light-blue-semi-light-blue-2: rgba(162, 216, 247, 1);
+    --semi-global-palette-light-blue-semi-light-blue-3: rgba(117, 195, 243, 1);
+    --semi-global-palette-light-blue-semi-light-blue-4: rgba(74, 173, 239, 1);
+    --semi-global-palette-light-blue-semi-light-blue-5: rgba(32, 151, 235, 1);
+    --semi-global-palette-light-blue-semi-light-blue-6: rgba(21, 123, 199, 1);
+    --semi-global-palette-light-blue-semi-light-blue-7: rgba(12, 96, 164, 1);
+    --semi-global-palette-light-blue-semi-light-blue-8: rgba(6, 71, 128, 1);
+    --semi-global-palette-light-blue-semi-light-blue-9: rgba(1, 49, 92, 1);
+    --semi-global-palette-light-green-semi-light-green-0: rgba(243, 248, 236, 1);
+    --semi-global-palette-light-green-semi-light-green-1: rgba(226, 240, 209, 1);
+    --semi-global-palette-light-green-semi-light-green-2: rgba(197, 225, 167, 1);
+    --semi-global-palette-light-green-semi-light-green-3: rgba(170, 210, 128, 1);
+    --semi-global-palette-light-green-semi-light-green-4: rgba(144, 195, 94, 1);
+    --semi-global-palette-light-green-semi-light-green-5: rgba(119, 180, 63, 1);
+    --semi-global-palette-light-green-semi-light-green-6: rgba(97, 150, 51, 1);
+    --semi-global-palette-light-green-semi-light-green-7: rgba(75, 120, 40, 1);
+    --semi-global-palette-light-green-semi-light-green-8: rgba(55, 90, 29, 1);
+    --semi-global-palette-light-green-semi-light-green-9: rgba(36, 60, 19, 1);
+  }
+  
+  [data-semi-global-mode="dark"] {
+    --semi-global-usage-bg-semi-color-bg-0: rgba(22, 22, 26, 1);
+    --semi-global-usage-bg-semi-color-bg-1: rgba(35, 36, 41, 1);
+    --semi-global-usage-bg-semi-color-bg-2: rgba(53, 54, 60, 1);
+    --semi-global-usage-bg-semi-color-bg-3: rgba(67, 68, 74, 1);
+    --semi-global-usage-bg-semi-color-bg-4: rgba(79, 81, 89, 1);
+    --semi-global-usage-info-semi-color-info: rgba(76, 157, 249, 1);
+    --semi-global-usage-link-semi-color-link: rgba(76, 157, 249, 1);
+    --semi-global-usage-nav-semi-color-nav-bg: rgba(35, 36, 41, 1);
+    --semi-global-usage-data-semi-color-data-0: rgba(94, 109, 194, 1);
+    --semi-global-usage-data-semi-color-data-1: rgba(8, 104, 120, 1);
+    --semi-global-usage-data-semi-color-data-2: rgba(250, 173, 63, 1);
+    --semi-global-usage-data-semi-color-data-3: rgba(76, 43, 156, 1);
+    --semi-global-usage-data-semi-color-data-4: rgba(16, 125, 248, 1);
+    --semi-global-usage-data-semi-color-data-5: rgba(248, 202, 16, 1);
+    --semi-global-usage-data-semi-color-data-6: rgba(195, 30, 87, 1);
+    --semi-global-usage-data-semi-color-data-7: rgba(5, 119, 115, 1);
+    --semi-global-usage-data-semi-color-data-8: rgba(154, 207, 13, 1);
+    --semi-global-usage-data-semi-color-data-9: rgba(117, 29, 138, 1);
+    --semi-global-usage-fill-semi-color-fill-0: rgba(255, 255, 255, 0.05);
+    --semi-global-usage-fill-semi-color-fill-1: rgba(255, 255, 255, 0.09);
+    --semi-global-usage-fill-semi-color-fill-2: rgba(255, 255, 255, 0.13);
+    --semi-global-usage-text-semi-color-text-0: rgba(249, 249, 249, 1);
+    --semi-global-usage-text-semi-color-text-1: rgba(249, 249, 249, 0.8);
+    --semi-global-usage-text-semi-color-text-2: rgba(249, 249, 249, 0.6);
+    --semi-global-usage-text-semi-color-text-3: rgba(249, 249, 249, 0.35);
+    --semi-global-usage-white-semi-color-white: rgba(228, 231, 245, 1);
+    --semi-global-usage-data-semi-color-data-10: rgba(16, 162, 180, 1);
+    --semi-global-usage-data-semi-color-data-11: rgba(208, 110, 11, 1);
+    --semi-global-usage-data-semi-color-data-12: rgba(113, 66, 197, 1);
+    --semi-global-usage-data-semi-color-data-13: rgba(7, 100, 212, 1);
+    --semi-global-usage-data-semi-color-data-14: rgba(251, 232, 110, 1);
+    --semi-global-usage-data-semi-color-data-15: rgba(160, 19, 73, 1);
+    --semi-global-usage-data-semi-color-data-16: rgba(11, 179, 167, 1);
+    --semi-global-usage-data-semi-color-data-17: rgba(98, 138, 6, 1);
+    --semi-global-usage-data-semi-color-data-18: rgba(162, 48, 179, 1);
+    --semi-global-usage-data-semi-color-data-19: rgba(40, 51, 138, 1);
+    --semi-global-usage-border-semi-color-border: rgba(255, 255, 255, 0.08);
+    --semi-global-usage-danger-semi-color-danger: rgba(248, 131, 99, 1);
+    --semi-global-usage-default-semi-color-default: rgba(28, 31, 35, 1);
+    --semi-global-usage-info-semi-color-info-hover: rgba(120, 183, 250, 1);
+    --semi-global-usage-link-semi-color-link-hover: rgba(120, 183, 250, 1);
+    --semi-global-usage-primary-semi-color-primary: rgba(103, 159, 246, 1);
+    --semi-global-usage-success-semi-color-success: rgba(102, 197, 119, 1);
+    --semi-global-usage-warning-semi-color-warning: rgba(250, 188, 77, 1);
+    --semi-global-usage-info-semi-color-info-active: rgba(165, 208, 252, 1);
+    --semi-global-usage-link-semi-color-link-active: rgba(165, 208, 252, 1);
+    --semi-global-usage-link-semi-color-link-visited: rgba(76, 157, 249, 1);
+    --semi-global-usage-tertiary-semi-color-tertiary: rgba(136, 140, 146, 1);
+    --semi-global-usage-focus-semi-color-focus-border: rgba(103, 159, 246, 1);
+    --semi-global-usage-info-semi-color-info-disabled: rgba(13, 81, 176, 1);
+    --semi-global-usage-danger-semi-color-danger-hover: rgba(250, 165, 137, 1);
+    --semi-global-usage-highlight-semi-color-highlight: rgba(255, 255, 255, 1);
+    --semi-global-usage-secondary-semi-color-secondary: rgba(74, 173, 239, 1);
+    --semi-global-usage-danger-semi-color-danger-active: rgba(251, 197, 176, 1);
+    --semi-global-usage-disabled-semi-color-disabled-bg: rgba(46, 49, 56, 1);
+    --semi-global-usage-default-semi-color-default-hover: rgba(46, 49, 56, 1);
+    --semi-global-usage-primary-semi-color-primary-hover: rgba(140, 184, 248, 1);
+    --semi-global-usage-success-semi-color-success-hover: rgba(135, 211, 147, 1);
+    --semi-global-usage-warning-semi-color-warning-hover: rgba(251, 209, 121, 1);
+    --semi-global-usage-default-semi-color-default-active: rgba(65, 69, 76, 1);
+    --semi-global-usage-disabled-semi-color-disabled-fill: rgba(
+      230,
+      232,
+      234,
+      0.04
+    );
+    --semi-global-usage-disabled-semi-color-disabled-text: rgba(
+      249,
+      249,
+      249,
+      0.35
+    );
+    --semi-global-usage-highlight-semi-color-highlight-bg: rgba(165, 142, 19, 1);
+    --semi-global-usage-primary-semi-color-primary-active: rgba(177, 209, 251, 1);
+    --semi-global-usage-success-semi-color-success-active: rgba(171, 226, 179, 1);
+    --semi-global-usage-warning-semi-color-warning-active: rgba(253, 227, 165, 1);
+    --semi-global-usage-tertiary-semi-color-tertiary-hover: rgba(167, 170, 176, 1);
+    --semi-global-usage-disabled-semi-color-disabled-border: rgba(46, 49, 56, 1);
+    --semi-global-usage-primary-semi-color-primary-disabled: rgba(36, 83, 173, 1);
+    --semi-global-usage-success-semi-color-success-disabled: rgba(46, 121, 63, 1);
+    --semi-global-usage-tertiary-semi-color-tertiary-active: rgba(
+      198,
+      201,
+      205,
+      1
+    );
+    --semi-global-usage-secondary-semi-color-secondary-hover: rgba(
+      117,
+      195,
+      243,
+      1
+    );
+    --semi-global-usage-secondary-semi-color-secondary-active: rgba(
+      162,
+      216,
+      247,
+      1
+    );
+    --semi-global-usage-info-light-semi-color-info-light-hover: rgba(
+      76,
+      157,
+      249,
+      0.3
+    );
+    --semi-global-usage-info-light-semi-color-info-light-active: rgba(
+      76,
+      157,
+      249,
+      0.4
+    );
+    --semi-global-usage-secondary-semi-color-secondary-disabled: rgba(
+      12,
+      96,
+      164,
+      1
+    );
+    --semi-global-usage-info-light-semi-color-info-light-default: rgba(
+      76,
+      157,
+      249,
+      0.2
+    );
+    --semi-global-usage-danger-light-semi-color-danger-light-hover: rgba(
+      248,
+      131,
+      99,
+      0.3
+    );
+    --semi-global-usage-danger-light-semi-color-danger-light-active: rgba(
+      248,
+      131,
+      99,
+      0.4
+    );
+    --semi-global-usage-danger-light-semi-color-danger-light-default: rgba(
+      248,
+      131,
+      99,
+      0.2
+    );
+    --semi-global-usage-primary-light-semi-color-primary-light-hover: rgba(
+      103,
+      159,
+      246,
+      0.3
+    );
+    --semi-global-usage-success-light-semi-color-success-light-hover: rgba(
+      102,
+      197,
+      119,
+      0.3
+    );
+    --semi-global-usage-warning-light-semi-color-warning-light-hover: rgba(
+      250,
+      188,
+      77,
+      0.3
+    );
+    --semi-global-usage-primary-light-semi-color-primary-light-active: rgba(
+      103,
+      159,
+      246,
+      0.4
+    );
+    --semi-global-usage-success-light-semi-color-success-light-active: rgba(
+      102,
+      197,
+      119,
+      0.4
+    );
+    --semi-global-usage-warning-light-semi-color-warning-light-active: rgba(
+      250,
+      188,
+      77,
+      0.4
+    );
+    --semi-global-usage-primary-light-semi-color-primary-light-default: rgba(
+      103,
+      159,
+      246,
+      0.2
+    );
+    --semi-global-usage-success-light-semi-color-success-light-default: rgba(
+      102,
+      197,
+      119,
+      0.2
+    );
+    --semi-global-usage-tertiary-light-semi-color-tertiary-light-hover: rgba(
+      136,
+      140,
+      146,
+      0.3
+    );
+    --semi-global-usage-warning-light-semi-color-warning-light-default: rgba(
+      250,
+      188,
+      77,
+      0.2
+    );
+    --semi-global-usage-tertiary-light-semi-color-tertiary-light-active: rgba(
+      136,
+      140,
+      146,
+      0.4
+    );
+    --semi-global-usage-secondary-light-semi-color-secondary-light-hover: rgba(
+      74,
+      173,
+      239,
+      0.3
+    );
+    --semi-global-usage-tertiary-light-semi-color-tertiary-light-default: rgba(
+      136,
+      140,
+      146,
+      0.2
+    );
+    --semi-global-usage-secondary-light-semi-color-secondary-light-active: rgba(
+      74,
+      173,
+      239,
+      0.4
+    );
+    --semi-global-usage-secondary-light-semi-color-secondary-light-default: rgba(
+      74,
+      173,
+      239,
+      0.2
+    );
+    --semi-global-palette-red-semi-red-0: rgba(103, 18, 13, 1);
+    --semi-global-palette-red-semi-red-1: rgba(139, 32, 22, 1);
+    --semi-global-palette-red-semi-red-2: rgba(175, 49, 33, 1);
+    --semi-global-palette-red-semi-red-3: rgba(210, 71, 46, 1);
+    --semi-global-palette-red-semi-red-4: rgba(246, 95, 61, 1);
+    --semi-global-palette-red-semi-red-5: rgba(248, 131, 99, 1);
+    --semi-global-palette-red-semi-red-6: rgba(250, 165, 137, 1);
+    --semi-global-palette-red-semi-red-7: rgba(251, 197, 176, 1);
+    --semi-global-palette-red-semi-red-8: rgba(253, 227, 215, 1);
+    --semi-global-palette-red-semi-red-9: rgba(254, 245, 240, 1);
+    --semi-global-palette-blue-semi-blue-0: rgba(1, 41, 104, 1);
+    --semi-global-palette-blue-semi-blue-1: rgba(6, 60, 140, 1);
+    --semi-global-palette-blue-semi-blue-2: rgba(13, 81, 176, 1);
+    --semi-global-palette-blue-semi-blue-3: rgba(22, 105, 211, 1);
+    --semi-global-palette-blue-semi-blue-4: rgba(33, 130, 247, 1);
+    --semi-global-palette-blue-semi-blue-5: rgba(76, 157, 249, 1);
+    --semi-global-palette-blue-semi-blue-6: rgba(120, 183, 250, 1);
+    --semi-global-palette-blue-semi-blue-7: rgba(165, 208, 252, 1);
+    --semi-global-palette-blue-semi-blue-8: rgba(209, 232, 253, 1);
+    --semi-global-palette-blue-semi-blue-9: rgba(237, 246, 254, 1);
+    --semi-global-palette-cyan-semi-cyan-0: rgba(7, 49, 60, 1);
+    --semi-global-palette-cyan-semi-cyan-1: rgba(12, 76, 90, 1);
+    --semi-global-palette-cyan-semi-cyan-2: rgba(17, 103, 120, 1);
+    --semi-global-palette-cyan-semi-cyan-3: rgba(23, 131, 150, 1);
+    --semi-global-palette-cyan-semi-cyan-4: rgba(29, 160, 180, 1);
+    --semi-global-palette-cyan-semi-cyan-5: rgba(64, 180, 195, 1);
+    --semi-global-palette-cyan-semi-cyan-6: rgba(104, 200, 210, 1);
+    --semi-global-palette-cyan-semi-cyan-7: rgba(150, 219, 225, 1);
+    --semi-global-palette-cyan-semi-cyan-8: rgba(200, 237, 240, 1);
+    --semi-global-palette-cyan-semi-cyan-9: rgba(232, 247, 248, 1);
+    --semi-global-palette-grey-semi-grey-0: rgba(28, 31, 35, 1);
+    --semi-global-palette-grey-semi-grey-1: rgba(46, 49, 56, 1);
+    --semi-global-palette-grey-semi-grey-2: rgba(65, 69, 76, 1);
+    --semi-global-palette-grey-semi-grey-3: rgba(85, 90, 97, 1);
+    --semi-global-palette-grey-semi-grey-4: rgba(107, 111, 117, 1);
+    --semi-global-palette-grey-semi-grey-5: rgba(136, 140, 146, 1);
+    --semi-global-palette-grey-semi-grey-6: rgba(167, 170, 176, 1);
+    --semi-global-palette-grey-semi-grey-7: rgba(198, 201, 205, 1);
+    --semi-global-palette-grey-semi-grey-8: rgba(230, 232, 234, 1);
+    --semi-global-palette-grey-semi-grey-9: rgba(249, 249, 249, 1);
+    --semi-global-palette-lime-semi-lime-0: rgba(44, 69, 7, 1);
+    --semi-global-palette-lime-semi-lime-1: rgba(68, 103, 11, 1);
+    --semi-global-palette-lime-semi-lime-2: rgba(94, 137, 16, 1);
+    --semi-global-palette-lime-semi-lime-3: rgba(120, 172, 22, 1);
+    --semi-global-palette-lime-semi-lime-4: rgba(148, 206, 28, 1);
+    --semi-global-palette-lime-semi-lime-5: rgba(162, 216, 67, 1);
+    --semi-global-palette-lime-semi-lime-6: rgba(180, 226, 109, 1);
+    --semi-global-palette-lime-semi-lime-7: rgba(201, 235, 154, 1);
+    --semi-global-palette-lime-semi-lime-8: rgba(226, 245, 203, 1);
+    --semi-global-palette-lime-semi-lime-9: rgba(242, 250, 233, 1);
+    --semi-global-palette-name-semi-name-0: rgba(255, 255, 255, 1);
+    --semi-global-palette-name-semi-name-1: rgba(255, 255, 255, 1);
+    --semi-global-palette-name-semi-name-2: rgba(255, 255, 255, 1);
+    --semi-global-palette-name-semi-name-3: rgba(255, 255, 255, 1);
+    --semi-global-palette-name-semi-name-4: rgba(255, 255, 255, 1);
+    --semi-global-palette-name-semi-name-5: rgba(255, 255, 255, 1);
+    --semi-global-palette-name-semi-name-6: rgba(255, 255, 255, 1);
+    --semi-global-palette-name-semi-name-7: rgba(255, 255, 255, 1);
+    --semi-global-palette-name-semi-name-8: rgba(255, 255, 255, 1);
+    --semi-global-palette-name-semi-name-9: rgba(255, 255, 255, 1);
+    --semi-global-palette-pink-semi-pink-0: rgba(87, 11, 38, 1);
+    --semi-global-palette-pink-semi-pink-1: rgba(123, 19, 52, 1);
+    --semi-global-palette-pink-semi-pink-2: rgba(159, 30, 66, 1);
+    --semi-global-palette-pink-semi-pink-3: rgba(194, 42, 80, 1);
+    --semi-global-palette-pink-semi-pink-4: rgba(230, 57, 94, 1);
+    --semi-global-palette-pink-semi-pink-5: rgba(235, 94, 119, 1);
+    --semi-global-palette-pink-semi-pink-6: rgba(240, 132, 148, 1);
+    --semi-global-palette-pink-semi-pink-7: rgba(245, 171, 180, 1);
+    --semi-global-palette-pink-semi-pink-8: rgba(250, 212, 215, 1);
+    --semi-global-palette-pink-semi-pink-9: rgba(253, 239, 239, 1);
+    --semi-global-palette-teal-semi-teal-0: rgba(6, 54, 60, 1);
+    --semi-global-palette-teal-semi-teal-1: rgba(9, 83, 90, 1);
+    --semi-global-palette-teal-semi-teal-2: rgba(14, 112, 119, 1);
+    --semi-global-palette-teal-semi-teal-3: rgba(19, 143, 149, 1);
+    --semi-global-palette-teal-semi-teal-4: rgba(24, 174, 179, 1);
+    --semi-global-palette-teal-semi-teal-5: rgba(60, 192, 194, 1);
+    --semi-global-palette-teal-semi-teal-6: rgba(101, 209, 209, 1);
+    --semi-global-palette-teal-semi-teal-7: rgba(147, 225, 223, 1);
+    --semi-global-palette-teal-semi-teal-8: rgba(198, 240, 238, 1);
+    --semi-global-palette-teal-semi-teal-9: rgba(231, 247, 247, 1);
+    --semi-global-palette-amber-semi-amber-0: rgba(79, 71, 13, 1);
+    --semi-global-palette-amber-semi-amber-1: rgba(119, 105, 21, 1);
+    --semi-global-palette-amber-semi-amber-2: rgba(158, 138, 30, 1);
+    --semi-global-palette-amber-semi-amber-3: rgba(198, 170, 39, 1);
+    --semi-global-palette-amber-semi-amber-4: rgba(237, 201, 49, 1);
+    --semi-global-palette-amber-semi-amber-5: rgba(241, 216, 88, 1);
+    --semi-global-palette-amber-semi-amber-6: rgba(244, 230, 128, 1);
+    --semi-global-palette-amber-semi-amber-7: rgba(248, 241, 169, 1);
+    --semi-global-palette-amber-semi-amber-8: rgba(251, 249, 212, 1);
+    --semi-global-palette-amber-semi-amber-9: rgba(253, 253, 238, 1);
+    --semi-global-palette-brand-semi-brand-0: rgba(15, 42, 101, 1);
+    --semi-global-palette-brand-semi-brand-1: rgba(25, 61, 137, 1);
+    --semi-global-palette-brand-semi-brand-2: rgba(36, 83, 173, 1);
+    --semi-global-palette-brand-semi-brand-3: rgba(50, 107, 208, 1);
+    --semi-global-palette-brand-semi-brand-4: rgba(66, 133, 244, 1);
+    --semi-global-palette-brand-semi-brand-5: rgba(103, 159, 246, 1);
+    --semi-global-palette-brand-semi-brand-6: rgba(140, 184, 248, 1);
+    --semi-global-palette-brand-semi-brand-7: rgba(177, 209, 251, 1);
+    --semi-global-palette-brand-semi-brand-8: rgba(216, 232, 253, 1);
+    --semi-global-palette-brand-semi-brand-9: rgba(240, 247, 254, 1);
+    --semi-global-palette-green-semi-green-0: rgba(22, 61, 32, 1);
+    --semi-global-palette-green-semi-green-1: rgba(33, 91, 48, 1);
+    --semi-global-palette-green-semi-green-2: rgba(46, 121, 63, 1);
+    --semi-global-palette-green-semi-green-3: rgba(58, 152, 79, 1);
+    --semi-global-palette-green-semi-green-4: rgba(62, 179, 85, 1);
+    --semi-global-palette-green-semi-green-5: rgba(102, 197, 119, 1);
+    --semi-global-palette-green-semi-green-6: rgba(135, 211, 147, 1);
+    --semi-global-palette-green-semi-green-7: rgba(171, 226, 179, 1);
+    --semi-global-palette-green-semi-green-8: rgba(211, 240, 215, 1);
+    --semi-global-palette-green-semi-green-9: rgba(238, 248, 239, 1);
+    --semi-global-palette-indigo-semi-indigo-0: rgba(23, 25, 97, 1);
+    --semi-global-palette-indigo-semi-indigo-1: rgba(31, 36, 118, 1);
+    --semi-global-palette-indigo-semi-indigo-2: rgba(40, 47, 138, 1);
+    --semi-global-palette-indigo-semi-indigo-3: rgba(51, 60, 159, 1);
+    --semi-global-palette-indigo-semi-indigo-4: rgba(63, 75, 179, 1);
+    --semi-global-palette-indigo-semi-indigo-5: rgba(94, 106, 194, 1);
+    --semi-global-palette-indigo-semi-indigo-6: rgba(128, 139, 209, 1);
+    --semi-global-palette-indigo-semi-indigo-7: rgba(166, 175, 225, 1);
+    --semi-global-palette-indigo-semi-indigo-8: rgba(209, 214, 240, 1);
+    --semi-global-palette-indigo-semi-indigo-9: rgba(236, 238, 247, 1);
+    --semi-global-palette-orange-semi-orange-0: rgba(83, 38, 8, 1);
+    --semi-global-palette-orange-semi-orange-1: rgba(125, 64, 13, 1);
+    --semi-global-palette-orange-semi-orange-2: rgba(166, 93, 19, 1);
+    --semi-global-palette-orange-semi-orange-3: rgba(208, 127, 26, 1);
+    --semi-global-palette-orange-semi-orange-4: rgba(249, 164, 34, 1);
+    --semi-global-palette-orange-semi-orange-5: rgba(250, 188, 77, 1);
+    --semi-global-palette-orange-semi-orange-6: rgba(251, 209, 121, 1);
+    --semi-global-palette-orange-semi-orange-7: rgba(253, 227, 165, 1);
+    --semi-global-palette-orange-semi-orange-8: rgba(254, 242, 210, 1);
+    --semi-global-palette-orange-semi-orange-9: rgba(254, 250, 238, 1);
+    --semi-global-palette-purple-semi-purple-0: rgba(81, 20, 97, 1);
+    --semi-global-palette-purple-semi-purple-1: rgba(102, 28, 118, 1);
+    --semi-global-palette-purple-semi-purple-2: rgba(124, 36, 138, 1);
+    --semi-global-palette-purple-semi-purple-3: rgba(147, 47, 159, 1);
+    --semi-global-palette-purple-semi-purple-4: rgba(170, 58, 179, 1);
+    --semi-global-palette-purple-semi-purple-5: rgba(190, 89, 194, 1);
+    --semi-global-palette-purple-semi-purple-6: rgba(209, 124, 209, 1);
+    --semi-global-palette-purple-semi-purple-7: rgba(225, 164, 223, 1);
+    --semi-global-palette-purple-semi-purple-8: rgba(240, 207, 238, 1);
+    --semi-global-palette-purple-semi-purple-9: rgba(247, 236, 247, 1);
+    --semi-global-palette-violet-semi-violet-0: rgba(52, 27, 115, 1);
+    --semi-global-palette-violet-semi-violet-1: rgba(67, 35, 136, 1);
+    --semi-global-palette-violet-semi-violet-2: rgba(84, 45, 156, 1);
+    --semi-global-palette-violet-semi-violet-3: rgba(102, 57, 177, 1);
+    --semi-global-palette-violet-semi-violet-4: rgba(122, 69, 197, 1);
+    --semi-global-palette-violet-semi-violet-5: rgba(149, 100, 209, 1);
+    --semi-global-palette-violet-semi-violet-6: rgba(176, 134, 220, 1);
+    --semi-global-palette-violet-semi-violet-7: rgba(203, 172, 232, 1);
+    --semi-global-palette-violet-semi-violet-8: rgba(229, 212, 243, 1);
+    --semi-global-palette-violet-semi-violet-9: rgba(244, 238, 249, 1);
+    --semi-global-palette-yellow-semi-yellow-0: rgba(82, 73, 8, 1);
+    --semi-global-palette-yellow-semi-yellow-1: rgba(124, 108, 13, 1);
+    --semi-global-palette-yellow-semi-yellow-2: rgba(165, 142, 19, 1);
+    --semi-global-palette-yellow-semi-yellow-3: rgba(206, 175, 25, 1);
+    --semi-global-palette-yellow-semi-yellow-4: rgba(247, 207, 33, 1);
+    --semi-global-palette-yellow-semi-yellow-5: rgba(249, 222, 76, 1);
+    --semi-global-palette-yellow-semi-yellow-6: rgba(250, 235, 120, 1);
+    --semi-global-palette-yellow-semi-yellow-7: rgba(252, 244, 165, 1);
+    --semi-global-palette-yellow-semi-yellow-8: rgba(253, 251, 209, 1);
+    --semi-global-palette-yellow-semi-yellow-9: rgba(254, 254, 237, 1);
+    --semi-global-palette-light-blue-semi-light-blue-0: rgba(1, 49, 92, 1);
+    --semi-global-palette-light-blue-semi-light-blue-1: rgba(6, 71, 128, 1);
+    --semi-global-palette-light-blue-semi-light-blue-2: rgba(12, 96, 164, 1);
+    --semi-global-palette-light-blue-semi-light-blue-3: rgba(21, 123, 199, 1);
+    --semi-global-palette-light-blue-semi-light-blue-4: rgba(32, 151, 235, 1);
+    --semi-global-palette-light-blue-semi-light-blue-5: rgba(74, 173, 239, 1);
+    --semi-global-palette-light-blue-semi-light-blue-6: rgba(117, 195, 243, 1);
+    --semi-global-palette-light-blue-semi-light-blue-7: rgba(162, 216, 247, 1);
+    --semi-global-palette-light-blue-semi-light-blue-8: rgba(208, 236, 251, 1);
+    --semi-global-palette-light-blue-semi-light-blue-9: rgba(236, 247, 253, 1);
+    --semi-global-palette-light-green-semi-light-green-0: rgba(36, 60, 19, 1);
+    --semi-global-palette-light-green-semi-light-green-1: rgba(55, 90, 29, 1);
+    --semi-global-palette-light-green-semi-light-green-2: rgba(75, 120, 40, 1);
+    --semi-global-palette-light-green-semi-light-green-3: rgba(97, 150, 51, 1);
+    --semi-global-palette-light-green-semi-light-green-4: rgba(119, 180, 63, 1);
+    --semi-global-palette-light-green-semi-light-green-5: rgba(144, 195, 94, 1);
+    --semi-global-palette-light-green-semi-light-green-6: rgba(170, 210, 128, 1);
+    --semi-global-palette-light-green-semi-light-green-7: rgba(197, 225, 167, 1);
+    --semi-global-palette-light-green-semi-light-green-8: rgba(226, 240, 209, 1);
+    --semi-global-palette-light-green-semi-light-green-9: rgba(243, 248, 236, 1);
+  }
+  
+  .staff-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+    width: 100%;
+  }
+  
+  .staff-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+  }
+  

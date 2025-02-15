@@ -1,0 +1,272 @@
+---
+layout: default
+title: People
+permalink: /people/
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/people.css' | relative_url }}">
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="frame">
+      <div class="frame-wrapper">
+        <div class="div">
+          <div class="overlap-group-wrapper">
+            <div class="overlap-group">
+              <img class="quote-mark" src="/assets/img/quote_mark.svg" />
+              <div class="section-heading"><div class="section-title">Members of XLab</div></div>
+            </div>
+          </div>
+          <div class="div-wrapper">
+            <div class="testimonial-item-wrapper">
+              <div class="testimonial-item">
+                <div class="div-2">
+                  <img class="img" src="/assets/img/small_quote_mark.svg" />
+                  <div class="feedback-person">
+                    <p class="feedback">
+                      We are looking for passionate staff engineers and scientists, postdoctorial fellows, graduate and
+                      undergraduate students/interns to join our team!
+                    </p>
+                    <a href="/join" class="join-button" style="width: 100px;">Join our lab</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div-3">
+        <div class="testimonial-item-2">
+          <div class="div-4">
+            <div class="div-5">
+              <div class="feature-header"><div class="text-wrapper">PI</div></div>
+              <div class="div-6">
+                <div class="div-7">
+                  <div class="text-wrapper-2">Xiao Li</div>
+                  <div class="text-wrapper-3">（李潇）</div>
+                </div>
+                <div class="text-wrapper-4">{{ site.data.people.pi.title }}</div>
+                <div class="div-8">
+                  <div class="div-9">
+                    <div class="dot-wrapper"><div class="dot"></div></div>
+                    <p class="text-wrapper-5">
+                      {{ site.data.people.pi.positions[0] }}
+                    </p>
+                  </div>
+                  <div class="div-9">
+                    <div class="dot-wrapper"><div class="dot"></div></div>
+                    <p class="text-wrapper-5">
+                      {{ site.data.people.pi.positions[1] }}
+                    </p>
+                  </div>
+                  <div class="div-9">
+                    <div class="dot-wrapper"><div class="dot"></div></div>
+                    <p class="text-wrapper-5">
+                      {{ site.data.people.pi.positions[2] }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="image-wrapper"><img class="image" src="/assets/img/xiao_li.png" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="div-3"><img class="line" src="img/line-1-2.svg" /></div>
+      <div class="div-3">
+        <div class="testimonial-item-2">
+          <div class="div-4">
+            <div class="div-5">
+              <div class="feature-header">
+                <div class="text-wrapper">Staff</div>
+              </div>
+              <div class="div-10">
+                <div class="staff-columns">
+                  <div class="staff-column">
+                    {% assign half_size = site.data.people.staff.size | divided_by: 2.0 | ceil %}
+                    {% for member in site.data.people.staff limit: half_size %}
+                    <div class="div-11">
+                      <div class="div-7">
+                        <div class="text-wrapper-2">{{ member.name }}</div>
+                        <div class="text-wrapper-3">（{{ member.name_cn }}）</div>
+                      </div>
+                      <p class="text-wrapper-4">{{ member.title }}</p>
+                      <div class="div-8">
+                        {% for edu in member.education %}
+                        <div class="div-9">
+                          <div class="dot-wrapper"><div class="dot"></div></div>
+                          <p class="text-wrapper-5">{{ edu }}</p>
+                        </div>
+                        {% endfor %}
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                  <div class="staff-column">
+                    {% for member in site.data.people.staff offset: half_size %}
+                    <div class="div-11">
+                      <div class="div-7">
+                        <div class="text-wrapper-2">{{ member.name }}</div>
+                        <div class="text-wrapper-3">（{{ member.name_cn }}）</div>
+                      </div>
+                      <p class="text-wrapper-4">{{ member.title }}</p>
+                      <div class="div-8">
+                        {% for edu in member.education %}
+                        <div class="div-9">
+                          <div class="dot-wrapper"><div class="dot"></div></div>
+                          <p class="text-wrapper-5">{{ edu }}</p>
+                        </div>
+                        {% endfor %}
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div-3">
+        <div class="testimonial-item-2">
+          <div class="div-4">
+            <div class="div-5">
+              <div class="feature-header">
+                <div class="text-wrapper">Students</div>
+              </div>
+              <div class="div-10">
+                <div class="staff-columns">
+                  <div class="staff-column">
+                    {% assign half_size = site.data.people.students.size | divided_by: 2.0 | ceil %}
+                    {% for member in site.data.people.students limit: half_size %}
+                    <div class="div-11">
+                      <div class="div-7">
+                        <div class="text-wrapper-2">{{ member.name }}</div>
+                        <div class="text-wrapper-3">（{{ member.name_cn }}）</div>
+                      </div>
+                      <p class="text-wrapper-4">{{ member.title }}</p>
+                      {% if member.education %}
+                      <div class="div-8">
+                        {% for edu in member.education %}
+                        <div class="div-9">
+                          <div class="dot-wrapper"><div class="dot"></div></div>
+                          <p class="text-wrapper-5">{{ edu }}</p>
+                        </div>
+                        {% endfor %}
+                      </div>
+                      {% endif %}
+                    </div>
+                    {% endfor %}
+                  </div>
+                  <div class="staff-column">
+                    {% for member in site.data.people.students offset: half_size %}
+                    <div class="div-11">
+                      <div class="div-7">
+                        <div class="text-wrapper-2">{{ member.name }}</div>
+                        <div class="text-wrapper-3">（{{ member.name_cn }}）</div>
+                      </div>
+                      <p class="text-wrapper-4">{{ member.title }}</p>
+                      {% if member.education %}
+                      <div class="div-8">
+                        {% for edu in member.education %}
+                        <div class="div-9">
+                          <div class="dot-wrapper"><div class="dot"></div></div>
+                          <p class="text-wrapper-5">{{ edu }}</p>
+                        </div>
+                        {% endfor %}
+                      </div>
+                      {% endif %}
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div-3">
+        <div class="testimonial-item-2">
+          <div class="div-4">
+            <div class="div-5">
+              <div class="feature-header">
+                <div class="text-wrapper">Interns</div>
+              </div>
+              <div class="div-10">
+                <div class="staff-columns">
+                  <div class="staff-column">
+                    {% assign half_size = site.data.people.interns.size | divided_by: 2.0 | ceil %}
+                    {% for member in site.data.people.interns limit: half_size %}
+                    <div class="div-11">
+                      <div class="div-7">
+                        <div class="text-wrapper-2">{{ member.name }}</div>
+                        <div class="text-wrapper-3">（{{ member.name_cn }}）</div>
+                      </div>
+                      <p class="text-wrapper-4 {% if member.highlight %}highlight{% endif %}">{{ member.title }}</p>
+                    </div>
+                    {% endfor %}
+                  </div>
+                  <div class="staff-column">
+                    {% for member in site.data.people.interns offset: half_size %}
+                    <div class="div-11">
+                      <div class="div-7">
+                        <div class="text-wrapper-2">{{ member.name }}</div>
+                        <div class="text-wrapper-3">（{{ member.name_cn }}）</div>
+                      </div>
+                      <p class="text-wrapper-4 {% if member.highlight %}highlight{% endif %}">{{ member.title }}</p>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Alumni Section -->
+<div class="div-3">
+    <div class="testimonial-item-3">
+      <div class="frame-wrapper-2">
+        <div class="div-16">
+          <div class="feature-header">
+            <div class="text-wrapper">Alumni</div>
+          </div>
+          <div class="div-17">
+            <!-- Alumni Staff -->
+            <div class="div-2">
+              <div class="text-wrapper-6">Staff</div>
+              <div class="div-18">
+                {% for member in site.data.people.alumni.staff %}
+                <div class="div-19">
+                  <div class="div-7">
+                    <div class="text-wrapper-2">{{ member.name }}</div>
+                    <div class="text-wrapper-3">（{{ member.name_cn }}）</div>
+                  </div>
+                  <div class="text-wrapper-4">{{ member.title }}</div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+            <!-- Alumni Interns -->
+            <div class="div-2">
+              <div class="text-wrapper-6">Interns</div>
+              <div class="div-18">
+                {% for member in site.data.people.alumni.interns %}
+                <div class="div-19">
+                  <div class="div-7">
+                    <div class="text-wrapper-2">{{ member.name }}</div>
+                    <div class="text-wrapper-3">（{{ member.name_cn }}）</div>
+                  </div>
+                  <p class="text-wrapper-4 {% if member.highlight %}highlight{% endif %}">{{ member.title }}</p>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </body>
+</html>
