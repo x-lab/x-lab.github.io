@@ -1,18 +1,41 @@
 ---
-title: "XLab - Publications"
-layout: gridlay
-excerpt: "XLab -- Publications."
-sitemap: false
+layout: default
+title: Publications
 permalink: /publications/
 ---
-# Selected Publications
-For a full list, check [here](https://scholar.google.com/citations?user=XJhHXVwAAAAJ&hl=en).
 
-## Invited Reviews and Prospectives
-[**Emerging information technologies for the next generation of elderly care**](https://journals.lww.com/inr/Fulltext/2022/11000/Emerging_information_technologies_for_the_next.10.aspx).<br>
-**Zhang T**, **Li X***. **Interdisciplinary Nursing Research**. 2022.
+<link rel="stylesheet" href="/assets/css/publications.css">
+
+
+<div class="contact-container">
+    <!-- Contact Section -->
+    <section class="section">
+      <div class="section-content">
+        <header class="section-header">
+          <img class="quote-mark-large" src="/assets/img/quote_mark.svg" alt="">
+          <h1 class="section-title">Selected Publications</h1>
+        </header>
+  
+        <div class="content-area">
+          <article class="contact-card">
+            <div class="card-content">
+              <img class="small-quote" src="/assets/img/small_quote_mark.svg" alt="">
+              <p class="card-text">For a full list, check <a href="https://scholar.google.com/citations?user=XJhHXVwAAAAJ&hl=en">Here</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+</div>
 
 <hr>
+
+## Invited Reviews and Prospectives
+  [**Emerging information technologies for the next generation of elderly care**](https://journals.lww.com/inr/Fulltext/2022/11000/Emerging_information_technologies_for_the_next.10.aspx).
+
+  **Zhang T**, **Li X**. **Interdisciplinary Nursing Research**. 2022.
+
+<hr class="divider">
 
 ## Methods
 [**Colocalization of GWAS and eQTL signals detects target genes**](https://doi.org/10.1016/j.ajhg.2016.10.003).<br>
@@ -21,7 +44,8 @@ Hormozdiari F, van de Bunt M, Segrè AV, <b>Li X</b>, Joo JWJ, Bilow M, Sul JH, 
 [**ForestPMPlot: a flexible tool for visualizing heterogeneity between studies in meta-analysis**](https://academic.oup.com/g3journal/article/6/7/1793/6027682).<br>
 Kang EY, Park Y, **Li X**, Segrè AV, Han B, Eskin E. **G3: Genes, Genomes, Genetics**. 2016.
 
-<hr>
+<hr class="divider">
+
 ## Applications
 ### Human Genomics
 [**Population-scale tissue transcriptomics maps long non-coding RNAs to complex disease**](https://www.sciencedirect.com/science/article/pii/S0092867421003810).<br>
@@ -57,6 +81,28 @@ Nature Communication. 2015.
 Lin H, Liu Q, <b>Li X</b>, Yang J, Liu S, Huang Y, Scanlon MJ, Nettleton D, Schnable PS<br>
 Genome Biology. 2017.
 
-<hr>
-*: co-first authors or co-corresponding authors. <br>
-**Bold** are members of X-Lab.
+<hr class="divider">
+
+<div class="publication-notes">
+  <div class="notes-header">
+    <div class="info-icon">
+      <img src="/assets/img/🧬 info-filled.svg" alt="info icon">
+    </div>
+    <div class="notes-title">显示说明</div>
+  </div>
+  <div class="notes-content">
+    <div class="note-row">
+      <div class="note-item">
+        <div class="note-symbol">*</div>
+        <div class="note-text">co-first authors or co-corresponding authors.</div>
+      </div>
+    </div>
+    <div class="note-row">
+      <div class="note-item">
+        <div class="note-symbol">Bold</div>
+        <div class="note-text">are members of X-Lab.</div>
+      </div>
+    </div>
+  </div>
+</div>
+

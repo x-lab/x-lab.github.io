@@ -1,29 +1,73 @@
-<!-- has to use webp for transparent background -->
-
-<div id="footer" class="panel">
-  <div class="panel-footer">
-    <div class="container-fluid">
-      <div class="row">
-        <a href="https://www.aiit.org.cn">
-          <center><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/aiit.webp"></center>
-        </a>
-        <a href="https://www.bjmu.edu.cn"
-          <center><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/bjmu.webp"></center>
-        </a>
-        <a href="https://www.broadinstitute.org"
-          <center><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/broad.webp"></center>
-        </a>
-        <a href="https://www.massgeneral.org"
-          <center><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/mgh.webp"></center>
-        </a>
-        <a href="https://hms.harvard.edu"
-          <center><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/hms.webp"></center>
-        </a>
+<footer class="site-footer">
+  <div class="footer-content">
+    <!-- 合作机构 logo 区域 -->
+    <div class="partner-logos">
+      <div class="logo-row">
+        <img src="/assets/img/aiit-logo.png" alt="浙江省北大信息技术高等研究院" class="partner-logo">
+        <img src="/assets/img/pku-logo.png" alt="北京大学医学部" class="partner-logo">
+        <img src="/assets/img/broad-logo.png" alt="Broad Institute" class="partner-logo">
+        <img src="/assets/img/mgh-logo.png" alt="Massachusetts General Hospital" class="partner-logo">
+        <img src="/assets/img/hms-logo.png" alt="Harvard Medical School" class="partner-logo">
       </div>
     </div>
-  </div>
-</div>
-<p><center><a ref="https://beian.miit.gov.cn">浙ICP备2020035839号-2</a> </center></p>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <!-- 版权和备案信息 -->
+    <div class="footer-info">
+      <p class="copyright">© 2024 All Rights Reserved.</p>
+      <p class="icp-info">浙ICP备202003583号-2</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+    margin-top: 3rem;
+  }
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .partner-logos {
+    margin-bottom: 2rem;
+  }
+
+  .logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .partner-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .footer-info {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .copyright, .icp-info {
+    margin: 0.5rem 0;
+  }
+
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .partner-logo {
+      height: 30px;
+    }
+    
+    .logo-row {
+      gap: 1rem;
+    }
+  }
+</style>

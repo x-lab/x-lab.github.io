@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="{{ site.lang | default: 'en-US' }}">
   {% include head.html %}
-
+  
   <body>
-
     {% include header.html %}
-
-    <div class="container-fluid">
-      <div class="row">
-        {{ content }}
-      </div>
-    </div>
+    
+    <main class="main-content">
+      {{ content }}
+    </main>
 
     {% include footer.html %}
 
+    {% if site.google_analytics %}
+    {% include analytics.html %}
+    {% endif %}
   </body>
-
 </html>

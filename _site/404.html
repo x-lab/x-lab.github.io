@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Xiao Li Lab</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <style>
+      @font-face {
+        font-family: 'PingFang SC';
+        src: url('/assets/PingFang-SC-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'PingFang SC Bold';
+        src: url('/assets/PingFang-SC-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+      }
+      
+      body {
+        font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial !important;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header class="site-header">
+  <div class="container">
+    <div class="header-content">
+      <!-- Logo -->
+      <a href="/" class="logo">
+        <img src="/assets/img/logo.png" alt="The Xiao Li Lab" style="width: 130px; ">
+      </a>
+
+      <!-- Navigation -->
+      <nav class="main-nav">
+        
+          <a href="/" 
+             class="nav-link ">
+            Home
+          </a>
+        
+          <a href="/people/" 
+             class="nav-link ">
+            People
+          </a>
+        
+          <a href="/publications/" 
+             class="nav-link ">
+            Publications
+          </a>
+        
+          <a href="/join/" 
+             class="nav-link ">
+            Join
+          </a>
+        
+          <a href="/contact/" 
+             class="nav-link ">
+            Contact
+          </a>
+        
+      </nav>
+    </div>
+  </div>
+</header>
+
+<style>
+.site-header {
+  padding: 1rem 0;
+  background-color: #ffffff;
+  position: relative;
+  height: 100px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* padding: 0 2rem; */
+  width: 1200px;
+  position: relative;
+  height: 100%;
+}
+
+.logo {
+  position: relative;
+  transform: translateY(0);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  margin-right: 0.5rem;
+  transform: rotate(45deg);
+}
+
+.main-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  transform: translateY(0);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #1756e8;
+}
+
+.nav-link.active {
+  color: #1756e8;
+  border-bottom: 2px solid #1756e8;
+}
+</style>
+
+    
+    <main class="main-content">
+      <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-content">
+    <!-- 合作机构 logo 区域 -->
+    <div class="partner-logos">
+      <div class="logo-row">
+        <img src="/assets/img/aiit-logo.png" alt="浙江省北大信息技术高等研究院" class="partner-logo">
+        <img src="/assets/img/pku-logo.png" alt="北京大学医学部" class="partner-logo">
+        <img src="/assets/img/broad-logo.png" alt="Broad Institute" class="partner-logo">
+        <img src="/assets/img/mgh-logo.png" alt="Massachusetts General Hospital" class="partner-logo">
+        <img src="/assets/img/hms-logo.png" alt="Harvard Medical School" class="partner-logo">
+      </div>
+    </div>
+
+    <!-- 版权和备案信息 -->
+    <div class="footer-info">
+      <p class="copyright">© 2024 All Rights Reserved.</p>
+      <p class="icp-info">浙ICP备202003583号-2</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+    margin-top: 3rem;
+  }
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .partner-logos {
+    margin-bottom: 2rem;
+  }
+
+  .logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .partner-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .footer-info {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .copyright, .icp-info {
+    margin: 0.5rem 0;
+  }
+
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .partner-logo {
+      height: 30px;
+    }
+    
+    .logo-row {
+      gap: 1rem;
+    }
+  }
+</style>
+
+
+    
+  </body>
+</html>

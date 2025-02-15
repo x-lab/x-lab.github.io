@@ -1,43 +1,81 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
-title: The X-Lab
-email: xlab.aiit@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  The X-Lab (Xiao Li Laboratory) at Advanced Institute of Information Technology
-  of Peking University and the Broad Institute of MIT and Harvard strives to
-  develop and adopt cutting edge technologies for biological and biomedical
-  questions.
-baseurl: ""
-url: "https://x-lab.org.cn"
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-include:
-  - .htaccess
-  - _pages
+title: The Xiao Li Lab
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+# theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Home page content
+home:
+  title: "The Xiao Li Lab"
+  subtitle: "We aspire to benefit humanity via delivery and scale of world-class science, through bleeding edge computational technologies."
+  buttons:
+    - text: "Join our lab"
+      url: "/join"
+      type: "primary"
+    - text: "Contact"
+      url: "/contact"
+      type: "secondary"
+
+# About section content
+about:
+  title: "About us"
+  main_quote: "Our group develops and applies state-of-the-art computational technologies to answer biological and biomedical questions."
+  research_focus: "Currently, we are interested in developing algorithms and software packages to better understand human and pathogenic microbe genomics, leveraging cutting edge computational technologies, including but not limited to Artificial Intelligence, decentralized technologies and cloud-native technologies."
+  join_message: "We always welcome passionate scientists, engineers, postdocs, graduate and undergraduate students to join our lab."
 
 sass:
   sass_dir: _sass
+  style: compressed
 
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+include:
+  - _pages
