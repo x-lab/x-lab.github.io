@@ -1,5 +1,5 @@
 ---
-title: "X-Lab - Home"
+title: "普链XLab"
 layout: homelay
 excerpt: "X-Lab at AIIT, PKU and Broad Institute."
 sitemap: false
